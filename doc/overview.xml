@@ -1,0 +1,43 @@
+<!--Vision-->
+<sect1 label="1.0">
+  <title>Визия</title>
+  Име на проекта, предметна област; проблемът, който се решава.
+  <sect2>
+    <title>Участници</title>
+    <para>
+      <itemizedlist>
+        <listitem>Разработчици: измислени хора...</listitem>
+        <listitem>Инвеститори: други хора...</listitem>
+        <listitem>Потребители: други хора...</listitem>
+      </itemizedlist>
+    </para>
+  </sect2>
+
+  <sect2>
+    <title>Очаквани резултати</title>
+    <para>
+      Текст...
+    </para>
+  </sect2>
+
+  <sect2>
+    <title>Допълнителни изисквания</title>
+    <para>
+      Описание на доп.изисквания...
+    </para>
+  </sect2>
+
+  <sect2>
+    <title>Съществуващи системи</title>
+    <para>
+      Сравнение със съществуващи системи... Преимущества на нашата.
+      Включване на изображение:
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="../images/diagram1.png" format="PNG"/>
+          <caption>Описание на картинката</caption>
+        </imageobject>
+      </mediaobject>
+    </para>
+  </sect2>
+</sect1>
