@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+  "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
+  <!ENTITY authors SYSTEM "authors.xml">
+  <!ENTITY revisions SYSTEM "revisions.xml"> 
+  <!ENTITY overview SYSTEM "overview.xml"> 
+]>
+
+<article lang="bg">
+  <articleinfo>
+    <title>Проект по Анализ и логическо проектиране</title>
+    <subtitle>Тема на проекта</subtitle>
+  &authors;
+  &revisions;
+  </articleinfo>
+  &overview;
+</article>
