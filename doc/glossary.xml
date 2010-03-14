@@ -1,0 +1,13 @@
+<glossary>
+  <glossentry id="IdForTerm">
+    <glossterm>
+      DefinedTerm
+    </glossterm>
+    <glossdef>
+      <para>
+        Term definition
+      </para>
+    </glossdef>
+  </glossentry>
+</glossary>
+

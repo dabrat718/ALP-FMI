@@ -4,6 +4,7 @@
   <!ENTITY authors SYSTEM "authors.xml">
   <!ENTITY revisions SYSTEM "revisions.xml"> 
   <!ENTITY overview SYSTEM "overview.xml"> 
+  <!ENTITY glossary SYSTEM "glossary.xml"> 
 ]>
 
 <!-- comment -->
@@ -18,4 +19,5 @@
   &revisions;
   </articleinfo>
   &overview;
+  &glossary;
 </article>
