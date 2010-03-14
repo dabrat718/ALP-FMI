@@ -11,7 +11,9 @@
 <article lang="bg">
   <articleinfo>
     <title>Проект по Анализ и логическо проектиране</title>
-    <subtitle>Тема на проекта</subtitle>
+    <subtitle>
+      Информационна система за телекомуникационна компания
+    </subtitle>
   &authors;
   &revisions;
   </articleinfo>

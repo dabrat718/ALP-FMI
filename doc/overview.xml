@@ -1,14 +1,31 @@
 <!--Vision-->
 <sect1 label="1.0">
   <title>Визия</title>
-  Име на проекта, предметна област; проблемът, който се решава.
+  <sect2>
+    <title>
+      Функционалност на информационната система:
+    </title>
+    <sect3><title>справки за клиенти; статус на клиента; следмонтажно обслужване</title></sect3>
+    <para></para>
+    <sect3><title>търговски отдел; пакети и услуги</title></sect3>
+    <para></para>
+    <sect3><title>система за проследяване на проблеми (ticket система)</title></sect3>
+    <para></para>
+    <sect3><title>ръководството да наблюдава работата на служителите и цялостната работа</title></sect3>
+    <para></para>
+    <sect3><title>хардуерен отдел</title></sect3>
+    <para></para>
+    <sect3><title>интеграция на счетоводен модул</title></sect3>
+    <para></para>
+  </sect2>
+  Предметната област е телематика и телекомуникация.
   <sect2>
     <title>Участници</title>
     <para>
       <itemizedlist>
-        <listitem>Разработчици: измислени хора...</listitem>
-        <listitem>Инвеститори: други хора...</listitem>
-        <listitem>Потребители: други хора...</listitem>
+        <listitem>Разработчици: Октопод ООД</listitem>
+        <listitem>Инвеститори: Галилео Галилей ООД (Компанията)</listitem>
+        <listitem>Потребители: служителите на Компанията</listitem>
       </itemizedlist>
     </para>
   </sect2>
@@ -16,22 +33,35 @@
   <sect2>
     <title>Очаквани резултати</title>
     <para>
-      Текст...
+      <itemizedlist>
+        <listitem>Интегриране и улесняване на работата на отделите в Компанията</listitem>
+        <listitem>Подобряване на обслужването на клиенти</listitem>
+        <listitem>Подобряване на управлението на Компанията</listitem>
+      </itemizedlist>
     </para>
   </sect2>
 
   <sect2>
     <title>Допълнителни изисквания</title>
     <para>
-      Описание на доп.изисквания...
+      <itemizedlist>
+        <listitem>Интуитивен потребителски интерфейс</listitem>
+        <listitem>Скалируемост на системата</listitem>
+        <listitem>Използваемост на интерфейса от мобилни устройства</listitem>
+        <listitem>Подходящи за принтиране справки</listitem>
+      </itemizedlist>
     </para>
   </sect2>
 
   <sect2>
     <title>Съществуващи системи</title>
     <para>
-      Сравнение със съществуващи системи... Преимущества на нашата.
-      Включване на изображение:
+      Във Компанията съществува трудна за използване система.
+      <itemizedlist>
+        <listitem>Ненадеждна</listitem>
+        <listitem>Липса на функционалност</listitem>
+        <listitem>Несигурна - функционалност, достъпна за хора, за които не би трябвало да е</listitem>
+      </itemizedlist>
       <mediaobject>
         <imageobject>
           <imagedata fileref="../images/diagram1.png" format="PNG"/>
