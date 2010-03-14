@@ -6,6 +6,8 @@
   <!ENTITY overview SYSTEM "overview.xml"> 
 ]>
 
+<!-- comment -->
+
 <article lang="bg">
   <articleinfo>
     <title>Проект по Анализ и логическо проектиране</title>
