@@ -13,4 +13,10 @@
 		<authorinitials>Всички</authorinitials>
 		<revremark>Визия на проекта.</revremark>
 	</revision>
+	<revision>
+		<revnumber>0.3</revnumber>
+		<date>21.03.2010</date>
+		<authorinitials>Мария</authorinitials>
+		<revremark>Функционалност на информационната система</revremark>
+	</revision>
 </revhistory>
