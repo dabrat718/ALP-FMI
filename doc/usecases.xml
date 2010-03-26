@@ -52,7 +52,7 @@
     <step></step>
   </procedure>
   <procedure>
-    <title>Потребителят добавя/редактира/изтрива коментари по статуса на клиента</title>
+    <title>Потребителя добавя/редактира/изтрива коментари по статуса на клиента</title>
     <step></step>
   </procedure>
   <procedure>
@@ -60,15 +60,15 @@
     <step></step>
   </procedure>
     <procedure>
-    <title>Потребителите от Търговския отдел въвеждат <glossTerm>тикет</glossTerm> за извършване на нови монтажи</title>
+    <title>Потребителите от Търговския отдел въвеждат <glossterm>тикет</glossterm> за извършване на нови монтажи</title>
     <step></step>
   </procedure>
   <procedure>
-    <title>Потребителите от отдел Рабора с клиенти въвежат <glossTerm>тикет</glossTerm> за извършване на ремонт към Следмонтажния отдел</title>
+    <title>Потребителите от отдел Рабора с клиенти въвежат <glossterm>тикет</glossterm> за извършване на ремонт към Следмонтажния отдел</title>
     <step></step>
   </procedure>
   <procedure>
-    <title>Потребителите от Следмонтажния отдел въвеждат <glossTerm>тикет</glossTerm> към Сервизния отдел за извършване на ремонт</title>
+    <title>Потребителите от Следмонтажния отдел въвеждат <glossterm>тикет</glossterm> към Сервизния отдел за извършване на ремонт</title>
     <step></step>
   </procedure>
   <procedure>
@@ -80,23 +80,27 @@
     <step></step>
   </procedure>
   <procedure>
-    <title>Потребителя изпраща <glossTerm>тикет</glossTerm> до друг потребител, група от потребители или отдел</title>
+    <title>Потребителя изпраща <glossterm>тикет</glossterm> до друг потребител, група от потребители или отдел</title>
     <step></step>
   </procedure>
   <procedure>
-    <title>Потребителя променя статуса на <glossTerm>тикет</glossTerm></title>
+    <title>Потребителя променя статуса на <glossterm>тикет</glossterm></title>
     <step></step>
   </procedure>
   <procedure>
-    <title>Потребителя добавя съобщение към съществуващ <glossTerm>тикет</glossTerm></title>
+    <title>Потребителя добавя съобщение към съществуващ <glossterm>тикет</glossterm></title>
     <step></step>
   </procedure>
   <procedure>
-    <title>Потребителя извежда спирък от съществуващи <glossTerm>тикети</glossTerm></title>
+    <title>Потребителя добавя файл към съществуващ <glossterm>тикет</glossterm></title>
     <step></step>
   </procedure>
   <procedure>
-    <title>Потребителя променя собтвеника на съществуващ <glossTerm>тикет</glossTerm></title>
+    <title>Потребителя извежда спирък от съществуващи <glossterm>тикети</glossterm></title>
+    <step></step>
+  </procedure>
+  <procedure>
+    <title>Потребителя променя собтвеника на съществуващ <glossterm>тикет</glossterm></title>
     <step></step>
   </procedure>
 </sect1>
