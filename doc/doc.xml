@@ -4,6 +4,7 @@
   <!ENTITY authors SYSTEM "authors.xml">
   <!ENTITY revisions SYSTEM "revisions.xml"> 
   <!ENTITY overview SYSTEM "overview.xml"> 
+  <!ENTITY usecases SYSTEM "usecases.xml"> 
   <!ENTITY glossary SYSTEM "glossary.xml"> 
 ]>
 
@@ -19,5 +20,6 @@
   &revisions;
   </articleinfo>
   &overview;
+  &usecases;
   &glossary;
 </article>
