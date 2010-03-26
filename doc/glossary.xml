@@ -51,13 +51,25 @@
   </glossentry>
   <glossentry id="IdForTerm">
     <glossterm>
-	Потребител
+	Системата
     </glossterm>
     <glossdef>
       <para>
-        
+        Инфорамционната система проектирана от "Октопод" ООД за нуждите на "Галилео Галилей" ООД.
       </para>
     </glossdef>
   </glossentry>
+
+  <glossentry id="IdForTerm">
+    <glossterm>
+
+    </glossterm>
+    <glossdef>
+      <para>
+
+      </para>
+    </glossdef>
+  </glossentry>
+
 </glossary>
 
