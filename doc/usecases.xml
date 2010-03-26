@@ -60,15 +60,15 @@
     <step></step>
   </procedure>
     <procedure>
-    <title>Потребителите от Търговския отдел въвеждат <glosstem>тикет</glosstem> за извършване на нови монтажи</title>
+    <title>Потребителите от Търговския отдел въвеждат <glossterm>тикет</glossterm> за извършване на нови монтажи</title>
     <step></step>
   </procedure>
   <procedure>
-    <title>Потребителите от отдел Рабора с клиенти въвежат <glosstem>тикет</glosstem> за извършване на ремонт към Следмонтажния отдел</title>
+    <title>Потребителите от отдел Рабора с клиенти въвежат <glossterm>тикет</glossterm> за извършване на ремонт към Следмонтажния отдел</title>
     <step></step>
   </procedure>
   <procedure>
-    <title>Потребителите от Следмонтажния отдел въвеждат <glosstem>тикет</glosstem> към Сервизния отдел за извършване на ремонт</title>
+    <title>Потребителите от Следмонтажния отдел въвеждат <glossterm>тикет</glossterm> към Сервизния отдел за извършване на ремонт</title>
     <step></step>
   </procedure>
   <procedure>
@@ -80,27 +80,27 @@
     <step></step>
   </procedure>
   <procedure>
-    <title>Потребителя изпраща <glosstem>тикет</glosstem> до друг потребител, група от потребители или отдел</title>
+    <title>Потребителя изпраща <glossterm>тикет</glossterm> до друг потребител, група от потребители или отдел</title>
     <step></step>
   </procedure>
   <procedure>
-    <title>Потребителя променя статуса на <glosstem>тикет</glosstem></title>
+    <title>Потребителя променя статуса на <glossterm>тикет</glossterm></title>
     <step></step>
   </procedure>
   <procedure>
-    <title>Потребителя добавя съобщение към съществуващ <glosstem>тикет</glosstem></title>
+    <title>Потребителя добавя съобщение към съществуващ <glossterm>тикет</glossterm></title>
     <step></step>
   </procedure>
   <procedure>
-    <title>Потребителя добавя файл към съществуващ <glosstem>тикет</glosstem></title>
+    <title>Потребителя добавя файл към съществуващ <glossterm>тикет</glossterm></title>
     <step></step>
   </procedure>
   <procedure>
-    <title>Потребителя извежда спирък от съществуващи <glosstem>тикети</glosstem></title>
+    <title>Потребителя извежда спирък от съществуващи <glossterm>тикети</glossterm></title>
     <step></step>
   </procedure>
   <procedure>
-    <title>Потребителя променя собтвеника на съществуващ <glosstem>тикет</glosstem></title>
+    <title>Потребителя променя собтвеника на съществуващ <glossterm>тикет</glossterm></title>
     <step></step>
   </procedure>
 </sect1>
