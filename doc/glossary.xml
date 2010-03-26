@@ -1,13 +1,63 @@
-<!--<glossary>
+﻿<glossary>
   <glossentry id="IdForTerm">
     <glossterm>
-      DefinedTerm
+	Компанията
     </glossterm>
     <glossdef>
       <para>
-        Term definition
+       Фирмата поръчител на системата - "Галилео Галилей" ООД.
       </para>
     </glossdef>
   </glossentry>
-</glossary> -->
+  <glossentry id="IdForTerm">
+    <glossterm>
+	Потребител
+    </glossterm>
+    <glossdef>
+      <para>
+        Потребителят на системата е служител на Компанията.
+      </para>
+    </glossdef>
+  </glossentry>
+  <glossentry id="IdForTerm">
+    <glossterm>
+	Администратор
+    </glossterm>
+    <glossdef>
+      <para>
+       Служител на Компанията, който поддържа системата, управлява акаунтите на потребителите и има пълни права за използване на системата.
+      </para>
+    </glossdef>
+  </glossentry>
+  <glossentry id="IdForTerm">
+    <glossterm>
+	Клиент
+    </glossterm>
+    <glossdef>
+      <para>
+     Физическо или юридическо лице, което ползва услугите на Компанията. Клиентът няма достъп до системата, но за него се пази нужната информация.   
+      </para>
+    </glossdef>
+  </glossentry>
+  <glossentry id="IdForTerm">
+    <glossterm>
+	Статус на клиента
+    </glossterm>
+    <glossdef>
+      <para>
+       Информация за всички дейности, които са свързани с клиента. Пример: коментар след проведен телефонен разговор, писмено искане от клиента за допълнителна услуга и т.н.
+      </para>
+    </glossdef>
+  </glossentry>
+  <glossentry id="IdForTerm">
+    <glossterm>
+	Потребител
+    </glossterm>
+    <glossdef>
+      <para>
+        
+      </para>
+    </glossdef>
+  </glossentry>
+</glossary>
 

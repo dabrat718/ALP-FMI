@@ -1,10 +1,9 @@
 <sect1>
   <title>Потребителски случаи</title>
   <procedure>
-    <title>Usecase 1</title>
+    <title>Вход в системата чрез въвеждане на потребителско име и парола.</title>
     <step></step>
-  </procedure>
-    <!--<step>-->
+	<!--<step>-->
       <!--<para>-->
         <!--A Step-->
         <!--</para>-->
@@ -27,4 +26,33 @@
     <!--</para>-->
   <!--</step>-->
 <!--</procedure>-->
+  </procedure>
+  <procedure>
+    <title>Изход от системата</title>
+    <step></step>
+  </procedure>
+  <procedure>
+    <title>Регистрастрация на потребител от администратора</title>
+    <step></step>
+  </procedure>
+  <procedure>
+    <title>Редактиране на информацията за потребителите</title>
+    <step></step>
+  </procedure>
+  <procedure>
+    <title>Изтриване на потребител от администратора</title>
+    <step></step>
+  </procedure>
+  <procedure>
+    <title>Въвеждане на информация за клиент на Компанията.</title>
+    <step></step>
+  </procedure>
+  <procedure>
+    <title>Редактиране на информацията за клиент на Компанията</title>
+    <step></step>
+  </procedure>
+  <procedure>
+    <title>Потребителят добавя и редактира на коментари по статуса на клиента</title>
+    <step></step>
+  </procedure>
 </sect1>
