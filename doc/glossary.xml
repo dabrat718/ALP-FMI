@@ -59,17 +59,34 @@
       </para>
     </glossdef>
   </glossentry>
-
   <glossentry id="IdForTerm">
     <glossterm>
-
+	Хардуерен отдел
     </glossterm>
     <glossdef>
       <para>
-
+		Хардуерен отдел е отделът отговорен за окомплектоването на различни компоненти в цялоство Устройство
       </para>
     </glossdef>
   </glossentry>
-
+<glossentry id="IdForTerm">
+    <glossterm>
+	Устройство
+    </glossterm>
+    <glossdef>
+      <para>
+		Устройство, което се монтира на мобилен обект с цел мониторинг на работата на обекта
+      </para>
+    </glossdef>
+  </glossentry>
+  <glossentry id="IdForTerm">
+    <glossterm>
+	
+    </glossterm>
+    <glossdef>
+      <para>
+		
+      </para>
+    </glossdef>
+  </glossentry>
 </glossary>
-
