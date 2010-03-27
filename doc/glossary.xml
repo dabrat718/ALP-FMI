@@ -9,7 +9,7 @@
       </para>
     </glossdef>
   </glossentry>
-  <glossentry id="IdForTerm">
+  <glossentry id="gloss_user">
     <glossterm>
 	Потребител
     </glossterm>
@@ -19,7 +19,7 @@
       </para>
     </glossdef>
   </glossentry>
-  <glossentry id="IdForTerm">
+  <glossentry id="gloss_admin">
     <glossterm>
 	Администратор
     </glossterm>
@@ -29,7 +29,7 @@
       </para>
     </glossdef>
   </glossentry>
-  <glossentry id="IdForTerm">
+  <glossentry id="gloss_client">
     <glossterm>
 	Клиент
     </glossterm>
@@ -39,7 +39,7 @@
       </para>
     </glossdef>
   </glossentry>
-  <glossentry id="IdForTerm">
+  <glossentry id="gloss_clientstatus">
     <glossterm>
 	Статус на клиента
     </glossterm>
@@ -49,7 +49,7 @@
       </para>
     </glossdef>
   </glossentry>
-  <glossentry id="IdForTerm">
+  <glossentry id="gloss_system">
     <glossterm>
 	Системата
     </glossterm>
@@ -59,7 +59,7 @@
       </para>
     </glossdef>
   </glossentry>
-  <glossentry id="IdForTerm">
+  <glossentry id="gloss_hardwaredept">
     <glossterm>
 	Хардуерен отдел
     </glossterm>
@@ -79,7 +79,7 @@
       </para>
     </glossdef>
   </glossentry-->
-  <glossentry id="IdForTerm">
+  <glossentry id="gloss_customersdept">
     <glossterm>
 	Отдел Работа с клиенти
     </glossterm>
@@ -99,7 +99,7 @@
       </para>
     </glossdef>
   </glossentry-->
-  <glossentry id="IdForTerm">
+  <glossentry id="gloss_servicedept">
     <glossterm>
 	Сервизен отдел
     </glossterm>
@@ -109,7 +109,7 @@
       </para>
     </glossdef>
   </glossentry>
-<glossentry id="IdForTerm">
+<glossentry id="gloss_device">
     <glossterm>
 	Устройство
     </glossterm>

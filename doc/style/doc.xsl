@@ -12,7 +12,7 @@
 <!--<xsl:param name="latex.output.revhistory">0</xsl:param>-->
 <xsl:param name="co.linkends.show" select="'0'"/>
 <xsl:param name="doc.pdfauthor.show">1</xsl:param>
-<xsl:param name="glossterm.auto.link" select="1"/>
+<!--<xsl:param name="glossterm.auto.link" select="1"/>-->
 
 <!--Switch to polyglossia, which is an alternative to Babel, because Babel is problematic with the xetex backend-->
 <xsl:template name="babel.setup">
