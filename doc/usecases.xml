@@ -1,8 +1,8 @@
 <sect1>
   <title>Потребителски случаи</title>
   <procedure>
-    <title>Вход в системата чрез въвеждане на потребителско име и парола.</title>
-    <step></step>
+    <title>Потребителят влиза в системата чрез предоставяне на потребителско име и парола</title>
+    <!--step></step-->
 	<!--<step>-->
       <!--<para>-->
         <!--A Step-->
@@ -28,79 +28,79 @@
 <!--</procedure>-->
   </procedure>
   <procedure>
-    <title>Изход от системата</title>
-    <step></step>
+    <title>Потребителят излиза от системата</title>
+    <!--step></step-->
   </procedure>
   <procedure>
-    <title>Регистрастрация на потребител от администратора</title>
-    <step></step>
+    <title>Администраторът регистрира нов потребител</title>
+    <!--step></step-->
   </procedure>
   <procedure>
-    <title>Редактиране на информацията за потребителите</title>
-    <step></step>
+    <title>Администраторът променя информацията на съществуващ потребител</title>
+    <!--step></step-->
   </procedure>
   <procedure>
-    <title>Изтриване на потребител от администратора</title>
-    <step></step>
+    <title>Администраторът изтрива съществуващ потребител</title>
+    <!--step></step-->
   </procedure>
   <procedure>
-    <title>Въвеждане на информация за клиент на Компанията</title>
-    <step></step>
+    <title>Потребителят въвежда информация за клиент на Компанията</title>
+    <!--step></step-->
   </procedure>
   <procedure>
-    <title>Редактиране на информацията за клиент на Компанията</title>
-    <step></step>
+    <title>Потребителят редактира информацията за клиент на Компанията</title>
+    <!--step></step-->
   </procedure>
   <procedure>
-    <title>Потребителя добавя/редактира/изтрива коментари по статуса на клиента</title>
-    <step></step>
+    <title>Потребителят добавя/редактира/изтрива коментари по статуса на клиента</title>
+    <!--step></step-->
   </procedure>
   <procedure>
     <title>Потребителите от Хардуерния отдел въвеждат данни за дадено Устройство и неговите компоненти</title>
-    <step></step>
+    <!--step></step-->
   </procedure>
     <procedure>
     <title>Потребителите от Търговския отдел въвеждат <glossterm>тикет</glossterm> за извършване на нови монтажи</title>
-    <step></step>
+    <!--step></step-->
   </procedure>
   <procedure>
     <title>Потребителите от отдел Рабора с клиенти въвежат <glossterm>тикет</glossterm> за извършване на ремонт към Следмонтажния отдел</title>
-    <step></step>
+    <!--step></step-->
   </procedure>
   <procedure>
     <title>Потребителите от Следмонтажния отдел въвеждат <glossterm>тикет</glossterm> към Сервизния отдел за извършване на ремонт</title>
-    <step></step>
+    <!--step></step-->
   </procedure>
   <procedure>
     <title>Потребителите от Търгорвския отдел поискват справка за съвместимост на дадено устройство с определени изисквания</title>
-    <step></step>
+    <!--step></step-->
   </procedure>
   <procedure>
     <title>Потребителите с ръководни функции поискват справки за клиенти, потребители, плащания, монтирани обекти или Цялостна справка</title>
-    <step></step>
+    <!--step></step-->
   </procedure>
   <procedure>
-    <title>Потребителя изпраща <glossterm>тикет</glossterm> до друг потребител, група от потребители или отдел</title>
-    <step></step>
+    <title>Потребителят изпраща <glossterm>тикет</glossterm> до друг потребител, група от потребители или отдел</title>
+    <!--step></step-->
   </procedure>
   <procedure>
-    <title>Потребителя променя статуса на <glossterm>тикет</glossterm></title>
-    <step></step>
+    <title>Потребителят променя статуса на <glossterm>тикет</glossterm></title>
+    <!--step></step-->
   </procedure>
   <procedure>
-    <title>Потребителя добавя съобщение към съществуващ <glossterm>тикет</glossterm></title>
-    <step></step>
+    <title>Потребителят добавя съобщение към съществуващ <glossterm>тикет</glossterm></title>
+    <!--step></step-->
   </procedure>
   <procedure>
-    <title>Потребителя добавя файл към съществуващ <glossterm>тикет</glossterm></title>
-    <step></step>
+    <title>Потребителят добавя файл към съществуващ <glossterm>тикет</glossterm></title>
+    <!--step></step-->
   </procedure>
   <procedure>
-    <title>Потребителя извежда спирък от съществуващи <glossterm>тикети</glossterm></title>
-    <step></step>
+    <title>Потребителят извежда спирък от съществуващи <glossterm>тикети</glossterm></title>
+    <!--step></step-->
   </procedure>
   <procedure>
-    <title>Потребителя променя собтвеника на съществуващ <glossterm>тикет</glossterm></title>
-    <step></step>
+    <title>Потребителят променя собтвеника на съществуващ <glossterm>тикет</glossterm></title>
+    <!--step></step-->
   </procedure>
 </sect1>
