@@ -69,7 +69,7 @@
       </para>
     </glossdef>
   </glossentry>
-  <glossentry id="IdForTerm">
+  <!--glossentry id="IdForTerm">
     <glossterm>
 	Търговски отдел
     </glossterm>
@@ -78,18 +78,18 @@
 		?
       </para>
     </glossdef>
-  </glossentry>
+  </glossentry-->
   <glossentry id="IdForTerm">
     <glossterm>
 	Отдел Работа с клиенти
     </glossterm>
     <glossdef>
       <para>
-		?
+		Отделът отговорен за комуникацията с клиентите на Компанията
       </para>
     </glossdef>
   </glossentry>
-  <glossentry id="IdForTerm">
+  <!--glossentry id="IdForTerm">
     <glossterm>
 	Следмонтажен отдел
     </glossterm>
@@ -98,14 +98,14 @@
 		?
       </para>
     </glossdef>
-  </glossentry>
+  </glossentry-->
   <glossentry id="IdForTerm">
     <glossterm>
 	Сервизен отдел
     </glossterm>
     <glossdef>
       <para>
-		?
+		Отделът отговорен за извършването на ремонтни дейсноти по монтираните устройства на мобилните обекти на Клиентите
       </para>
     </glossdef>
   </glossentry>
