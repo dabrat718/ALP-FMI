@@ -67,12 +67,12 @@
         <listitem>Липса на функционалност</listitem>
         <listitem>Несигурна - функционалност, достъпна за хора, за които не би трябвало да е</listitem>
       </itemizedlist>
-      <mediaobject>
+      <!--mediaobject>
         <imageobject>
           <imagedata fileref="../images/diagram1.png" format="PNG"/>
           <caption>Описание на картинката</caption>
         </imageobject>
-      </mediaobject>
+      </mediaobject-->
     </para>
   </sect2>
 </sect1>
