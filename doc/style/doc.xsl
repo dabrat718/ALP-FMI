@@ -1,60 +1,62 @@
 <?xml version='1.0' encoding="utf-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version='1.0'>
-
 <!-- We want the TOC links in the titles, and in blue. -->
 <xsl:param name="latex.hyperparam">colorlinks,linkcolor=blue,pdfstartview=FitH</xsl:param>
-
 <!-- Hide collaboration table -->
-<!--<xsl:param name="doc.collab.show">0</xsl:param>-->
+<xsl:param name="doc.collab.show">0</xsl:param>
 <xsl:param name="draft.mode">no</xsl:param>
-
-<!-- Set up for Bulgarian -->
-<xsl:param name="latex.unicode.use">1</xsl:param>
-<xsl:param name="latex.encoding">utf8</xsl:param>
+<!-- Set up for Bulgarian.  -->
+<!--Don't set latex.unicode.use to 1 with xetex!-->
+<!--<xsl:param name="latex.unicode.use">1</xsl:param>-->
 <xsl:param name="latex.babel.language">bulgarian</xsl:param>
 <!--<xsl:param name="latex.output.revhistory">0</xsl:param>-->
 <xsl:param name="co.linkends.show" select="'0'"/>
 <xsl:param name="doc.pdfauthor.show">1</xsl:param>
+<xsl:param name="glossterm.auto.link" select="1"/>
 
-<xsl:template name="encode.before.style">
-  <xsl:param name="lang"/>
-  <xsl:variable name="use-unicode">
-    <xsl:call-template name="lang-in-unicode">
-      <xsl:with-param name="lang" select="$lang"/>
-    </xsl:call-template>
-  </xsl:variable>
+<!--Switch to polyglossia, which is an alternative to Babel, because Babel is problematic with the xetex backend-->
+<xsl:template name="babel.setup">
+  <!-- babel use? -->
+  <xsl:if test="$latex.babel.use='1'">
+    <xsl:variable name="babel">
+      <xsl:call-template name="babel.language">
+        <xsl:with-param name="lang">
+          <xsl:call-template name="l10n.language">
+            <xsl:with-param name="target" select="(/set|/book|/article)[1]"/>
+            <xsl:with-param name="xref-context" select="true()"/>
+          </xsl:call-template>
+        </xsl:with-param>
+      </xsl:call-template>
+    </xsl:variable>
 
-  <!-- XeTeX preamble to handle fonts -->
-  <xsl:text>\IfFileExists{ifxetex.sty}{%
-    \usepackage{ifxetex}%
-  }{%
-    \newif\ifxetex
-    \xetexfalse
-  }
-  </xsl:text>
-  <xsl:text>\ifxetex&#10;</xsl:text>
-  <xsl:text>\usepackage{fontspec}&#10;</xsl:text>
-  <xsl:text>\usepackage{xltxtra}&#10;</xsl:text>
-  <xsl:value-of select="$xetex.font"/>
-  <xsl:text>\else&#10;</xsl:text>
-
-  <!-- Standard latex font setup -->
-  <xsl:choose>
-  <xsl:when test="$use-unicode='1'"/>
-  <xsl:when test="$latex.encoding='latin1'">
-    <xsl:text>\usepackage[T1]{fontenc}&#10;</xsl:text>
-    <xsl:text>\usepackage[latin1]{inputenc}&#10;</xsl:text>
-  </xsl:when>
-  <xsl:when test="$latex.encoding='utf8'">
-    <xsl:text>\usepackage[T2A,T2D,T1]{fontenc}&#10;</xsl:text>
-    <xsl:text>\usepackage{ucs}&#10;</xsl:text>
-    <xsl:text>\usepackage[utf8]{inputenc}&#10;</xsl:text>
-    <xsl:text>\def\hyperparamadd{unicode=true}&#10;</xsl:text>
-  </xsl:when>
-  </xsl:choose>
-
-  <xsl:text>\fi&#10;</xsl:text>
+    <xsl:if test="$babel!=''">
+      <xsl:text>\usepackage[</xsl:text>
+      <xsl:value-of select="$babel"/>
+      <xsl:text>]{polyglossia}&#10;</xsl:text>
+      <!--<xsl:text>\usepackage{cmap}&#10;</xsl:text>-->
+    </xsl:if>
+  </xsl:if>
 </xsl:template>
+
+<xsl:template match="procedure/title">
+  <xsl:text>{\sc </xsl:text>
+  <xsl:apply-templates/>
+  <xsl:text>}</xsl:text>
+</xsl:template>
+
+<xsl:template match="procedure">
+  <xsl:text>\begin{usecase}{</xsl:text>
+  <xsl:apply-templates select="*[not(self::step)]"/>
+  <!--<xsl:value-of select="title"/>-->
+    <xsl:text>}</xsl:text>
+  <!--<xsl:if test="./step">-->
+    <!--<xsl:text>\begin{enumerate}&#10;</xsl:text>-->
+    <!--<xsl:apply-templates select="step"/>-->
+    <!--<xsl:text>\end{enumerate}&#10;</xsl:text>-->
+    <!--</xsl:if>-->
+  <xsl:text>\end{usecase}</xsl:text>
+</xsl:template>
+
 
 <xsl:template match="authorgroup">
   <xsl:variable name="string">

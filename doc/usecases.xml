@@ -1,31 +1,11 @@
 <sect1>
   <title>Потребителски случаи</title>
+  <para>
+Въвеждане на информация за клиент на <glossterm linkend="gloss_company">Компанията</glossterm>.
+  </para>
   <procedure>
-    <title>Вход в системата чрез въвеждане на потребителско име и парола.</title>
-    <step></step>
-	<!--<step>-->
-      <!--<para>-->
-        <!--A Step-->
-        <!--</para>-->
-      <!--</step>-->
-<!--<step>-->
-  <!--<para>-->
-    <!--Another Step-->
-    <!--</para>-->
-  <!--<substeps>-->
-    <!--<step>-->
-      <!--<para>-->
-        <!--Substeps can be nested indefinitely deep.-->
-        <!--</para>-->
-      <!--</step>-->
-    <!--</substeps>-->
-  <!--</step>-->
-<!--<step>-->
-  <!--<para>-->
-    <!--A Final Step-->
-    <!--</para>-->
-  <!--</step>-->
-<!--</procedure>-->
+      <title>Вход в системата чрез въвеждане на потребителско име и парола.</title>
+      <step>aasdasdas</step>
   </procedure>
   <procedure>
     <title>Изход от системата</title>
@@ -44,7 +24,7 @@
     <step></step>
   </procedure>
   <procedure>
-    <title>Въвеждане на информация за клиент на Компанията</title>
+    <title>Въвеждане на информация за клиент на <glossterm linkend="gloss_company">Компанията</glossterm>.</title>
     <step></step>
   </procedure>
   <procedure>
