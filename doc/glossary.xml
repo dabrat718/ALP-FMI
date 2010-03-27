@@ -60,6 +60,7 @@
       </para>
     </glossdef>
   </glossentry>
+  <glossdiv><title>Отдели на Компанията</title>
   <glossentry id="gloss_hardwaredept">
     <glossterm>
 	Хардуерен отдел
@@ -110,6 +111,7 @@
       </para>
     </glossdef>
   </glossentry>
+</glossdiv>
 <glossentry id="gloss_device">
     <glossterm>
 	Устройство
