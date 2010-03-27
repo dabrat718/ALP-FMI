@@ -58,15 +58,16 @@
     <!--step></step-->
   </procedure>
   <procedure>
-    <title>Потребителите от Хардуерния отдел въвеждат данни за дадено Устройство и неговите компоненти</title>
+    <title>Потребителите от <glossterm linkend="gloss_hardwaredept">Хардуерен отдел</glossterm>
+      въвеждат данни за дадено Устройство и неговите компоненти</title>
     <!--step></step-->
   </procedure>
     <procedure>
-    <title>Потребителите от Търговския отдел въвеждат тикет за извършване на нови монтажи</title>
+      <title>Потребителите от <glossterm>Търговски отдел</glossterm> въвеждат тикет за извършване на нови монтажи</title>
     <!--step></step-->
   </procedure>
   <procedure>
-    <title>Потребителите от отдел Работа с клиенти въвежат тикет за извършване на ремонт към Следмонтажния отдел</title>
+    <title>Потребителите от <glossterm linkend="gloss_customerdept">отдел Работа с клиенти</glossterm> въвежат тикет за извършване на ремонт към Следмонтажния отдел</title>
     <!--step></step-->
   </procedure>
   <procedure>
