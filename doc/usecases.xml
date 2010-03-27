@@ -1,7 +1,6 @@
 <sect1>
   <title>Потребителски случаи</title>
   <para>
-Въвеждане на информация за клиент на <glossterm linkend="gloss_company">Компанията</glossterm>.
   </para>
   <procedure>
     <title>Потребителят влиза в системата чрез предоставяне на потребителско име и парола</title>
