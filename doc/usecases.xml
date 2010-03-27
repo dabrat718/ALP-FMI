@@ -60,15 +60,15 @@
     <!--step></step-->
   </procedure>
     <procedure>
-    <title>Потребителите от Търговския отдел въвеждат <glossterm>тикет</glossterm> за извършване на нови монтажи</title>
+    <title>Потребителите от Търговския отдел въвеждат <glossterm linkend="ticket">тикет</glossterm> за извършване на нови монтажи</title>
     <!--step></step-->
   </procedure>
   <procedure>
-    <title>Потребителите от отдел Рабора с клиенти въвежат <glossterm>тикет</glossterm> за извършване на ремонт към Следмонтажния отдел</title>
+    <title>Потребителите от отдел Рабора с клиенти въвежат <glossterm linkend="ticket">тикет</glossterm> за извършване на ремонт към Следмонтажния отдел</title>
     <!--step></step-->
   </procedure>
   <procedure>
-    <title>Потребителите от Следмонтажния отдел въвеждат <glossterm>тикет</glossterm> към Сервизния отдел за извършване на ремонт</title>
+    <title>Потребителите от Следмонтажния отдел въвеждат <glossterm linkend="ticket">тикет</glossterm> към Сервизния отдел за извършване на ремонт</title>
     <!--step></step-->
   </procedure>
   <procedure>
@@ -80,27 +80,27 @@
     <!--step></step-->
   </procedure>
   <procedure>
-    <title>Потребителят изпраща <glossterm>тикет</glossterm> до друг потребител, група от потребители или отдел</title>
+    <title>Потребителят изпраща <glossterm linkend="ticket">тикет</glossterm> до друг потребител, група от потребители или отдел</title>
     <!--step></step-->
   </procedure>
   <procedure>
-    <title>Потребителят променя статуса на <glossterm>тикет</glossterm></title>
+    <title>Потребителят променя статуса на <glossterm linkend="ticket">тикет</glossterm></title>
     <!--step></step-->
   </procedure>
   <procedure>
-    <title>Потребителят добавя съобщение към съществуващ <glossterm>тикет</glossterm></title>
+    <title>Потребителят добавя съобщение към съществуващ <glossterm linkend="ticket">тикет</glossterm></title>
     <!--step></step-->
   </procedure>
   <procedure>
-    <title>Потребителят добавя файл към съществуващ <glossterm>тикет</glossterm></title>
+    <title>Потребителят добавя файл към съществуващ <glossterm linkend="ticket">тикет</glossterm></title>
     <!--step></step-->
   </procedure>
   <procedure>
-    <title>Потребителят извежда спирък от съществуващи <glossterm>тикети</glossterm></title>
+    <title>Потребителят извежда спирък от съществуващи <glossterm linkend="ticket">тикети</glossterm></title>
     <!--step></step-->
   </procedure>
   <procedure>
-    <title>Потребителят променя собтвеника на съществуващ <glossterm>тикет</glossterm></title>
+    <title>Потребителят променя собтвеника на съществуващ <glossterm linkend="ticket">тикет</glossterm></title>
     <!--step></step-->
   </procedure>
 </sect1>

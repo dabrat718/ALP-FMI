@@ -15,7 +15,7 @@
     </glossterm>
     <glossdef>
       <para>
-        Потребителят на системата е служител на Компанията.
+        Потребителят на системата е служител на Компанията, който притежава уникално потребителско име и парола за вход
       </para>
     </glossdef>
   </glossentry>
@@ -69,6 +69,46 @@
       </para>
     </glossdef>
   </glossentry>
+  <glossentry id="IdForTerm">
+    <glossterm>
+	Търговски отдел
+    </glossterm>
+    <glossdef>
+      <para>
+		?
+      </para>
+    </glossdef>
+  </glossentry>
+  <glossentry id="IdForTerm">
+    <glossterm>
+	Отдел Работа с клиенти
+    </glossterm>
+    <glossdef>
+      <para>
+		?
+      </para>
+    </glossdef>
+  </glossentry>
+  <glossentry id="IdForTerm">
+    <glossterm>
+	Следмонтажен отдел
+    </glossterm>
+    <glossdef>
+      <para>
+		?
+      </para>
+    </glossdef>
+  </glossentry>
+  <glossentry id="IdForTerm">
+    <glossterm>
+	Сервизен отдел
+    </glossterm>
+    <glossdef>
+      <para>
+		?
+      </para>
+    </glossdef>
+  </glossentry>
 <glossentry id="IdForTerm">
     <glossterm>
 	Устройство
@@ -79,7 +119,17 @@
       </para>
     </glossdef>
   </glossentry>
-  <glossentry id="IdForTerm">
+  <glossentry id="ticket">
+    <glossterm>
+	Тикет
+    </glossterm>
+    <glossdef>
+      <para>
+		Заявка към друг Потребител, група от потребители или отдел за извършване на определена дейност. Тикета представлява текст с или без прикачен файл въведен от потребителя, който го е създал. Към него може да се добавят нови коментари от  собственика (един или няколко) и да му се променя статуса в зависимост от развитите на "проблема"
+      </para>
+    </glossdef>
+  </glossentry>
+  <!--glossentry id="IdForTerm">
     <glossterm>
 	
     </glossterm>
@@ -88,5 +138,5 @@
 		
       </para>
     </glossdef>
-  </glossentry>
+  </glossentry-->
 </glossary>
