@@ -1,4 +1,5 @@
 ﻿<glossary>
+
   <glossentry id="gloss_company">
     <glossterm>
 	Компанията
@@ -9,6 +10,7 @@
       </para>
     </glossdef>
   </glossentry>
+
   <glossentry id="gloss_user">
     <glossterm>
 	Потребител
@@ -19,6 +21,7 @@
       </para>
     </glossdef>
   </glossentry>
+
   <glossentry id="gloss_admin">
     <glossterm>
 	Администратор
@@ -29,6 +32,7 @@
       </para>
     </glossdef>
   </glossentry>
+
   <glossentry id="gloss_client">
     <glossterm>
 	Клиент
@@ -39,6 +43,7 @@
       </para>
     </glossdef>
   </glossentry>
+
   <glossentry id="gloss_clientstatus">
     <glossterm>
 	Статус на клиента
@@ -50,6 +55,7 @@
       </para>
     </glossdef>
   </glossentry>
+
   <glossentry id="gloss_system">
     <glossterm>
 	Системата
@@ -61,26 +67,29 @@
     </glossdef>
   </glossentry>
   <glossdiv><title>Отдели на Компанията</title>
+
   <glossentry id="gloss_hardwaredept">
     <glossterm>
 	Хардуерен отдел
     </glossterm>
     <glossdef>
       <para>
-        Хардуерен отдел е отделът, отговорен за окомплектоването на различни компоненти в цялостно устройство.
+        Отделът, отговорен за окомплектоването на различни компоненти в цялостно устройство.
       </para>
     </glossdef>
   </glossentry>
-  <!--glossentry id="IdForTerm">
+
+  <glossentry id="gloss_tradedept">
     <glossterm>
 	Търговски отдел
     </glossterm>
     <glossdef>
       <para>
-		?
+        Отделът, който се грижи за подготовката за продажбата на устройствата и услугите на Компанията на крайните клиенти.
       </para>
     </glossdef>
-  </glossentry-->
+  </glossentry>
+
   <glossentry id="gloss_customersdept">
     <glossterm>
 	Отдел Работа с клиенти
@@ -91,16 +100,20 @@
       </para>
     </glossdef>
   </glossentry>
-  <!--glossentry id="IdForTerm">
+
+  <glossentry id="gloss_supportdept">
     <glossterm>
 	Следмонтажен отдел
     </glossterm>
     <glossdef>
       <para>
-		?
+        Отделът, който се грижи за поддръжката на устройствата, след като те вече са монтирани на мобилните обекти - дали те работят както се очаква.
+        Този отдел решава проблеми с настройката на устройствата и поддържането им в експлоатация.
+        Ако се открие хардуерен проблем, клиентът се насочва към Сервизния отдел.
       </para>
     </glossdef>
-  </glossentry-->
+  </glossentry>
+
   <glossentry id="gloss_servicedept">
     <glossterm>
 	Сервизен отдел
@@ -111,7 +124,9 @@
       </para>
     </glossdef>
   </glossentry>
+
 </glossdiv>
+
 <glossentry id="gloss_device">
     <glossterm>
 	Устройство
@@ -122,6 +137,7 @@
       </para>
     </glossdef>
   </glossentry>
+
   <glossentry id="ticket">
     <glossterm>
 	Тикет
@@ -134,4 +150,5 @@
       </para>
     </glossdef>
   </glossentry>
+
 </glossary>
