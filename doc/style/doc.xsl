@@ -1,5 +1,7 @@
 <?xml version='1.0' encoding="utf-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version='1.0'>
+<!--Show comments (annotations in pdf)-->
+<xsl:param name="show.comments" select="1"/>
 <!-- We want the TOC links in the titles, and in blue. -->
 <!-- colorforlinks is defined in mystyle.sty -->
 <xsl:param name="latex.hyperparam">colorlinks,linkcolor=colorforlinks,pdfstartview=FitH</xsl:param>
