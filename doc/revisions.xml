@@ -1,5 +1,4 @@
 <revhistory>
-
 	<revision>
 		<revnumber>0.1</revnumber>
 		<date>11.03.2010</date>
@@ -18,5 +17,11 @@
 		<date>21.03.2010</date>
 		<authorinitials>Мария</authorinitials>
 		<revremark>Функционалност на информационната система</revremark>
+	</revision>
+	<revision>
+		<revnumber>0.4</revnumber>
+		<date>26.03.2010</date>
+		<authorinitials>Всички</authorinitials>
+		<revremark>Потребителски случаи</revremark>
 	</revision>
 </revhistory>
