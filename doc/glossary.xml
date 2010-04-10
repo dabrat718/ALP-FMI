@@ -151,7 +151,7 @@
     </glossdef>
   </glossentry>
 
-  <glossdiv><title>Означения</title>
+  <glossdiv id="gloss_notation"><title>Означения</title>
 
   <glossentry id="gloss_usecase">
     <glossterm>
@@ -159,7 +159,7 @@
     </glossterm>
     <glossdef>
       <para>
-        Потребителски случай номер <emphasize>x</emphasize>.
+        Потребителски случай номер <emphasis>x</emphasis>.
       </para>
     </glossdef>
   </glossentry>
@@ -170,7 +170,7 @@
     </glossterm>
     <glossdef>
       <para>
-        Алтернатива номер <emphasize>n</emphasize> на стъпка <emphasize>s</emphasize> от потребителски случай номер <emphasize>x</emphasize>. 
+        Алтернатива номер <emphasis>n</emphasis> на стъпка <emphasis>s</emphasis> от потребителски случай номер <emphasis>x</emphasis>. 
       </para>
     </glossdef>
   </glossentry>
