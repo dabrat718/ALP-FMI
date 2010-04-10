@@ -185,7 +185,6 @@
     <title>Изтриване на съществуващ потребител</title>
     <!--step></step-->
   </procedure>
-  <procedure>
    <procedure>
     <title>Въвеждане на информация за нов клиент на Компанията</title>
    <itemizedlist>
@@ -307,6 +306,7 @@
         </step>
       </stepalternatives>
     </step>
+  </procedure>
   <procedure>
     <title>Добавяне на коментари по статуса на клиента</title>
     <!--step></step-->
