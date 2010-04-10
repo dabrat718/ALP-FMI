@@ -66,5 +66,13 @@
                 <authorinitials>Валентина</authorinitials>
 		<revremark>Редакция на потребителските случаи</revremark>
 	</revision>
+	
+    <revision>
+		<revnumber>0.5.7</revnumber>
+		<date>10.04.2010</date>
+                <authorinitials>Ивайло</authorinitials>
+		<revremark>Потребителски случаи: Въвеждане на данни за дадено устройство и неговите компоненти; Изготвяне на справка за съвместимост на устройства и изисквания; Проверка за наличности на устойства</revremark>
+	</revision>
+	
 
 </revhistory>
