@@ -19,7 +19,7 @@
       <listitem>
         Участници
         <itemizedlist>
-          <listitem>Потребителите без ръководни функции</listitem>
+          <listitem>Потребител</listitem>
         </itemizedlist>
       </listitem>
 
@@ -52,7 +52,7 @@
       <listitem>
         Заинтересувани лица
         <itemizedlist>
-          <listitem>Потребителите без ръководни функции</listitem>
+          <listitem>Потребител</listitem>
         </itemizedlist>
       </listitem>
     </itemizedlist>
@@ -84,7 +84,7 @@
       <listitem>
         Участници
         <itemizedlist>
-          <listitem>Потребителите без ръководни функции</listitem>
+          <listitem>Потребители</listitem>
         </itemizedlist>
       </listitem>
 
@@ -108,7 +108,7 @@
       <listitem>
         Заинтересувани лица
         <itemizedlist>
-          <listitem>Потребителите без ръководни функции</listitem>
+          <listitem>Потребител</listitem>
         </itemizedlist>
       </listitem>
 
@@ -136,7 +136,7 @@
       <listitem>
         Участници
         <itemizedlist>
-          <listitem>Потребителите без ръководни функции</listitem>
+          <listitem>Потребителите</listitem>
           <listitem>Потребителите с административни функции</listitem>
         </itemizedlist>
       </listitem>
@@ -152,7 +152,7 @@
       <listitem>
         Резултати
         <itemizedlist>
-          <listitem>Потребителят без ръководни функции е регистриран в системата</listitem>
+          <listitem>Потребителят е регистриран в системата</listitem>
         </itemizedlist>
       </listitem>
 
@@ -324,7 +324,7 @@
       <listitem>
         Участници
         <itemizedlist>
-          <listitem>Потребителите без ръководни функции</listitem>
+          <listitem>Потребител</listitem>
         </itemizedlist>
       </listitem>
 
@@ -373,8 +373,8 @@
       <listitem>
         Участници
         <itemizedlist>
-          <listitem>Потребителите без ръководни функции</listitem>
-		  <listitem>Ръководство</listitem>
+          <listitem>Потребител</listitem>
+          <listitem>Ръководство</listitem>
         </itemizedlist>
       </listitem>
 
@@ -421,7 +421,7 @@
       <listitem>
         Участници
         <itemizedlist>
-          <listitem>Потребителите без ръководни функции</listitem>
+          <listitem>Потребител</listitem>
 		  <listitem>Администратор на системата</listitem>
         </itemizedlist>
       </listitem>
@@ -534,7 +534,7 @@
 		<listitem>
           Заинтересувани лица
           <itemizedlist>
-            <listitem>Потребителите без ръководни функции, имащи достъп до съответния тикет</listitem>
+            <listitem>Потребител, имащ достъп до съответния тикет</listitem>
           </itemizedlist>
 		</listitem>
 	  </itemizedlist>
@@ -584,7 +584,7 @@
 		<listitem>
           Заинтересувани лица
           <itemizedlist>
-            <listitem>Потребителите без ръководни функции, имащи достъп до тикетите</listitem>
+            <listitem>Потребител, имащ достъп до тикетите</listitem>
           </itemizedlist>
 		</listitem>
 	</itemizedlist>

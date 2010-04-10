@@ -42,16 +42,18 @@
 </xsl:template>
 
 <xsl:template match="procedure/title">
-  <xsl:text>{\sc </xsl:text>
+  <xsl:text>{\sc \textbf{ </xsl:text>
   <xsl:apply-templates/>
-  <xsl:text>}</xsl:text>
+  <xsl:text>}}</xsl:text>
 </xsl:template>
 
 <xsl:template match="procedure">
   <xsl:text>\begin{usecase}</xsl:text>
     <xsl:apply-templates select="*[not(self::step)]"/>
   <!--<xsl:value-of select="title"/>-->
-  <xsl:text>\textbf{Сценарий}</xsl:text>
+  <xsl:if test="./step">
+    <xsl:text>\textbf{Сценарий}</xsl:text>
+  </xsl:if>
   <xsl:if test="./step">
     <xsl:text>\begin{enumerate}&#10;</xsl:text>
     <xsl:apply-templates select="step"/>
