@@ -11,6 +11,17 @@
     </glossdef>
   </glossentry>
 
+  <glossentry id="gloss_system">
+    <glossterm>
+	Системата
+    </glossterm>
+    <glossdef>
+      <para>
+        Инфорамционната система, проектирана от "Октопод" ООД за нуждите на Компанията.
+      </para>
+    </glossdef>
+  </glossentry>
+
   <glossentry id="gloss_user">
     <glossterm>
 	Потребител
@@ -56,16 +67,18 @@
     </glossdef>
   </glossentry>
 
-  <glossentry id="gloss_system">
+  
+  <glossentry id="gloss_login">
     <glossterm>
-	Системата
+	Вписване в системата
     </glossterm>
     <glossdef>
       <para>
-        Инфорамционната система, проектирана от "Октопод" ООД за нуждите на Компанията.
+        Системата разпознава потребителя и му дава специални за него права и достъп до персонализирана информация.
       </para>
     </glossdef>
   </glossentry>
+
   <glossdiv><title>Отдели на Компанията</title>
 
   <glossentry id="gloss_hardwaredept">
