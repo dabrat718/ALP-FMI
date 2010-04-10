@@ -247,6 +247,25 @@
   <procedure>
 	<!--Stanislav-->
     <title>Добавяне на файл към съществуващ тикет</title>
+      <itemizedlist>
+	  
+	    <listitem>
+		  Участници
+		  <itemizedlist>
+		    Потребителите разполагащи с права за виждане/редактиране на съответния тикет
+		  </itemizedlist>
+		</listitem>
+		
+		<listitem>
+		  Предусловия
+		  <itemizedlist>
+		    <listitem></listitem>
+			<listitem></listitem>
+		  </itemizedlist>
+		</listitem>
+		
+		
+	  </itemizedlist>
     <!--step></step-->
   </procedure>
   <procedure>
