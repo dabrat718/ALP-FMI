@@ -35,4 +35,10 @@
 		<authorinitials>Емил</authorinitials>
                 <revremark>Потребителски случаи за влизане/излизане от системата; регистрация на нов потребител в системата</revremark>
 	</revision>
+	<revision>
+		<revnumber>0.5.2</revnumber>
+		<date>10.04.2010</date>
+		<authorinitials>Мария</authorinitials>
+                <revremark>Потребителски за създаване, редактиране и изтриване на статус на Клиента</revremark>
+	</revision>
 </revhistory>

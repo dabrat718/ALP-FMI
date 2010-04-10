@@ -251,9 +251,9 @@
       <listitem>
         Обхват
         <itemizedlist>
-          <listitem>Подсистема за добавяне на коментари</listitem>
+          <listitem>Подсистема за редактиране на коментари</listitem>
           <listitem>Подсистема за поддръжка на списъка с клиенти</listitem>
-          <listitem>Подсистема за изпращане на тикети</listitem>
+          <listitem>Тикет система</listitem>
         </itemizedlist>
       </listitem>
 
@@ -261,6 +261,7 @@
         Участници
         <itemizedlist>
           <listitem>Потребителите без ръководни функции</listitem>
+		  <listitem>Ръководство</listitem>
         </itemizedlist>
       </listitem>
 
@@ -268,27 +269,27 @@
         Предусловия
         <itemizedlist>
 		  <listitem>Потребителят е вписан в системата</listitem>
-          <listitem>Потребителят е узнал </listitem>
-		  <listitem>Потребителят иска да впише коментара си както като обикновен статус, така и като тикет</listitem>
+          <listitem>Потребителят е узнал информация, свързана със стауса на Клиента, която трябва да бъде въведена в този статус или да нанесе поправки, върху него</listitem>
+		  <listitem>Потребителят има права за редактиране</listitem>
         </itemizedlist>
       </listitem>
 
       <listitem>
         Резултати
         <itemizedlist>
-          <listitem>Потребителят въвежда успешно нов статус (коментар) за Клиент</listitem>
+          <listitem>Потребителят редактира създаден статус</listitem>
         </itemizedlist>
       </listitem>
 
       <listitem>
-        Честота: често
+        Честота: сравнително рядко
       </listitem>
     </itemizedlist>
 
-    <step><para>Потребителят отваря формата за въвеждане на статус</para></step>
-    <step><para>Потребителят указва дали коментарът да бъде записан само като статус или и като тикет</para>
-	<step><para>Потребителят въвежда коментара</para></step>
-	<step><para>Потребителят запазва/изпраща статуса</para></step>
+    <step><para>Потребителят намира статуса, който би желал да редактира</para></step>
+    <step><para>Потребителят преминава в режим редактиране</para>
+	<step><para>Потребителят редактира коментара</para></step>
+	<step><para>Потребителят запазва редакцията</para></step>
     <step><para>Статусът вече е наличен в информацията за Клиента</para></step>
   </procedure>
   <!--Maria-->
