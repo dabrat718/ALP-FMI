@@ -323,6 +323,7 @@
       </listitem>
     </itemizedlist>
 
+<<<<<<< HEAD:doc/usecases.xml
     <step><para>Потребителят въвежда информация за клиент</para></step>
     <step><para>Системата потвърждава въвеждането</para>
       <stepalternatives>
@@ -331,6 +332,10 @@
         </step>
       </stepalternatives>
     </step>
+=======
+    <step><para>Потребителят вписва информация за клиент</para></step>
+    <step><para>Системата потвърждава въвеждането</para></step>
+>>>>>>> 476cd09360431fa6de387d5cce5ee6a1d18da85e:doc/usecases.xml
   </procedure>
   <procedure>
     <title>Редактиране на информацията за клиент на Компанията</title>
