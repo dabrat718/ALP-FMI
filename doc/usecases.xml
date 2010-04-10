@@ -179,9 +179,6 @@
   </procedure>
 
 
-
-
-
   <procedure>
     <title>Промяна на информацията за съществуващ потребител</title>
 
@@ -223,38 +220,13 @@
 
     </itemizedlist>
 
-    <!--  <step><para>Потребителят иска да направи промени по информацията, която се пази за него</para></step> -->
     <step><para>Потребителят променя информацията за себе си</para></step>
     <step><para>Системата запазва нововъведените данни</para>
       <stepalternatives>
         <step><para>Системата не приема нововъведените данни и съобщава за това на потребителя</para></step>
           </stepalternatives>
     </step>
-
-    <!--
-
-    <step><para>Системата генерира произволна парола, която изпраща на електронната поща на потребителя</para>
-      <stepalternatives>
-        <step><para>Email съобщението не е изпратено успешно </para>
-          <substeps>
-            <step><para>Системата уведомява административния потребител</para></step>
-            <step><para>Административният потребител променя Email адреса на потребителя и опитва да регистрира потребителя отново</para></step>
-          </substeps>
-        </step>
-        -->
-        <!--<step><para>Административният потребител иска от потребителя валиден email адрес и повтаря горната стъпка</para></step>-->
-        <!--      </stepalternatives>
-    </step>
-
-    <step><para>Потребителят е регистриран</para></step>
-    -->
-    <!--step></step-->
   </procedure>
-
-
-
-
-
 
 
   <procedure>
@@ -766,6 +738,55 @@
 
   <procedure>
     <title>Придобиване на специални права</title>
+
+    <itemizedlist>
+      
+      <listitem>
+        Обхват
+        <itemizedlist>
+          <listitem>Подсистема за административни потребители</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Участници
+        <itemizedlist>
+          <listitem>Всички потребители</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Предусловия
+        <itemizedlist>
+          <listitem>Потребителят е регистриран в системата</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Резултати
+        <itemizedlist>
+          <listitem>Правата на даден потребител са променени</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Честота: рядко
+      </listitem>
+    </itemizedlist>
+
+    <step><para>Потребителят с административни функции променя правата на потребител поради смяна на длъжността на този потребител</para></step>
+    <step><para>Системата поисква потвърждение</para>
+      <stepalternatives>
+        <step><para>Системата не приема данните и съобщава за това на потребителя с административни функции</para></step>
+      </stepalternatives>
+    </step>
+    <step><para>Потребителят с административни функции потвърждава промените и системата запазва нововъведените данни</para>
+      <stepalternatives>
+        <step><para>Потребителят с административни функции отказва промените и системата не променя данните</para></step>
+      </stepalternatives>
+    </step>
+
+
   </procedure>
   <procedure>
     <title>Проверка на дейността на даден служител</title>

@@ -39,7 +39,7 @@
 		<revnumber>0.5.2</revnumber>
 		<date>10.04.2010</date>
 		<authorinitials>Валентина</authorinitials>
-		<revremark>Потребителски случаи -  от UC-4 до UC-6</revremark>
+		<revremark>Потребителски случаи за промяна на информацията за потребител, за изтриване на потребител и за продобиване на специални права</revremark>
 	</revision>
 	<revision>
 		<revnumber>0.5.3</revnumber>
