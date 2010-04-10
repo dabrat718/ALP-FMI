@@ -1,5 +1,8 @@
 <sect1>
   <title>Потребителски случаи</title>
+  <para>
+    <note> Вж. <xref linkend="gloss_notation"/> за означенията, използвани по-долу.</note>
+  </para>
 
   <!--==========================-->
   <procedure>
@@ -141,10 +144,7 @@
       <listitem>
         Предусловия
         <itemizedlist>
-          <listitem>Потребителят
-            <footnote>
-              <para>Потребителите с административни функции са зададени в самата система.</para>
-          </footnote>
+          <listitem>Потребителят<footnote><para>Потребителите с административни функции са зададени в самата система.</para></footnote>
           не е регистриран в системата</listitem>
         </itemizedlist>
       </listitem>

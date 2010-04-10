@@ -94,4 +94,21 @@
   </xsl:variable>
   <xsl:value-of select="normalize-space($string)"/>
 </xsl:template>
+
+<xsl:template match="glossdiv" mode="xref-to">
+  <xsl:param name="referrer"/>
+
+  <xsl:call-template name="hyperlink.markup">
+    <xsl:with-param name="referrer" select="$referrer"/>
+    <xsl:with-param name="linkend" select="(@id|@xml:id)[1]"/>
+    <xsl:with-param name="text">
+      <xsl:call-template name="inline.italicseq">
+        <xsl:with-param name="content">
+          <xsl:apply-templates select="title" mode="xref.text"/>
+        </xsl:with-param>
+      </xsl:call-template>
+    </xsl:with-param>
+  </xsl:call-template>
+</xsl:template>
+
 </xsl:stylesheet>
