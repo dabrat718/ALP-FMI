@@ -1,10 +1,62 @@
 <sect1>
   <title>Потребителски случаи</title>
-  <para>
-  </para>
   <procedure>
-    <title>Влизане в системата</title>
-    <!--step></step-->
+    <title>Вписване в системата</title>
+    <itemizedlist>
+
+      <listitem>
+        Обхват
+        <itemizedlist>
+          <listitem>Подсистема за вписване</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Участници
+        <itemizedlist>
+          <listitem>Потребителите без ръководни функции</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Предусловия
+        <itemizedlist>
+          <listitem>Потребителят не е вписан в системата</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Резултати
+        <itemizedlist>
+          <listitem>Потребителят е вписан в системата</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Изисквания
+        <itemizedlist>
+          <listitem>Системата да може да вписва до 5 потребителя едновременно</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Честота: много често
+      </listitem>
+    </itemizedlist>
+
+    <step><para>Потребителят иска да се впише в системата</para></step>
+    <step><para>Потребителят въвежда потребителско име и парола</para></step>
+    <step><para>Системата потвърждава името и паролата и вписва потребителя</para>
+      <stepalternatives>
+        <step>
+          <para>Системата не приема името и/или паролата и съобщава това на потребителя</para>
+        </step>
+      </stepalternatives>
+    </step>
+
+  </procedure>
+
+    <!--<step></step>-->
 	<!--<step>-->
       <!--<para>-->
         <!--A Step-->
@@ -28,7 +80,6 @@
     <!--</para>-->
   <!--</step>-->
 <!--</procedure>-->
-  </procedure>
   <procedure>
     <title>Изход от системата</title>
     <!--step></step-->

@@ -48,18 +48,31 @@
 </xsl:template>
 
 <xsl:template match="procedure">
-  <xsl:text>\begin{usecase}{</xsl:text>
-  <xsl:apply-templates select="*[not(self::step)]"/>
+  <xsl:text>\begin{usecase}</xsl:text>
+    <xsl:apply-templates select="*[not(self::step)]"/>
   <!--<xsl:value-of select="title"/>-->
-    <xsl:text>}</xsl:text>
-  <!--<xsl:if test="./step">-->
-    <!--<xsl:text>\begin{enumerate}&#10;</xsl:text>-->
-    <!--<xsl:apply-templates select="step"/>-->
-    <!--<xsl:text>\end{enumerate}&#10;</xsl:text>-->
-    <!--</xsl:if>-->
+  <xsl:text>\textbf{Сценарий}</xsl:text>
+  <xsl:if test="./step">
+    <xsl:text>\begin{enumerate}&#10;</xsl:text>
+    <xsl:apply-templates select="step"/>
+    <xsl:text>\end{enumerate}&#10;</xsl:text>
+  </xsl:if>
   <xsl:text>\end{usecase}</xsl:text>
 </xsl:template>
 
+<xsl:template match="step/stepalternatives">
+  \textbf{Алтернатива:}
+  <xsl:apply-templates select="*[not(self::step)]"/>
+  <xsl:if test="./step">
+    <xsl:text>\begin{enumerate}&#10;</xsl:text>
+    <xsl:apply-templates select="step"/>
+    <xsl:text>\end{enumerate}&#10;</xsl:text>
+  </xsl:if>
+  <!--<xsl:text>\item{</xsl:text>-->
+  <!--<xsl:call-template name="label.id"/>-->
+  <!--<xsl:apply-templates/>-->
+  <!--<xsl:text>}&#10;</xsl:text>-->
+</xsl:template>
 
 <xsl:template match="authorgroup">
   <xsl:variable name="string">
