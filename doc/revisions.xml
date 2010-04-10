@@ -41,5 +41,11 @@
 		<authorinitials>Валентина</authorinitials>
 		<revremark>Потребителски случаи -  от UC-4 до UC-6</revremark>
 	</revision>
+	<revision>
+		<revnumber>0.5.2</revnumber>
+		<date>10.04.2010</date>
+		<authorinitials>Ники</authorinitials>
+		<revremark>Потребителски случаи -  от UC-6 и UC-7</revremark>
+	</revision>
 
 </revhistory>
