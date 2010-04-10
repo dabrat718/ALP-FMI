@@ -307,17 +307,152 @@
         </step>
       </stepalternatives>
     </step>
-  <procedure>
+ </procedure>
+    <!--Maria-->
+ <procedure>
     <title>Добавяне на коментари по статуса на клиента</title>
-    <!--step></step-->
+    <itemizedlist>
+
+      <listitem>
+        Обхват
+        <itemizedlist>
+          <listitem>Подсистема за добавяне на коментари</listitem>
+          <listitem>Подсистема за поддръжка на списъка с клиенти</listitem>
+          <listitem>Подсистема за изпращане на тикети</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Участници
+        <itemizedlist>
+          <listitem>Потребителите без ръководни функции</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Предусловия
+        <itemizedlist>
+		  <listitem>Потребителят е вписан в системата</listitem>
+          <listitem>Потребителят е узнал нова информация за клиента, която трябва да бъде узната и от останалите колеги в Компаниятаistitem</listitem>
+		  <listitem>Потребителят иска да впише коментара си както като обикновен статус, така и като тикет</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Резултати
+        <itemizedlist>
+          <listitem>Потребителят въвежда успешно нов статус (коментар) за Клиент</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Честота: често
+      </listitem>
+    </itemizedlist>
+
+    <step><para>Потребителят отваря формата за въвеждане на статус</para></step>
+    <step><para>Потребителят указва дали коментарът да бъде записан само като статус или и като тикет</para>
+	<step><para>Потребителят въвежда коментара</para></step>
+	<step><para>Потребителят запазва/изпраща статуса</para></step>
+    <step><para>Статусът вече е наличен в информацията за Клиента</para></step>
   </procedure>
+
+  </procedure>
+  <!--Maria-->
   <procedure>
     <title>Редактиране на коментари по статуса на клиента</title>
-    <!--step></step-->
+    <itemizedlist>
+
+      <listitem>
+        Обхват
+        <itemizedlist>
+          <listitem>Подсистема за редактиране на коментари</listitem>
+          <listitem>Подсистема за поддръжка на списъка с клиенти</listitem>
+          <listitem>Тикет система</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Участници
+        <itemizedlist>
+          <listitem>Потребителите без ръководни функции</listitem>
+		  <listitem>Ръководство</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Предусловия
+        <itemizedlist>
+		  <listitem>Потребителят е вписан в системата</listitem>
+          <listitem>Потребителят е узнал информация, свързана със стауса на Клиента, която трябва да бъде въведена в този статус или да нанесе поправки, върху него</listitem>
+		  <listitem>Потребителят има права за редактиране</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Резултати
+        <itemizedlist>
+          <listitem>Потребителят редактира създаден статус</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Честота: сравнително рядко
+      </listitem>
+    </itemizedlist>
+
+    <step><para>Потребителят намира статуса, който би желал да редактира</para></step>
+    <step><para>Потребителят преминава в режим редактиране</para>
+	<step><para>Потребителят редактира коментара</para></step>
+	<step><para>Потребителят запазва редакцията</para></step>
+    <step><para>Статусът вече е наличен в информацията за Клиента</para></step>
   </procedure>
+  <!--Maria-->
   <procedure>
     <title>Изтриване на коментари по статуса на клиента</title>
-    <!--step></step-->
+	  <itemizedlist>
+
+      <listitem>
+        Обхват
+        <itemizedlist>
+          <listitem>Подсистема за редактиране на коментари</listitem>
+          <listitem>Подсистема за поддръжка на списъка с клиенти</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Участници
+        <itemizedlist>
+          <listitem>Потребителите без ръководни функции</listitem>
+		  <listitem>Администратор на системата</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Предусловия
+        <itemizedlist>
+		  <listitem>Потребителят е вписан в системата</listitem>
+          <listitem>Потребителят има права за изтриване</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Резултати
+        <itemizedlist>
+          <listitem>Потребителят изтрива създаден статус</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Честота: сравнително рядко
+      </listitem>
+    </itemizedlist>
+
+    <step><para>Потребителят намира статуса, който би желал да изтрие</para></step>
+    <step><para>Потребителят преминава в режим редактиране</para>
+	<step><para>Потребителят селектира коментара</para></step>
+	<step><para>Потребителят изтрива коментара</para></step>
+	<step><para>Статусът вече не е наличен в информацията за Клиента</para></step>
   </procedure>
   <procedure>
     <title>Въвеждане на данни за дадено устройство и неговите компоненти</title>
@@ -359,6 +494,7 @@
     <!--step></step-->
   </procedure>
   <procedure>
+	<!--Stanislav-->
     <title>Добавяне на файл към съществуващ тикет</title>
       <itemizedlist>
 		<listitem>
@@ -387,7 +523,7 @@
 		  <itemizedlist>
 		     <listitem>Файлът е успешно прикачен</listitem>
 		  </itemizedlist>
-		</listitem>
+		</listitem>		
 		<listitem>
 		  Изисквания
 		    <itemizedlist>
@@ -415,6 +551,7 @@
   </procedure>
   
   <procedure>
+	<!--Stanislav-->
     <title>Извеждане на списък от съществуващи тикети</title>
 	<itemizedlist>
       <listitem>
@@ -460,6 +597,7 @@
 	</stepalternatives>
   </procedure>
   <procedure>
+	<!--Stanislav-->
     <title>Промяна на собственика на съществуващ тикет</title>
 		<itemizedlist>
 			<listitem>

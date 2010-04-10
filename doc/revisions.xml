@@ -44,8 +44,20 @@
 	<revision>
 		<revnumber>0.5.2</revnumber>
 		<date>10.04.2010</date>
+<<<<<<< HEAD
 		<authorinitials>Ники</authorinitials>
 		<revremark>Потребителски случаи -  от UC-6 и UC-7</revremark>
 	</revision>
 
+=======
+		<authorinitials>Мария</authorinitials>
+                <revremark>Потребителски за създаване, редактиране и изтриване на статус на Клиента</revremark>
+	</revision>
+	<revision>
+		<revnumber>0.5.3</revnumber>
+		<date>10.04.2010</date>
+		<authorinitials>С.Т.<authorinitials>
+		<revremark>Потребителски случаи за тикети</revremark>
+	</revision>
+>>>>>>> ddc18f250818996fa3c9c796d9bb83d60f46274a
 </revhistory>
