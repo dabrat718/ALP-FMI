@@ -34,30 +34,28 @@
 		<date>10.04.2010</date>
 		<authorinitials>Емил</authorinitials>
                 <revremark>Потребителски случаи за влизане/излизане от системата; регистрация на нов потребител в системата</revremark>
-                </revision>
-  <revision>
-		<revnumber>0.4a</revnumber>
+        </revision>
+        <revision>
+		<revnumber>0.5.2</revnumber>
 		<date>10.04.2010</date>
 		<authorinitials>Валентина</authorinitials>
 		<revremark>Потребителски случаи -  от UC-4 до UC-6</revremark>
 	</revision>
 	<revision>
-		<revnumber>0.5.2</revnumber>
+		<revnumber>0.5.3</revnumber>
 		<date>10.04.2010</date>
-<<<<<<< HEAD
 		<authorinitials>Ники</authorinitials>
-		<revremark>Потребителски случаи -  от UC-6 и UC-7</revremark>
+		<revremark>Потребителски случаи -  UC-6 и UC-7</revremark>
 	</revision>
-
-=======
+        <revision>
+                <revnumber>0.5.4</revnumber>
 		<authorinitials>Мария</authorinitials>
                 <revremark>Потребителски за създаване, редактиране и изтриване на статус на Клиента</revremark>
 	</revision>
 	<revision>
-		<revnumber>0.5.3</revnumber>
+		<revnumber>0.5.5</revnumber>
 		<date>10.04.2010</date>
-		<authorinitials>С.Т.<authorinitials>
+                <authorinitials>С.Т.</authorinitials>
 		<revremark>Потребителски случаи за тикети</revremark>
 	</revision>
->>>>>>> ddc18f250818996fa3c9c796d9bb83d60f46274a
 </revhistory>
