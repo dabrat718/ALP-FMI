@@ -177,12 +177,134 @@
     <step><para>Потребителят е регистриран</para></step>
     <!--step></step-->
   </procedure>
+
+
+
+
+
   <procedure>
     <title>Промяна на информацията за съществуващ потребител</title>
+
+    <itemizedlist>
+      
+      <listitem>
+        Обхват
+        <itemizedlist>
+          <listitem>Подсистема за редактиране на информацията</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Участници
+        <itemizedlist>
+          <listitem>Всички потребители</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Предусловия
+        <itemizedlist>
+          <listitem>Потребителят е регистриран в системата</listitem>
+          <listitem>Потребителят е вписан в системата</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Резултати
+        <itemizedlist>
+          <listitem>Потребителят е променил информацията за себе си</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Честота: рядко
+      </listitem>
+
+
+    </itemizedlist>
+
+    <!--  <step><para>Потребителят иска да направи промени по информацията, която се пази за него</para></step> -->
+    <step><para>Потребителят променя информацията за себе си</para></step>
+    <step><para>Системата запазва нововъведените данни</para>
+      <stepalternatives>
+        <step><para>Системата не приема нововъведените данни и съобщава за това на потребителя</para></step>
+          </stepalternatives>
+    </step>
+
+    <!--
+
+    <step><para>Системата генерира произволна парола, която изпраща на електронната поща на потребителя</para>
+      <stepalternatives>
+        <step><para>Email съобщението не е изпратено успешно </para>
+          <substeps>
+            <step><para>Системата уведомява административния потребител</para></step>
+            <step><para>Административният потребител променя Email адреса на потребителя и опитва да регистрира потребителя отново</para></step>
+          </substeps>
+        </step>
+        -->
+        <!--<step><para>Административният потребител иска от потребителя валиден email адрес и повтаря горната стъпка</para></step>-->
+        <!--      </stepalternatives>
+    </step>
+
+    <step><para>Потребителят е регистриран</para></step>
+    -->
     <!--step></step-->
   </procedure>
+
+
+
+
+
+
+
   <procedure>
     <title>Изтриване на съществуващ потребител</title>
+    <itemizedlist>
+      
+      <listitem>
+        Обхват
+        <itemizedlist>
+          <listitem>Подсистема за административни потребители</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Участници
+        <itemizedlist>
+          <listitem>Всички потребители</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Предусловия
+        <itemizedlist>
+          <listitem>Потребителят е регистриран в системата</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Резултати
+        <itemizedlist>
+          <listitem>Потребителят без ръководни функции е изтрит от системата и вече няма достъп до нея</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Честота: рядко
+      </listitem>
+    </itemizedlist>
+
+    <step><para>Потребителят с административни функции изтрива регистриран потребител от системата</para></step>
+    <step><para>Системата поисква потвърждение</para></step>
+    <step><para>Потребителят с административни функции потвърждава изтриването и системата изтрива потребителя</para>
+      <stepalternatives>
+        <step><para>Потребителят с административни функции отказва изтриването и регистрацията на потребителя остава запазена в системата</para></step>
+      </stepalternatives>
+    </step>
+    
+
+
+
     <!--step></step-->
   </procedure>
   <procedure>
