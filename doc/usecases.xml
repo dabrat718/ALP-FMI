@@ -196,12 +196,100 @@
   <!--Maria-->
   <procedure>
     <title>Добавяне на коментари по статуса на клиента</title>
-    <!--step></step-->
+    <itemizedlist>
+
+      <listitem>
+        Обхват
+        <itemizedlist>
+          <listitem>Подсистема за добавяне на коментари</listitem>
+          <listitem>Подсистема за поддръжка на списъка с клиенти</listitem>
+          <listitem>Подсистема за изпращане на тикети</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Участници
+        <itemizedlist>
+          <listitem>Потребителите без ръководни функции</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Предусловия
+        <itemizedlist>
+		  <listitem>Потребителят е вписан в системата</listitem>
+          <listitem>Потребителят е узнал нова информация за клиента, която трябва да бъде узната и от останалите колеги в Компаниятаistitem</listitem>
+		  <listitem>Потребителят иска да впише коментара си както като обикновен статус, така и като тикет</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Резултати
+        <itemizedlist>
+          <listitem>Потребителят въвежда успешно нов статус (коментар) за Клиент</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Честота: често
+      </listitem>
+    </itemizedlist>
+
+    <step><para>Потребителят отваря формата за въвеждане на статус</para></step>
+    <step><para>Потребителят указва дали коментарът да бъде записан само като статус или и като тикет</para>
+	<step><para>Потребителят въвежда коментара</para></step>
+	<step><para>Потребителят запазва/изпраща статуса</para></step>
+    <step><para>Статусът вече е наличен в информацията за Клиента</para></step>
+  </procedure>
+
   </procedure>
   <!--Maria-->
   <procedure>
     <title>Редактиране на коментари по статуса на клиента</title>
-    <!--step></step-->
+    <itemizedlist>
+
+      <listitem>
+        Обхват
+        <itemizedlist>
+          <listitem>Подсистема за добавяне на коментари</listitem>
+          <listitem>Подсистема за поддръжка на списъка с клиенти</listitem>
+          <listitem>Подсистема за изпращане на тикети</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Участници
+        <itemizedlist>
+          <listitem>Потребителите без ръководни функции</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Предусловия
+        <itemizedlist>
+		  <listitem>Потребителят е вписан в системата</listitem>
+          <listitem>Потребителят е узнал </listitem>
+		  <listitem>Потребителят иска да впише коментара си както като обикновен статус, така и като тикет</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Резултати
+        <itemizedlist>
+          <listitem>Потребителят въвежда успешно нов статус (коментар) за Клиент</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Честота: често
+      </listitem>
+    </itemizedlist>
+
+    <step><para>Потребителят отваря формата за въвеждане на статус</para></step>
+    <step><para>Потребителят указва дали коментарът да бъде записан само като статус или и като тикет</para>
+	<step><para>Потребителят въвежда коментара</para></step>
+	<step><para>Потребителят запазва/изпраща статуса</para></step>
+    <step><para>Статусът вече е наличен в информацията за Клиента</para></step>
   </procedure>
   <!--Maria-->
   <procedure>
