@@ -47,5 +47,10 @@
 		<authorinitials>Мария</authorinitials>
                 <revremark>Потребителски за създаване, редактиране и изтриване на статус на Клиента</revremark>
 	</revision>
-
+	<revision>
+		<revnumber>0.5.3</revnumber>
+		<date>10.04.2010</date>
+		<authorinitials>С.Т.<authorinitials>
+		<revremark>Потребителски случаи за тикети</revremark>
+	</revision>
 </revhistory>
