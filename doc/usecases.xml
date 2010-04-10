@@ -259,14 +259,42 @@
 		<listitem>
 		  Предусловия
 		  <itemizedlist>
-		    <listitem></listitem>
-			<listitem></listitem>
+		    <listitem>Потребителят е влязъл в акаунта си</listitem>
+			<listitem>Потребителят има право да променя тикета</listitem>
 		  </itemizedlist>
 		</listitem>
 		
+		<listitem>
+		  Резултати
+		  <itemizedlist>
+		     <listitem>Файлът е успешно прикачен</listitem>
+		  </itemizedlist>
+		</listitem>
+		
+		<listitem>
+		  Изисквания
+		    <itemizedlist>
+			  <listitem>Към всеки тикет могат да бъдат прикачени X файла</listitem>
+			</itemizedlist>
+		</listitem>
+		
+		<listitem>
+		  Честота: рядко
+		</listitem>
+		
+		<listitem>
+          Заинтересувани лица
+          <itemizedlist>
+            <listitem>Потребителите без ръководни функции, имащи достъп до съответния тикет</listitem>
+          </itemizedlist>
+		</listitem>
 		
 	  </itemizedlist>
-    <!--step></step-->
+    <step><para>Потребителят е логнат в системата</para></step>
+	<step><para>Потребителят отваря желания тикет</para></step>
+	<step><para>Потребителят избира опцията за прибавяне на файл</para></step>
+    <step><para>Потребителят избира желания файл от предложения и потвърждава</para></step>
+	<step><para>Системата прибавя файла към тикета</para></step>
   </procedure>
   <procedure>
 	<!--Stanislav-->
