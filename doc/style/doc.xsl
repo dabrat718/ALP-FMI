@@ -66,7 +66,7 @@
   <xsl:if test="not(parent::stepalternatives)">
     <xsl:text>\setcounter{alternative}{0}</xsl:text>
   </xsl:if>
-  <xsl:text>\item{</xsl:text>
+  <xsl:text>\item</xsl:text><xsl:if test="parent::stepalternatives"><xsl:text>[]</xsl:text></xsl:if><xsl:text>{</xsl:text>
   <xsl:call-template name="label.id"/>
   <xsl:apply-templates/>
   <xsl:text>}&#10;</xsl:text>
