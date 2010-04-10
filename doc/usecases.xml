@@ -245,14 +245,22 @@
     <!--step></step-->
   </procedure>
   <procedure>
-	<!--Stanislav-->
     <title>Добавяне на файл към съществуващ тикет</title>
       <itemizedlist>
+	  
+		<listitem>
+          Обхват
+          <itemizedlist>
+            <listitem>Единичен тикет</listitem>
+		  </itemizedlist>
+		</listitem>
 	  
 	    <listitem>
 		  Участници
 		  <itemizedlist>
-		    Потребителите разполагащи с права за виждане/редактиране на съответния тикет
+			<listitem>
+				Потребителите разполагащи с права за виждане/редактиране на съответния тикет
+			</listitem>
 		  </itemizedlist>
 		</listitem>
 		
@@ -297,9 +305,53 @@
 	<step><para>Системата прибавя файла към тикета</para></step>
   </procedure>
   <procedure>
-	<!--Stanislav-->
     <title>Извеждане на списък от съществуващи тикети</title>
-    <!--step></step-->
+	<itemizedlist>
+
+      <listitem>
+        Обхват
+        <itemizedlist>
+          <listitem>Единичен тикет</listitem>
+        </itemizedlist>
+      </listitem>
+
+	  <listitem>
+		Участници
+		  <itemizedlist>
+			<listitem>Потребителите разполагащи с права за виждане/редактиране на съответния тикет</listitem>
+		  </itemizedlist>
+	  </listitem>
+
+		<listitem>
+		  Предусловия
+		  <itemizedlist>
+		    <listitem>Потребителят е влязъл в акаунта си</listitem>
+			<listitem>Потребителят има право да вижда тикетите</listitem>
+		  </itemizedlist>
+		</listitem>
+
+		<listitem>
+		  Резултати
+		  <itemizedlist>
+		     <listitem>Извежда се списъка с желаните тикети</listitem>
+		  </itemizedlist>
+		</listitem>
+
+		<listitem>
+		  Честота: рядко
+		</listitem>
+		
+		<listitem>
+          Заинтересувани лица
+          <itemizedlist>
+            <listitem>Потребителите без ръководни функции, имащи достъп до тикетите</listitem>
+          </itemizedlist>
+		</listitem>
+
+	</itemizedlist>
+    <step><para>Потребителят е логнат в системата</para></step>
+	<step><para>Потребителят въвежда критерии за показване на тикетите</para></step>
+	<step><para>Системата извежда тикетите, които отговарят на съответните критерии</para></step>				
   </procedure>
   <procedure>
 	<!--Stanislav-->
