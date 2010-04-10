@@ -1,0 +1,325 @@
+<sect1>
+  <title>Потребителски случаи</title>
+  <para>
+    <note> Вж. <xref linkend="gloss_notation"/> за означенията, използвани по-долу.</note>
+  </para>
+
+  <!--==========================-->
+  <procedure>
+    <title>Вписване в системата</title>
+    <itemizedlist>
+
+      <listitem>
+        Обхват
+        <itemizedlist>
+          <listitem>Подсистема за вписване</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Участници
+        <itemizedlist>
+          <listitem>Потребителите без ръководни функции</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Предусловия
+        <itemizedlist>
+          <listitem>Потребителят е регистриран в системата</listitem>
+          <listitem>Потребителят не е вписан в системата</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Резултати
+        <itemizedlist>
+          <listitem>Потребителят е вписан в системата</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Изисквания
+        <itemizedlist>
+          <listitem>Системата да може да вписва до 5 потребителя едновременно</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Честота: много често
+      </listitem>
+
+      <listitem>
+        Заинтересувани лица
+        <itemizedlist>
+          <listitem>Потребителите без ръководни функции</listitem>
+        </itemizedlist>
+      </listitem>
+    </itemizedlist>
+
+    <step><para>Потребителят иска да се впише в системата</para></step>
+    <step><para>Потребителят въвежда потребителско име и парола</para></step>
+    <step><para>Системата потвърждава името и паролата и вписва потребителя</para>
+      <stepalternatives>
+        <step>
+          <para>Системата не приема името и/или паролата и съобщава това на потребителя</para>
+        </step>
+      </stepalternatives>
+    </step>
+
+  </procedure>
+  
+  <!--==========================-->
+  <procedure>
+    <title>Изход от системата</title>
+    <itemizedlist>
+
+      <listitem>
+        Обхват
+        <itemizedlist>
+          <listitem>Подсистема за вписване</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Участници
+        <itemizedlist>
+          <listitem>Потребителите без ръководни функции</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Предусловия
+        <itemizedlist>
+          <listitem>Потребителят е вписан в системата</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Резултати
+        <itemizedlist>
+          <listitem>Потребителят не е вписан в системата</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Честота: много често
+      </listitem>
+      <listitem>
+        Заинтересувани лица
+        <itemizedlist>
+          <listitem>Потребителите без ръководни функции</listitem>
+        </itemizedlist>
+      </listitem>
+
+    </itemizedlist>
+
+    <step><para>Потребителят иска да се отпише от системата</para></step>
+    <step><para>Системата отписва потребителя</para></step>
+  </procedure>
+
+
+  <!--==========================-->
+  <procedure>
+    <title>Регистрация на нов потребител</title>
+    <itemizedlist>
+
+      <listitem>
+        Обхват
+        <itemizedlist>
+          <listitem>Подсистема за вписване</listitem>
+          <listitem>Подсистема за административни потребители</listitem>
+          <listitem>Подсистема за изпращане на email съобщения</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Участници
+        <itemizedlist>
+          <listitem>Потребителите без ръководни функции</listitem>
+          <listitem>Потребителите с административни функции</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Предусловия
+        <itemizedlist>
+          <listitem>Потребителят<footnote><para>Потребителите с административни функции са зададени в самата система.</para></footnote>
+          не е регистриран в системата</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Резултати
+        <itemizedlist>
+          <listitem>Потребителят без ръководни функции е регистриран в системата</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Честота: сравнително рядко след първоначален период на регистрации
+      </listitem>
+    </itemizedlist>
+
+    <step><para>Административният потребител въвежда информация за потребителя в системата</para></step>
+    <step><para>Системата генерира произволна парола, която изпраща на електронната поща на потребителя</para>
+      <stepalternatives>
+        <step><para>Email съобщението не е изпратено успешно </para>
+          <substeps>
+            <step><para>Системата уведомява административния потребител</para></step>
+            <step><para>Административният потребител променя Email адреса на потребителя и опитва да регистрира потребителя отново</para></step>
+          </substeps>
+        </step>
+        <!--<step><para>Административният потребител иска от потребителя валиден email адрес и повтаря горната стъпка</para></step>-->
+      </stepalternatives>
+    </step>
+
+    <step><para>Потребителят е регистриран</para></step>
+    <!--step></step-->
+  </procedure>
+  <procedure>
+    <title>Промяна на информацията за съществуващ потребител</title>
+    <!--step></step-->
+  </procedure>
+  <procedure>
+    <title>Изтриване на съществуващ потребител</title>
+    <!--step></step-->
+  </procedure>
+  <procedure>
+    <title>Въвеждане на информация за клиент на Компанията</title>
+    <!--step></step-->
+  </procedure>
+  <procedure>
+    <title>Редактиране на информацията за клиент на Компанията</title>
+    <!--step></step-->
+  </procedure>
+  <!--Maria-->
+  <procedure>
+    <title>Добавяне на коментари по статуса на клиента</title>
+    <!--step></step-->
+  </procedure>
+  <!--Maria-->
+  <procedure>
+    <title>Редактиране на коментари по статуса на клиента</title>
+    <!--step></step-->
+  </procedure>
+  <!--Maria-->
+  <procedure>
+    <title>Изтриване на коментари по статуса на клиента</title>
+    <!--step></step-->
+  </procedure>
+  <procedure>
+    <title>Въвеждане на данни за дадено устройство и неговите компоненти</title>
+    <!--step></step-->
+  </procedure>
+    <procedure>
+      <title>Въвеждане на тикет за извършване на нови монтажи</title>
+    <!--step></step-->
+  </procedure>
+  <procedure>
+    <title>Въвеждане на тикет за извършване на ремонт</title>
+    <!--step></step-->
+  </procedure>
+  <procedure>
+    <title>Прехвърляне на тикет за извършване на ремонт <!--към Сервизния отдел--></title>
+    <!--step></step-->
+  </procedure>
+  <procedure>
+    <title>Изготвяне на справка за съвместимост на устройства и изисквания</title>
+    <!--step></step-->
+  </procedure>
+  <procedure>
+    <title>Изготвяне на справки за клиенти, потребители, плащания, монтирани обекти</title>
+    <!--step></step-->
+  </procedure>
+  <procedure>
+    <title>Изготвяне на цялостна справка</title>
+  </procedure>
+  <procedure>
+    <title>Препращане на тикет</title>
+    <!--step></step-->
+  </procedure>
+  <procedure>
+    <title>Промяна на статуса на тикет</title>
+    <!--step></step-->
+  </procedure>
+  <procedure>
+    <title><remark>Това беше променено.</remark>Добавяне на съобщение към съществуващ тикет</title>
+    <!--step></step-->
+  </procedure>
+  <procedure>
+	<!--Stanislav-->
+    <title>Добавяне на файл към съществуващ тикет</title>
+      <itemizedlist>
+	  
+	    <listitem>
+		  Участници
+		  <itemizedlist>
+		    Потребителите разполагащи с права за виждане/редактиране на съответния тикет
+		  </itemizedlist>
+		</listitem>
+		
+		<listitem>
+		  Предусловия
+		  <itemizedlist>
+		    <listitem>Потребителят е влязъл в акаунта си</listitem>
+			<listitem>Потребителят има право да променя тикета</listitem>
+		  </itemizedlist>
+		</listitem>
+		
+		<listitem>
+		  Резултати
+		  <itemizedlist>
+		     <listitem>Файлът е успешно прикачен</listitem>
+		  </itemizedlist>
+		</listitem>
+		
+		<listitem>
+		  Изисквания
+		    <itemizedlist>
+			  <listitem>Към всеки тикет могат да бъдат прикачени X файла</listitem>
+			</itemizedlist>
+		</listitem>
+		
+		<listitem>
+		  Честота: рядко
+		</listitem>
+		
+		<listitem>
+          Заинтересувани лица
+          <itemizedlist>
+            <listitem>Потребителите без ръководни функции</listitem>
+          </itemizedlist>
+		</listitem>
+		
+	  </itemizedlist>
+    <!--step></step-->
+  </procedure>
+  <procedure>
+	<!--Stanislav-->
+    <title>Извеждане на списък от съществуващи тикети</title>
+    <!--step></step-->
+  </procedure>
+  <procedure>
+	<!--Stanislav-->
+    <title>Промяна на собственика на съществуващ тикет</title>
+    <!--step></step-->
+  </procedure>
+  <procedure>
+    <title>Стартиране на интегрирания счетоводен модул</title>
+    <!--step></step-->
+  </procedure>
+
+  <procedure>
+    <title>Придобиване на специални права</title>
+  </procedure>
+  <procedure>
+    <title>Проверка на дейността на даден служител</title>
+  </procedure>
+  <procedure>
+    <title>Проверка на дейността на всички служители за деня</title>
+  </procedure>
+  <procedure>
+    <title>Проверка за наличности на устойства</title>
+  </procedure>
+</sect1>
