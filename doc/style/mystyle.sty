@@ -82,12 +82,11 @@
 
 \newcounter{usecase}
 
-
 \newenvironment{usecase}[1]%
-{\refstepcounter{usecase}\vspace{10pt}\par\noindent
+{\refstepcounter{usecase}\par\noindent
 \textbf{UC-\theusecase} \textit{\ #1}
-\begin{itshape}\par\noindent\vspace{10pt}}%
-{\end{itshape}\vspace{10pt}\par}
+\par\noindent}%
+{\par}
 
 \definecolor{colorforlinks}{RGB}{2,23,124}
 

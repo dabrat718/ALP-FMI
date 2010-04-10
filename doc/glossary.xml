@@ -151,4 +151,28 @@
     </glossdef>
   </glossentry>
 
+  <glossdiv id="gloss_notation"><title>Означения</title>
+
+  <glossentry id="gloss_usecase">
+    <glossterm>
+	UC-x
+    </glossterm>
+    <glossdef>
+      <para>
+        Потребителски случай номер <emphasis>x</emphasis>.
+      </para>
+    </glossdef>
+  </glossentry>
+
+  <glossentry id="gloss_usecase">
+    <glossterm>
+      UC-x/s-An
+    </glossterm>
+    <glossdef>
+      <para>
+        Алтернатива номер <emphasis>n</emphasis> на стъпка <emphasis>s</emphasis> от потребителски случай номер <emphasis>x</emphasis>. 
+      </para>
+    </glossdef>
+  </glossentry>
+  </glossdiv>
 </glossary>
