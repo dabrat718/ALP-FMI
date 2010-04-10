@@ -128,7 +128,7 @@
         Обхват
         <itemizedlist>
           <listitem>Подсистема за вписване</listitem>
-          <listitem>Подсистема за административни потребители</listitem>
+          <listitem>Административна подсистема</listitem>
           <listitem>Подсистема за изпращане на email съобщения</listitem>
         </itemizedlist>
       </listitem>
@@ -136,8 +136,8 @@
       <listitem>
         Участници
         <itemizedlist>
-          <listitem>Потребителите</listitem>
-          <listitem>Потребителите с административни функции</listitem>
+          <listitem>Потребител</listitem>
+          <listitem>Администратор</listitem>
         </itemizedlist>
       </listitem>
 
@@ -161,7 +161,7 @@
       </listitem>
     </itemizedlist>
 
-    <step><para>Административният потребител въвежда информация за потребителя в системата</para></step>
+    <step><para>Администраторът въвежда информация за потребителя в системата</para></step>
     <step><para>Системата генерира произволна парола, която изпраща на електронната поща на потребителя</para>
       <stepalternatives>
         <step><para>Email съобщението не е изпратено успешно </para>
@@ -194,14 +194,13 @@
       <listitem>
         Участници
         <itemizedlist>
-          <listitem>Всички потребители</listitem>
+          <listitem>Потребител</listitem>
         </itemizedlist>
       </listitem>
 
       <listitem>
         Предусловия
         <itemizedlist>
-          <listitem>Потребителят е регистриран в системата</listitem>
           <listitem>Потребителят е вписан в системата</listitem>
         </itemizedlist>
       </listitem>
@@ -236,14 +235,14 @@
       <listitem>
         Обхват
         <itemizedlist>
-          <listitem>Подсистема за административни потребители</listitem>
+          <listitem>Административна подсистема</listitem>
         </itemizedlist>
       </listitem>
 
       <listitem>
         Участници
         <itemizedlist>
-          <listitem>Всички потребители</listitem>
+          <listitem>Потребител</listitem>
         </itemizedlist>
       </listitem>
 
@@ -257,7 +256,7 @@
       <listitem>
         Резултати
         <itemizedlist>
-          <listitem>Потребителят без ръководни функции е изтрит от системата и вече няма достъп до нея</listitem>
+          <listitem>Потребителят е изтрит от системата и вече няма достъп до нея</listitem>
         </itemizedlist>
       </listitem>
 
@@ -266,11 +265,11 @@
       </listitem>
     </itemizedlist>
 
-    <step><para>Потребителят с административни функции изтрива регистриран потребител от системата</para></step>
+    <step><para>Администраторът изтрива потребителя от системата</para></step>
     <step><para>Системата поисква потвърждение</para></step>
-    <step><para>Потребителят с административни функции потвърждава изтриването и системата изтрива потребителя</para>
+    <step><para>Администраторът потвърждава изтриването и системата изтрива потребителя</para>
       <stepalternatives>
-        <step><para>Потребителят с административни функции отказва изтриването и регистрацията на потребителя остава запазена в системата</para></step>
+        <step><para>Администраторът отказва изтриването и регистрацията на потребителя остава запазена в системата</para></step>
       </stepalternatives>
     </step>
     
@@ -286,21 +285,21 @@
       <listitem>
         Обхват
         <itemizedlist>
-          <listitem>Подсистема за вписване на клиенти</listitem>
+          <listitem>Подсистема за управление на информация</listitem>
         </itemizedlist>
       </listitem>
 
       <listitem>
         Участници
         <itemizedlist>
-          <listitem>Потребители от Отдел работа с клиенти</listitem>
+          <listitem>Потребител от Отдел работа с клиенти</listitem>
         </itemizedlist>
       </listitem>
 
       <listitem>
         Предусловия
         <itemizedlist>
-          <listitem>няма</listitem>
+          <listitem>Потребителят от Отдел работа с клиенти е вписан в системата</listitem>
         </itemizedlist>
       </listitem>
 
@@ -308,13 +307,6 @@
         Резултати
         <itemizedlist>
           <listitem>Въведена е информация за клиента</listitem>
-        </itemizedlist>
-      </listitem>
-
-      <listitem>
-        Изисквания
-        <itemizedlist>
-          <listitem>Системата да може да вписва до 5 клиента едновременно</listitem>
         </itemizedlist>
       </listitem>
 
@@ -331,7 +323,7 @@
       </listitem>
     </itemizedlist>
 
-    <step><para>Потребителят вписва информация за клиент</para></step>
+    <step><para>Потребителят въвежда информация за клиент</para></step>
     <step><para>Системата потвърждава въвеждането</para>
       <stepalternatives>
         <step>
@@ -347,21 +339,22 @@
       <listitem>
         Обхват
         <itemizedlist>
-          <listitem>Подсистема за вписване на клиенти</listitem>
+          <listitem>Подсистема за управление на информация</listitem>
         </itemizedlist>
       </listitem>
 
       <listitem>
         Участници
         <itemizedlist>
-          <listitem>Потребители от Отдел работа с клиенти</listitem>
+          <listitem>Потребител от Отдел работа с клиенти</listitem>
         </itemizedlist>
       </listitem>
 
       <listitem>
         Предусловия
         <itemizedlist>
-          <listitem>клиентът вече е въведен в системата</listitem>
+          <listitem>Потребителят от отдел Работа с клиенти е вписан в системата</listitem>
+          <listitem>Клиентът е въведен в системата</listitem>
         </itemizedlist>
       </listitem>
 
@@ -386,39 +379,37 @@
       <listitem>
         Заинтересувани лица
         <itemizedlist>
-          <listitem>Потребители</listitem>
-		  <listitem>Клиенти</listitem>
+          <listitem>Потребител</listitem>
+		  <listitem>Клиент</listitem>
         </itemizedlist>
       </listitem>
     </itemizedlist>
 
-    <step><para>Потребителят редактира информацията за клиент</para></step>
-    <step><para>Системата потвърждава редактирането</para>
+    <step><para>Потребителят редактира информацията за клиента</para></step>
+    <step><para>Системата потвърждава редактирането и запазва нововъведените данни</para>
       <stepalternatives>
         <step>
-          <para>Системата съобщава, че този клиент не съществува</para>
+          <para>Системата не приема нововъведените данни и съобщава за това на потребителя</para>
         </step>
       </stepalternatives>
     </step>
  </procedure>
     <!--Maria-->
  <procedure>
-    <title>Добавяне на коментари по статуса на клиента</title>
+    <title>Добавяне на коментари по статуса на клиент</title>
     <itemizedlist>
 
       <listitem>
         Обхват
         <itemizedlist>
-          <listitem>Подсистема за добавяне на коментари</listitem>
-          <listitem>Подсистема за поддръжка на списъка с клиенти</listitem>
-          <listitem>Подсистема за изпращане на тикети</listitem>
+          <listitem>Подсистема за тикети</listitem>
         </itemizedlist>
       </listitem>
 
       <listitem>
         Участници
         <itemizedlist>
-          <listitem>Потребител</listitem>
+          <listitem>Потребители</listitem>
         </itemizedlist>
       </listitem>
 
@@ -426,8 +417,8 @@
         Предусловия
         <itemizedlist>
 		  <listitem>Потребителят е вписан в системата</listitem>
-          <listitem>Потребителят е узнал нова информация за клиента, която трябва да бъде узната и от останалите колеги в Компаниятаistitem</listitem>
-		  <listitem>Потребителят иска да впише коментара си както като обикновен статус, така и като тикет</listitem>
+          <listitem>Потребителят е узнал нова информация за клиента, която трябва да бъде узната и от останалите колеги в Компанията</listitem>
+          <!--		  <listitem>Потребителят иска да впише коментара си както като обикновен статус, така и като тикет</listitem>-->
         </itemizedlist>
       </listitem>
 
@@ -443,7 +434,6 @@
       </listitem>
     </itemizedlist>
 
-    <step><para>Потребителят отваря формата за въвеждане на статус</para></step>
     <step><para>Потребителят указва дали коментарът да бъде записан само като статус или и като тикет</para></step>
 	<step><para>Потребителят въвежда коментара</para></step>
 	<step><para>Потребителят запазва/изпраща статуса</para></step>
@@ -452,15 +442,13 @@
 
   <!--Maria-->
   <procedure>
-    <title>Редактиране на коментари по статуса на клиента</title>
+    <title>Редактиране на коментари по статуса на клиент</title>
     <itemizedlist>
 
       <listitem>
         Обхват
         <itemizedlist>
-          <listitem>Подсистема за редактиране на коментари</listitem>
-          <listitem>Подсистема за поддръжка на списъка с клиенти</listitem>
-          <listitem>Тикет система</listitem>
+          <listitem>Подсистема за тикети</listitem>
         </itemizedlist>
       </listitem>
 
@@ -476,7 +464,7 @@
         Предусловия
         <itemizedlist>
 		  <listitem>Потребителят е вписан в системата</listitem>
-          <listitem>Потребителят е узнал информация, свързана със стауса на Клиента, която трябва да бъде въведена в този статус или да нанесе поправки, върху него</listitem>
+      <!--          <listitem>Потребителят е узнал информация, свързана със стауса на Клиента, която трябва да бъде въведена в този статус или да нанесе поправки, върху него</listitem>-->
 		  <listitem>Потребителят има права за редактиране</listitem>
         </itemizedlist>
       </listitem>
@@ -497,18 +485,17 @@
     <step><para>Потребителят преминава в режим редактиране</para></step>
 	<step><para>Потребителят редактира коментара</para></step>
 	<step><para>Потребителят запазва редакцията</para></step>
-    <step><para>Статусът вече е наличен в информацията за Клиента</para></step>
+    <step><para>Статусът вече е наличен в информацията за клиента</para></step>
   </procedure>
   <!--Maria-->
   <procedure>
-    <title>Изтриване на коментари по статуса на клиента</title>
+    <title>Изтриване на коментари по статуса на клиент</title>
 	  <itemizedlist>
 
       <listitem>
         Обхват
         <itemizedlist>
-          <listitem>Подсистема за редактиране на коментари</listitem>
-          <listitem>Подсистема за поддръжка на списъка с клиенти</listitem>
+          <listitem>Подсистема за тикети</listitem>
         </itemizedlist>
       </listitem>
 
@@ -516,7 +503,6 @@
         Участници
         <itemizedlist>
           <listitem>Потребител</listitem>
-		  <listitem>Администратор на системата</listitem>
         </itemizedlist>
       </listitem>
 
@@ -531,7 +517,7 @@
       <listitem>
         Резултати
         <itemizedlist>
-          <listitem>Потребителят изтрива създаден статус</listitem>
+          <listitem>Потребителят изтрива коментар по статуса</listitem>
         </itemizedlist>
       </listitem>
 
@@ -540,11 +526,11 @@
       </listitem>
     </itemizedlist>
 
-    <step><para>Потребителят намира статуса, който би желал да изтрие</para></step>
+    <step><para>Потребителят намира статуса, чийто коментар би желал да изтрие</para></step>
     <step><para>Потребителят преминава в режим редактиране</para></step>
-	<step><para>Потребителят селектира коментара</para></step>
+	<step><para>Потребителят избира коментара</para></step>
 	<step><para>Потребителят изтрива коментара</para></step>
-	<step><para>Статусът вече не е наличен в информацията за Клиента</para></step>
+	<step><para>Коментарът вече не е наличен</para></step>
   </procedure>
   <procedure>
     <title>Въвеждане на данни за дадено устройство и неговите компоненти</title>
@@ -582,7 +568,7 @@
     <!--step></step-->
   </procedure>
   <procedure>
-    <title><remark>Това беше променено.</remark>Добавяне на съобщение към съществуващ тикет</title>
+    <title>Добавяне на съобщение към съществуващ тикет</title>
     <!--step></step-->
   </procedure>
   <procedure>
@@ -592,7 +578,7 @@
 		<listitem>
           Обхват
           <itemizedlist>
-            <listitem>Единичен тикет</listitem>
+            <listitem>Подсистема за тикети</listitem>
 		  </itemizedlist>
 		</listitem>
 	    <listitem>
@@ -606,7 +592,7 @@
 		<listitem>
 		  Предусловия
 		  <itemizedlist>
-		    <listitem>Потребителят е влязъл в акаунта си</listitem>
+		    <listitem>Потребителят е вписан в системата</listitem>
 			<listitem>Потребителят има право да променя тикета</listitem>
 		  </itemizedlist>
 		</listitem>
@@ -632,10 +618,9 @@
           </itemizedlist>
 		</listitem>
 	  </itemizedlist>
-	<step><para>Потребителят е логнат в системата</para></step>
 	<step><para>Потребителят отваря желания тикет</para></step>
 	<step><para>Потребителят избира опцията за прибавяне на файл</para></step>
-    <step><para>Потребителят избира желания файл от потвърждава</para></step>
+    <step><para>Потребителят избира желания файл и потвърждава изпращането</para></step>
 	<step><para>Системата прибавя файла към тикета</para>
 	<stepalternatives>
 		<step><para>Системата не приема файла, защото е прекалено голям или от забранен тип и съобщата това на потребителя</para></step>
@@ -650,7 +635,7 @@
       <listitem>
         Обхват
         <itemizedlist>
-          <listitem>Подсистемата за тикети</listitem>
+          <listitem>Подсистема за тикети</listitem>
         </itemizedlist>
       </listitem>
 	  <listitem>
@@ -662,7 +647,7 @@
 		<listitem>
 		  Предусловия
 		  <itemizedlist>
-		    <listitem>Потребителят е влязъл в акаунта си</listitem>
+		    <listitem>Потребителят е вписан в системата</listitem>
 			<listitem>Потребителят има право да вижда тикетите</listitem>
 		  </itemizedlist>
 		</listitem>
@@ -682,7 +667,6 @@
           </itemizedlist>
 		</listitem>
 	</itemizedlist>
-    <step><para>Потребителят е логнат в системата</para></step>
 	<step><para>Потребителят въвежда критерии за показване на тикетите</para></step>
 	<step><para>Системата извежда тикетите, които отговарят на съответните критерии</para>
 	<stepalternatives>
@@ -697,19 +681,19 @@
 			<listitem>
 				Обхват
 				<itemizedlist>
-					<listitem>Единичен тикет</listitem>
+					<listitem>Подсистема за тикети</listitem>
 				</itemizedlist>
 			</listitem>
 			<listitem>
 				Участници
 				<itemizedlist>
-					<listitem>Потребителите разполагащи с права за виждане/редактиране на съответния тикет</listitem>
+					<listitem>Потребител</listitem>
 				</itemizedlist>
 			</listitem>
 			<listitem>
 			  Предусловия
 			  <itemizedlist>
-				<listitem>Потребителят е влязъл в акаунта си</listitem>
+				<listitem>Потребителят е вписан в системата</listitem>
 				<listitem>Потребителят има право да променя тикета</listitem>
 			  </itemizedlist>
 			</listitem>
@@ -726,7 +710,6 @@
 				</itemizedlist>
 			</listitem>
 		</itemizedlist>
-	<step><para>Потребителят е логнат в системата</para></step>
 	<step><para>Потребителят избира тикета, който желае да промени</para></step>
 	<step><para>Потребителят избира новият собственик (от списък с възможните)</para></step>
 	<step><para>Системата запазва промените</para></step>
@@ -751,7 +734,8 @@
       <listitem>
         Участници
         <itemizedlist>
-          <listitem>Всички потребители</listitem>
+          <listitem>Потребител</listitem>
+          <listitem>Администратор</listitem>
         </itemizedlist>
       </listitem>
 
@@ -774,15 +758,15 @@
       </listitem>
     </itemizedlist>
 
-    <step><para>Потребителят с административни функции променя правата на потребител поради смяна на длъжността на този потребител</para></step>
+    <step><para>Администраторът променя правата на потребител поради смяна на длъжността на този потребител</para></step>
     <step><para>Системата поисква потвърждение</para>
       <stepalternatives>
-        <step><para>Системата не приема данните и съобщава за това на потребителя с административни функции</para></step>
+        <step><para>Системата не приема данните и съобщава за това на администратора</para></step>
       </stepalternatives>
     </step>
-    <step><para>Потребителят с административни функции потвърждава промените и системата запазва нововъведените данни</para>
+    <step><para>Администраторът потвърждава промените и системата запазва нововъведените данни</para>
       <stepalternatives>
-        <step><para>Потребителят с административни функции отказва промените и системата не променя данните</para></step>
+        <step><para>Администраторът отказва промените и системата не променя данните</para></step>
       </stepalternatives>
     </step>
 
