@@ -295,7 +295,49 @@
   <!--Maria-->
   <procedure>
     <title>Изтриване на коментари по статуса на клиента</title>
-    <!--step></step-->
+	  <itemizedlist>
+
+      <listitem>
+        Обхват
+        <itemizedlist>
+          <listitem>Подсистема за редактиране на коментари</listitem>
+          <listitem>Подсистема за поддръжка на списъка с клиенти</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Участници
+        <itemizedlist>
+          <listitem>Потребителите без ръководни функции</listitem>
+		  <listitem>Администратор на системата</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Предусловия
+        <itemizedlist>
+		  <listitem>Потребителят е вписан в системата</listitem>
+          <listitem>Потребителят има права за изтриване</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Резултати
+        <itemizedlist>
+          <listitem>Потребителят изтрива създаден статус</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Честота: сравнително рядко
+      </listitem>
+    </itemizedlist>
+
+    <step><para>Потребителят намира статуса, който би желал да изтрие</para></step>
+    <step><para>Потребителят преминава в режим редактиране</para>
+	<step><para>Потребителят селектира коментара</para></step>
+	<step><para>Потребителят изтрива коментара</para></step>
+	<step><para>Статусът вече не е наличен в информацията за Клиента</para></step>
   </procedure>
   <procedure>
     <title>Въвеждане на данни за дадено устройство и неговите компоненти</title>
