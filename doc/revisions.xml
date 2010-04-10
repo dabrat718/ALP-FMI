@@ -49,6 +49,7 @@
 	</revision>
         <revision>
                 <revnumber>0.5.4</revnumber>
+		<date>10.04.2010</date>
 		<authorinitials>Мария</authorinitials>
                 <revremark>Потребителски за създаване, редактиране и изтриване на статус на Клиента</revremark>
 	</revision>
