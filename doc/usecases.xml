@@ -1,5 +1,7 @@
 <sect1>
   <title>Потребителски случаи</title>
+
+  <!--==========================-->
   <procedure>
     <title>Вписване в системата</title>
     <itemizedlist>
@@ -21,6 +23,7 @@
       <listitem>
         Предусловия
         <itemizedlist>
+          <listitem>Потребителят е регистриран в системата</listitem>
           <listitem>Потребителят не е вписан в системата</listitem>
         </itemizedlist>
       </listitem>
@@ -42,6 +45,13 @@
       <listitem>
         Честота: много често
       </listitem>
+
+      <listitem>
+        Заинтересувани лица
+        <itemizedlist>
+          <listitem>Потребителите без ръководни функции</listitem>
+        </itemizedlist>
+      </listitem>
     </itemizedlist>
 
     <step><para>Потребителят иска да се впише в системата</para></step>
@@ -55,37 +65,116 @@
     </step>
 
   </procedure>
-
-    <!--<step></step>-->
-	<!--<step>-->
-      <!--<para>-->
-        <!--A Step-->
-        <!--</para>-->
-      <!--</step>-->
-<!--<step>-->
-  <!--<para>-->
-    <!--Another Step-->
-    <!--</para>-->
-  <!--<substeps>-->
-    <!--<step>-->
-      <!--<para>-->
-        <!--Substeps can be nested indefinitely deep.-->
-        <!--</para>-->
-      <!--</step>-->
-    <!--</substeps>-->
-  <!--</step>-->
-<!--<step>-->
-  <!--<para>-->
-    <!--A Final Step-->
-    <!--</para>-->
-  <!--</step>-->
-<!--</procedure>-->
+  
+  <!--==========================-->
   <procedure>
     <title>Изход от системата</title>
-    <!--step></step-->
+    <itemizedlist>
+
+      <listitem>
+        Обхват
+        <itemizedlist>
+          <listitem>Подсистема за вписване</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Участници
+        <itemizedlist>
+          <listitem>Потребителите без ръководни функции</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Предусловия
+        <itemizedlist>
+          <listitem>Потребителят е вписан в системата</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Резултати
+        <itemizedlist>
+          <listitem>Потребителят не е вписан в системата</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Честота: много често
+      </listitem>
+      <listitem>
+        Заинтересувани лица
+        <itemizedlist>
+          <listitem>Потребителите без ръководни функции</listitem>
+        </itemizedlist>
+      </listitem>
+
+    </itemizedlist>
+
+    <step><para>Потребителят иска да се отпише от системата</para></step>
+    <step><para>Системата отписва потребителя</para></step>
   </procedure>
+
+
+  <!--==========================-->
   <procedure>
-    <title>Регистриция на нов потребител</title>
+    <title>Регистрация на нов потребител</title>
+    <itemizedlist>
+
+      <listitem>
+        Обхват
+        <itemizedlist>
+          <listitem>Подсистема за вписване</listitem>
+          <listitem>Подсистема за административни потребители</listitem>
+          <listitem>Подсистема за изпращане на email съобщения</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Участници
+        <itemizedlist>
+          <listitem>Потребителите без ръководни функции</listitem>
+          <listitem>Потребителите с административни функции</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Предусловия
+        <itemizedlist>
+          <listitem>Потребителят
+            <footnote>
+              <para>Потребителите с административни функции са зададени в самата система.</para>
+          </footnote>
+          не е регистриран в системата</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Резултати
+        <itemizedlist>
+          <listitem>Потребителят без ръководни функции е регистриран в системата</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Честота: сравнително рядко след първоначален период на регистрации
+      </listitem>
+    </itemizedlist>
+
+    <step><para>Административният потребител въвежда информация за потребителя в системата</para></step>
+    <step><para>Системата генерира произволна парола, която изпраща на електронната поща на потребителя</para>
+      <stepalternatives>
+        <step><para>Email съобщението не е изпратено успешно </para>
+          <substeps>
+            <step><para>Системата уведомява административния потребител</para></step>
+            <step><para>Административният потребител променя Email адреса на потребителя и опитва да регистрира потребителя отново</para></step>
+          </substeps>
+        </step>
+        <!--<step><para>Административният потребител иска от потребителя валиден email адрес и повтаря горната стъпка</para></step>-->
+      </stepalternatives>
+    </step>
+
+    <step><para>Потребителят е регистриран</para></step>
     <!--step></step-->
   </procedure>
   <procedure>
