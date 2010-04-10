@@ -360,13 +360,7 @@
     </itemizedlist>
 
     <step><para>Потребителят вписва информация за клиент</para></step>
-    <step><para>Системата потвърждава въвеждането</para>
-      <stepalternatives>
-        <step>
-          <para>Системата съобщава, че този клиент вече съществува </para>
-        </step>
-      </stepalternatives>
-    </step>
+    <step><para>Системата потвърждава въвеждането</para></step>
   </procedure>
   <procedure>
     <title>Редактиране на информацията за клиент на Компанията</title>

@@ -42,7 +42,7 @@
 </xsl:template>
 
 <xsl:template match="procedure/title">
-  <xsl:text>{\sc \textbf{ </xsl:text>
+  <xsl:text>{\scshape{\bfseries </xsl:text>
   <xsl:apply-templates/>
   <xsl:text>}}</xsl:text>
 </xsl:template>
@@ -62,9 +62,20 @@
   <xsl:text>\end{usecase}</xsl:text>
 </xsl:template>
 
+<xsl:template match="step">
+  <xsl:if test="not(parent::stepalternatives)">
+    <xsl:text>\setcounter{alternative}{0}</xsl:text>
+  </xsl:if>
+  <xsl:text>\item{</xsl:text>
+  <xsl:call-template name="label.id"/>
+  <xsl:apply-templates/>
+  <xsl:text>}&#10;</xsl:text>
+</xsl:template>
+
 <xsl:template match="step/stepalternatives">
-  <xsl:text>\vspace{14pt}
-    \\
+  <xsl:text>
+    \medskip
+    \stepcounter{alternative}
     \textbf{Алтернатива UC-\arabic{usecase}/\arabic{enumi}-A\arabic{alternative}}
 
   </xsl:text>

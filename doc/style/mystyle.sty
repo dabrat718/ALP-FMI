@@ -82,6 +82,7 @@
 
 \newcounter{usecase}
 \newcounter{alternative}
+\setcounter{alternative}{0}
 
 \newenvironment{usecase}[1]%
 {\refstepcounter{usecase}\par\noindent
@@ -111,7 +112,7 @@
   \ifx\DBKsubtitle\relax\else%
     \underline{\ \ \ \ \ \ \ \ \ \ \ }\\ %
     \ \\ %
-    \huge{\textbf{\DBKsubtitle}}\\ %
+    \large{\textbf{\DBKsubtitle}}\\ %
     \ \\ %
     \large{\textit{\DBKauthor}}\\ %
     \ \\ %
