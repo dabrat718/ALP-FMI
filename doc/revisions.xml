@@ -34,5 +34,12 @@
 		<date>10.04.2010</date>
 		<authorinitials>Емил</authorinitials>
                 <revremark>Потребителски случаи за влизане/излизане от системата; регистрация на нов потребител в системата</revremark>
+                </revision>
+  <revision>
+		<revnumber>0.4a</revnumber>
+		<date>10.04.2010</date>
+		<authorinitials>Валентина</authorinitials>
+		<revremark>Потребителски случаи -  от UC-4 до UC-6</revremark>
 	</revision>
+
 </revhistory>
