@@ -61,7 +61,11 @@
 </xsl:template>
 
 <xsl:template match="step/stepalternatives">
-  \textbf{Алтернатива:}
+  <xsl:text>\vspace{14pt}
+    \\
+    \textbf{Алтернатива UC-\arabic{usecase}/\arabic{enumi}-A\arabic{enumii}}
+
+  </xsl:text>
   <xsl:apply-templates select="*[not(self::step)]"/>
   <xsl:if test="./step">
     <xsl:text>\begin{enumerate}&#10;</xsl:text>
