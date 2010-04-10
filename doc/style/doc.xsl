@@ -63,19 +63,15 @@
 <xsl:template match="step/stepalternatives">
   <xsl:text>\vspace{14pt}
     \\
-    \textbf{Алтернатива UC-\arabic{usecase}/\arabic{enumi}-A\arabic{enumii}}
+    \textbf{Алтернатива UC-\arabic{usecase}/\arabic{enumi}-A\arabic{alternative}}
 
   </xsl:text>
   <xsl:apply-templates select="*[not(self::step)]"/>
   <xsl:if test="./step">
     <xsl:text>\begin{enumerate}&#10;</xsl:text>
-    <xsl:apply-templates select="step"/>
+    <xsl:apply-templates select="./step"/>
     <xsl:text>\end{enumerate}&#10;</xsl:text>
   </xsl:if>
-  <!--<xsl:text>\item{</xsl:text>-->
-  <!--<xsl:call-template name="label.id"/>-->
-  <!--<xsl:apply-templates/>-->
-  <!--<xsl:text>}&#10;</xsl:text>-->
 </xsl:template>
 
 <xsl:template match="authorgroup">
