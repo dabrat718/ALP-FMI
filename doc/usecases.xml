@@ -247,14 +247,12 @@
   <procedure>
     <title>Добавяне на файл към съществуващ тикет</title>
       <itemizedlist>
-	  
 		<listitem>
           Обхват
           <itemizedlist>
             <listitem>Единичен тикет</listitem>
 		  </itemizedlist>
 		</listitem>
-	  
 	    <listitem>
 		  Участници
 		  <itemizedlist>
@@ -263,7 +261,6 @@
 			</listitem>
 		  </itemizedlist>
 		</listitem>
-		
 		<listitem>
 		  Предусловия
 		  <itemizedlist>
@@ -271,57 +268,53 @@
 			<listitem>Потребителят има право да променя тикета</listitem>
 		  </itemizedlist>
 		</listitem>
-		
 		<listitem>
 		  Резултати
 		  <itemizedlist>
 		     <listitem>Файлът е успешно прикачен</listitem>
 		  </itemizedlist>
 		</listitem>
-		
 		<listitem>
 		  Изисквания
 		    <itemizedlist>
-			  <listitem>Към всеки тикет могат да бъдат прикачени X файла</listitem>
+			  <listitem>Към всеки тикет могат да бъдат прикачени X файла, с определен максимален размер</listitem>
 			</itemizedlist>
 		</listitem>
-		
 		<listitem>
 		  Честота: рядко
 		</listitem>
-		
 		<listitem>
           Заинтересувани лица
           <itemizedlist>
             <listitem>Потребителите без ръководни функции, имащи достъп до съответния тикет</listitem>
           </itemizedlist>
 		</listitem>
-		
 	  </itemizedlist>
-    <step><para>Потребителят е логнат в системата</para></step>
+	<step><para>Потребителят е логнат в системата</para></step>
 	<step><para>Потребителят отваря желания тикет</para></step>
 	<step><para>Потребителят избира опцията за прибавяне на файл</para></step>
-    <step><para>Потребителят избира желания файл от предложения и потвърждава</para></step>
+    <step><para>Потребителят избира желания файл от потвърждава</para></step>
 	<step><para>Системата прибавя файла към тикета</para></step>
+	<stepalternatives>
+		<step><para>Системата не приема файла, защото е прекалено голям или от забранен тип и съобщата това на потребителя</para></step>
+	</stepalternatives>
   </procedure>
+  
   <procedure>
     <title>Извеждане на списък от съществуващи тикети</title>
 	<itemizedlist>
-
       <listitem>
         Обхват
         <itemizedlist>
-          <listitem>Единичен тикет</listitem>
+          <listitem>Подсистемата за тикети</listitem>
         </itemizedlist>
       </listitem>
-
 	  <listitem>
 		Участници
 		  <itemizedlist>
-			<listitem>Потребителите разполагащи с права за виждане/редактиране на съответния тикет</listitem>
+			<listitem>Потребителите разполагащи с права за виждане/редактиране на тикети</listitem>
 		  </itemizedlist>
 	  </listitem>
-
 		<listitem>
 		  Предусловия
 		  <itemizedlist>
@@ -329,34 +322,68 @@
 			<listitem>Потребителят има право да вижда тикетите</listitem>
 		  </itemizedlist>
 		</listitem>
-
 		<listitem>
 		  Резултати
 		  <itemizedlist>
 		     <listitem>Извежда се списъка с желаните тикети</listitem>
 		  </itemizedlist>
 		</listitem>
-
 		<listitem>
 		  Честота: рядко
 		</listitem>
-		
 		<listitem>
           Заинтересувани лица
           <itemizedlist>
             <listitem>Потребителите без ръководни функции, имащи достъп до тикетите</listitem>
           </itemizedlist>
 		</listitem>
-
 	</itemizedlist>
     <step><para>Потребителят е логнат в системата</para></step>
 	<step><para>Потребителят въвежда критерии за показване на тикетите</para></step>
-	<step><para>Системата извежда тикетите, които отговарят на съответните критерии</para></step>				
+	<step><para>Системата извежда тикетите, които отговарят на съответните критерии</para></step>
+	<stepalternatives>
+		<step><para>Системата съобщава на потребителя, че няма тикети, отговарящи на критериите</para></step>
+	</stepalternatives>
   </procedure>
   <procedure>
-	<!--Stanislav-->
     <title>Промяна на собственика на съществуващ тикет</title>
-    <!--step></step-->
+		<itemizedlist>
+			<listitem>
+				Обхват
+				<itemizedlist>
+					<listitem>Единичен тикет</listitem>
+				</itemizedlist>
+			</listitem>
+			<listitem>
+				Участници
+				<itemizedlist>
+					<listitem>Потребителите разполагащи с права за виждане/редактиране на съответния тикет</listitem>
+				</itemizedlist>
+			</listitem>
+			<listitem>
+			  Предусловия
+			  <itemizedlist>
+				<listitem>Потребителят е влязъл в акаунта си</listitem>
+				<listitem>Потребителят има право да променя тикета</listitem>
+			  </itemizedlist>
+			</listitem>
+			<listitem>
+				Резултати
+				<itemizedlist>
+					<listitem>Тикетът има нов собственик</listitem>
+				</itemizedlist>
+			</listitem>
+			<listitem>
+				Условия
+				<itemizedlist>
+					<listitem>Системата трябва да позволява многократна промяна на собственика на тикет</listitem>
+				</itemizedlist>
+			</listitem>
+		</itemizedlist>
+	<step><para>Потребителят е логнат в системата</para></step>
+	<step><para>Потребителят избира тикета, който желае да промени</para></step>
+	<step><para>Потребителят избира новият собственик (от списък с възможните)</para></step>
+	<step><para>Системата запазва промените</para></step>
   </procedure>
   <procedure>
     <title>Стартиране на интегрирания счетоводен модул</title>
