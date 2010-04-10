@@ -19,7 +19,7 @@
       <listitem>
         Участници
         <itemizedlist>
-          <listitem>Потребителите без ръководни функции</listitem>
+          <listitem>Потребител</listitem>
         </itemizedlist>
       </listitem>
 
@@ -52,7 +52,7 @@
       <listitem>
         Заинтересувани лица
         <itemizedlist>
-          <listitem>Потребителите без ръководни функции</listitem>
+          <listitem>Потребител</listitem>
         </itemizedlist>
       </listitem>
     </itemizedlist>
@@ -84,7 +84,7 @@
       <listitem>
         Участници
         <itemizedlist>
-          <listitem>Потребителите без ръководни функции</listitem>
+          <listitem>Потребители</listitem>
         </itemizedlist>
       </listitem>
 
@@ -108,7 +108,7 @@
       <listitem>
         Заинтересувани лица
         <itemizedlist>
-          <listitem>Потребителите без ръководни функции</listitem>
+          <listitem>Потребител</listitem>
         </itemizedlist>
       </listitem>
 
@@ -136,7 +136,7 @@
       <listitem>
         Участници
         <itemizedlist>
-          <listitem>Потребителите без ръководни функции</listitem>
+          <listitem>Потребителите</listitem>
           <listitem>Потребителите с административни функции</listitem>
         </itemizedlist>
       </listitem>
@@ -152,7 +152,7 @@
       <listitem>
         Резултати
         <itemizedlist>
-          <listitem>Потребителят без ръководни функции е регистриран в системата</listitem>
+          <listitem>Потребителят е регистриран в системата</listitem>
         </itemizedlist>
       </listitem>
 
@@ -307,25 +307,272 @@
 
     <!--step></step-->
   </procedure>
-  <procedure>
-    <title>Въвеждане на информация за клиент на Компанията</title>
-    <!--step></step-->
+   <procedure>
+    <title>Въвеждане на информация за нов клиент на Компанията</title>
+   <itemizedlist>
+
+      <listitem>
+        Обхват
+        <itemizedlist>
+          <listitem>Подсистема за вписване на клиенти</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Участници
+        <itemizedlist>
+          <listitem>Потребители от Отдел работа с клиенти</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Предусловия
+        <itemizedlist>
+          <listitem>няма</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Резултати
+        <itemizedlist>
+          <listitem>Въведена е информация за клиента</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Изисквания
+        <itemizedlist>
+          <listitem>Системата да може да вписва до 5 клиента едновременно</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Честота: от време на време
+      </listitem>
+
+      <listitem>
+        Заинтересувани лица
+        <itemizedlist>
+          <listitem>Потребители</listitem>
+		  <listitem>Клиенти</listitem>
+        </itemizedlist>
+      </listitem>
+    </itemizedlist>
+
+    <step><para>Потребителят вписва информация за клиент</para></step>
+    <step><para>Системата потвърждава въвеждането</para>
+      <stepalternatives>
+        <step>
+          <para>Системата съобщава, че този клиент вече съществува </para>
+        </step>
+      </stepalternatives>
+    </step>
   </procedure>
   <procedure>
     <title>Редактиране на информацията за клиент на Компанията</title>
-    <!--step></step-->
-  </procedure>
-  <procedure>
+<itemizedlist>
+
+      <listitem>
+        Обхват
+        <itemizedlist>
+          <listitem>Подсистема за вписване на клиенти</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Участници
+        <itemizedlist>
+          <listitem>Потребители от Отдел работа с клиенти</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Предусловия
+        <itemizedlist>
+          <listitem>клиентът вече е въведен в системата</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Резултати
+        <itemizedlist>
+          <listitem>Информацията за клиента е редактирана</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Изисквания
+        <itemizedlist>
+          <listitem>Системата да може да редактира до 5 клиента едновременно</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Честота: често
+      </listitem>
+
+      <listitem>
+        Заинтересувани лица
+        <itemizedlist>
+          <listitem>Потребители</listitem>
+		  <listitem>Клиенти</listitem>
+        </itemizedlist>
+      </listitem>
+    </itemizedlist>
+
+    <step><para>Потребителят редактира информацията за клиент</para></step>
+    <step><para>Системата потвърждава редактирането</para>
+      <stepalternatives>
+        <step>
+          <para>Системата съобщава, че този клиент не съществува</para>
+        </step>
+      </stepalternatives>
+    </step>
+ </procedure>
+    <!--Maria-->
+ <procedure>
     <title>Добавяне на коментари по статуса на клиента</title>
-    <!--step></step-->
+    <itemizedlist>
+
+      <listitem>
+        Обхват
+        <itemizedlist>
+          <listitem>Подсистема за добавяне на коментари</listitem>
+          <listitem>Подсистема за поддръжка на списъка с клиенти</listitem>
+          <listitem>Подсистема за изпращане на тикети</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Участници
+        <itemizedlist>
+          <listitem>Потребител</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Предусловия
+        <itemizedlist>
+		  <listitem>Потребителят е вписан в системата</listitem>
+          <listitem>Потребителят е узнал нова информация за клиента, която трябва да бъде узната и от останалите колеги в Компаниятаistitem</listitem>
+		  <listitem>Потребителят иска да впише коментара си както като обикновен статус, така и като тикет</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Резултати
+        <itemizedlist>
+          <listitem>Потребителят въвежда успешно нов статус (коментар) за Клиент</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Честота: често
+      </listitem>
+    </itemizedlist>
+
+    <step><para>Потребителят отваря формата за въвеждане на статус</para></step>
+    <step><para>Потребителят указва дали коментарът да бъде записан само като статус или и като тикет</para></step>
+	<step><para>Потребителят въвежда коментара</para></step>
+	<step><para>Потребителят запазва/изпраща статуса</para></step>
+    <step><para>Статусът вече е наличен в информацията за Клиента</para></step>
   </procedure>
+
+  <!--Maria-->
   <procedure>
     <title>Редактиране на коментари по статуса на клиента</title>
-    <!--step></step-->
+    <itemizedlist>
+
+      <listitem>
+        Обхват
+        <itemizedlist>
+          <listitem>Подсистема за редактиране на коментари</listitem>
+          <listitem>Подсистема за поддръжка на списъка с клиенти</listitem>
+          <listitem>Тикет система</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Участници
+        <itemizedlist>
+          <listitem>Потребител</listitem>
+          <listitem>Ръководство</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Предусловия
+        <itemizedlist>
+		  <listitem>Потребителят е вписан в системата</listitem>
+          <listitem>Потребителят е узнал информация, свързана със стауса на Клиента, която трябва да бъде въведена в този статус или да нанесе поправки, върху него</listitem>
+		  <listitem>Потребителят има права за редактиране</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Резултати
+        <itemizedlist>
+          <listitem>Потребителят редактира създаден статус</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Честота: сравнително рядко
+      </listitem>
+    </itemizedlist>
+
+    <step><para>Потребителят намира статуса, който би желал да редактира</para></step>
+    <step><para>Потребителят преминава в режим редактиране</para></step>
+	<step><para>Потребителят редактира коментара</para></step>
+	<step><para>Потребителят запазва редакцията</para></step>
+    <step><para>Статусът вече е наличен в информацията за Клиента</para></step>
   </procedure>
+  <!--Maria-->
   <procedure>
     <title>Изтриване на коментари по статуса на клиента</title>
-    <!--step></step-->
+	  <itemizedlist>
+
+      <listitem>
+        Обхват
+        <itemizedlist>
+          <listitem>Подсистема за редактиране на коментари</listitem>
+          <listitem>Подсистема за поддръжка на списъка с клиенти</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Участници
+        <itemizedlist>
+          <listitem>Потребител</listitem>
+		  <listitem>Администратор на системата</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Предусловия
+        <itemizedlist>
+		  <listitem>Потребителят е вписан в системата</listitem>
+          <listitem>Потребителят има права за изтриване</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Резултати
+        <itemizedlist>
+          <listitem>Потребителят изтрива създаден статус</listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        Честота: сравнително рядко
+      </listitem>
+    </itemizedlist>
+
+    <step><para>Потребителят намира статуса, който би желал да изтрие</para></step>
+    <step><para>Потребителят преминава в режим редактиране</para></step>
+	<step><para>Потребителят селектира коментара</para></step>
+	<step><para>Потребителят изтрива коментара</para></step>
+	<step><para>Статусът вече не е наличен в информацията за Клиента</para></step>
   </procedure>
   <procedure>
     <title>Въвеждане на данни за дадено устройство и неговите компоненти</title>
@@ -367,16 +614,150 @@
     <!--step></step-->
   </procedure>
   <procedure>
+	<!--Stanislav-->
     <title>Добавяне на файл към съществуващ тикет</title>
-    <!--step></step-->
+      <itemizedlist>
+		<listitem>
+          Обхват
+          <itemizedlist>
+            <listitem>Единичен тикет</listitem>
+		  </itemizedlist>
+		</listitem>
+	    <listitem>
+		  Участници
+		  <itemizedlist>
+			<listitem>
+				Потребителите разполагащи с права за виждане/редактиране на съответния тикет
+			</listitem>
+		  </itemizedlist>
+		</listitem>
+		<listitem>
+		  Предусловия
+		  <itemizedlist>
+		    <listitem>Потребителят е влязъл в акаунта си</listitem>
+			<listitem>Потребителят има право да променя тикета</listitem>
+		  </itemizedlist>
+		</listitem>
+		<listitem>
+		  Резултати
+		  <itemizedlist>
+		     <listitem>Файлът е успешно прикачен</listitem>
+		  </itemizedlist>
+		</listitem>		
+		<listitem>
+		  Изисквания
+		    <itemizedlist>
+			  <listitem>Към всеки тикет могат да бъдат прикачени X файла, с определен максимален размер</listitem>
+			</itemizedlist>
+		</listitem>
+		<listitem>
+		  Честота: рядко
+		</listitem>
+		<listitem>
+          Заинтересувани лица
+          <itemizedlist>
+            <listitem>Потребител, имащ достъп до съответния тикет</listitem>
+          </itemizedlist>
+		</listitem>
+	  </itemizedlist>
+	<step><para>Потребителят е логнат в системата</para></step>
+	<step><para>Потребителят отваря желания тикет</para></step>
+	<step><para>Потребителят избира опцията за прибавяне на файл</para></step>
+    <step><para>Потребителят избира желания файл от потвърждава</para></step>
+	<step><para>Системата прибавя файла към тикета</para>
+	<stepalternatives>
+		<step><para>Системата не приема файла, защото е прекалено голям или от забранен тип и съобщата това на потребителя</para></step>
+	</stepalternatives>
+      </step>
   </procedure>
+  
   <procedure>
+	<!--Stanislav-->
     <title>Извеждане на списък от съществуващи тикети</title>
-    <!--step></step-->
+	<itemizedlist>
+      <listitem>
+        Обхват
+        <itemizedlist>
+          <listitem>Подсистемата за тикети</listitem>
+        </itemizedlist>
+      </listitem>
+	  <listitem>
+		Участници
+		  <itemizedlist>
+			<listitem>Потребителите разполагащи с права за виждане/редактиране на тикети</listitem>
+		  </itemizedlist>
+	  </listitem>
+		<listitem>
+		  Предусловия
+		  <itemizedlist>
+		    <listitem>Потребителят е влязъл в акаунта си</listitem>
+			<listitem>Потребителят има право да вижда тикетите</listitem>
+		  </itemizedlist>
+		</listitem>
+		<listitem>
+		  Резултати
+		  <itemizedlist>
+		     <listitem>Извежда се списъка с желаните тикети</listitem>
+		  </itemizedlist>
+		</listitem>
+		<listitem>
+		  Честота: рядко
+		</listitem>
+		<listitem>
+          Заинтересувани лица
+          <itemizedlist>
+            <listitem>Потребител, имащ достъп до тикетите</listitem>
+          </itemizedlist>
+		</listitem>
+	</itemizedlist>
+    <step><para>Потребителят е логнат в системата</para></step>
+	<step><para>Потребителят въвежда критерии за показване на тикетите</para></step>
+	<step><para>Системата извежда тикетите, които отговарят на съответните критерии</para>
+	<stepalternatives>
+		<step><para>Системата съобщава на потребителя, че няма тикети, отговарящи на критериите</para></step>
+	</stepalternatives>
+      </step>
   </procedure>
   <procedure>
+	<!--Stanislav-->
     <title>Промяна на собственика на съществуващ тикет</title>
-    <!--step></step-->
+		<itemizedlist>
+			<listitem>
+				Обхват
+				<itemizedlist>
+					<listitem>Единичен тикет</listitem>
+				</itemizedlist>
+			</listitem>
+			<listitem>
+				Участници
+				<itemizedlist>
+					<listitem>Потребителите разполагащи с права за виждане/редактиране на съответния тикет</listitem>
+				</itemizedlist>
+			</listitem>
+			<listitem>
+			  Предусловия
+			  <itemizedlist>
+				<listitem>Потребителят е влязъл в акаунта си</listitem>
+				<listitem>Потребителят има право да променя тикета</listitem>
+			  </itemizedlist>
+			</listitem>
+			<listitem>
+				Резултати
+				<itemizedlist>
+					<listitem>Тикетът има нов собственик</listitem>
+				</itemizedlist>
+			</listitem>
+			<listitem>
+				Условия
+				<itemizedlist>
+					<listitem>Системата трябва да позволява многократна промяна на собственика на тикет</listitem>
+				</itemizedlist>
+			</listitem>
+		</itemizedlist>
+	<step><para>Потребителят е логнат в системата</para></step>
+	<step><para>Потребителят избира тикета, който желае да промени</para></step>
+	<step><para>Потребителят избира новият собственик (от списък с възможните)</para></step>
+	<step><para>Системата запазва промените</para></step>
   </procedure>
   <procedure>
     <title>Стартиране на интегрирания счетоводен модул</title>
