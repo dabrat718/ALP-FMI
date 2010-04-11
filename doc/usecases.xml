@@ -121,7 +121,7 @@
 
   <!--==========================-->
   <procedure id="usecase_registration">
-    <title>Регистрация на нов потребител<footnote><para>Администраторите са зададени в самата система.</para></footnote></title>
+    <title>Регистрация на нов потребител<!--<footnote><para>Администраторите са зададени в самата система.</para></footnote>--></title>
     <itemizedlist>
 
       <listitem>
