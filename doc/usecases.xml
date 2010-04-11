@@ -5,7 +5,7 @@
   </para>
 
   <!--==========================-->
-  <procedure>
+  <procedure id="usecase_login">
     <title>Вписване в системата</title>
     <itemizedlist>
 
@@ -70,7 +70,7 @@
   </procedure>
   
   <!--==========================-->
-  <procedure>
+  <procedure id="usecase_logout">
     <title>Изход от системата</title>
     <itemizedlist>
 
@@ -120,8 +120,8 @@
 
 
   <!--==========================-->
-  <procedure>
-    <title>Регистрация на нов потребител</title>
+  <procedure id="usecase_registration">
+    <title>Регистрация на нов потребител<footnote><para>Администраторите са зададени в самата система.</para></footnote></title>
     <itemizedlist>
 
       <listitem>
@@ -144,7 +144,7 @@
       <listitem>
         Предусловия
         <itemizedlist>
-          <listitem>Потребителят<footnote><para>Потребителите с административни функции са зададени в самата система.</para></footnote>
+          <listitem>Потребителят
           не е регистриран в системата</listitem>
         </itemizedlist>
       </listitem>
@@ -179,7 +179,7 @@
   </procedure>
 
 
-  <procedure>
+  <procedure id="usecase_edit_user">
     <title>Промяна на информацията за съществуващ потребител</title>
 
     <itemizedlist>
@@ -228,7 +228,7 @@
   </procedure>
 
 
-  <procedure>
+  <procedure id="usecase_delete_user">
     <title>Изтриване на съществуващ потребител</title>
     <itemizedlist>
       
@@ -278,7 +278,7 @@
 
     <!--step></step-->
   </procedure>
-   <procedure>
+   <procedure id="usecase_new_client">
     <title>Въвеждане на информация за нов клиент на Компанията</title>
    <itemizedlist>
 
@@ -332,7 +332,7 @@
       </stepalternatives>
     </step>
   </procedure>
-  <procedure>
+  <procedure id="usecase_edit_client">
     <title>Редактиране на информацията за клиент на Компанията</title>
 <itemizedlist>
 
@@ -395,7 +395,7 @@
     </step>
  </procedure>
     <!--Maria-->
- <procedure>
+ <procedure id="usecase_add_comment">
     <title>Добавяне на коментари по статуса на клиент</title>
     <itemizedlist>
 
@@ -441,7 +441,7 @@
   </procedure>
 
   <!--Maria-->
-  <procedure>
+  <procedure id="usecase_edit_comment">
     <title>Редактиране на коментари по статуса на клиент</title>
     <itemizedlist>
 
@@ -488,7 +488,7 @@
     <step><para>Статусът вече е наличен в информацията за клиента</para></step>
   </procedure>
   <!--Maria-->
-  <procedure>
+  <procedure id="usecase_delete_comment">
     <title>Изтриване на коментари по статуса на клиент</title>
       <itemizedlist>
 
@@ -523,7 +523,7 @@
 
       <listitem>
         Честота: сравнително рядко
-      </listitem>с
+      </listitem>
     </itemizedlist>
 
     <step><para>Потребителят намира статуса, чийто коментар би желал да изтрие</para></step>
@@ -533,7 +533,7 @@
     <step><para>Коментарът вече не е наличен</para></step>
   </procedure>
   
-  <procedure>
+  <procedure id="usecase_add_device">
     <title>Въвеждане на данни за дадено устройство и неговите компоненти</title>
     <itemizedlist>
 
@@ -574,29 +574,29 @@
       </listitem>
     </itemizedlist>
 
-    <step><para>Потребителят избира устройството, което желае ка коригира (създава ново ако не съществува)</para></step>
-    <step><para>Потребителят променя или добавя нови данни във вид на текст и цифри</para></step>
+    <step><para>Потребителят избира устройството, което желае ка коригира (създава ново, ако не съществува)</para></step>
+    <step><para>Потребителят променя или добавя нови данни</para></step>
     <step><para>Потребителят запазва промените, които е извършил</para>
       <stepalternatives>
         <step>
-          <para>Системата не приема промените и съобщата на потребителя</para>
+          <para>Системата не приема промените и съобщава на потребителя</para>
         </step>
       </stepalternatives>
     </step>
   </procedure>
-    <procedure>
+    <procedure id="usecase_new_ticket_mount">
       <title>Въвеждане на тикет за извършване на нови монтажи</title>
     <!--step></step-->
   </procedure>
-  <procedure>
+  <procedure id="usecase_new_ticket_repair">
     <title>Въвеждане на тикет за извършване на ремонт</title>
     <!--step></step-->
   </procedure>
-  <procedure>
+  <procedure id="usecase_transfer_ticket">
     <title>Прехвърляне на тикет за извършване на ремонт <!--към Сервизния отдел--></title>
     <!--step></step-->
   </procedure>
-  <procedure>
+  <procedure id="usecase_compatible">
     <title>Изготвяне на справка за съвместимост на устройства и изисквания</title>
     
     <itemizedlist>
@@ -617,7 +617,6 @@
       <listitem>
         Предусловия
         <itemizedlist>
-          <listitem>Потребителят е регистриран в системата</listitem>
           <listitem>Потребителят е вписан в системата</listitem>
         </itemizedlist>
       </listitem>
@@ -640,26 +639,26 @@
     <step><para>Потребителят получава желаната справка</para></step>
   </procedure>
   
-  <procedure>
+  <procedure id="usecase_query">
     <title>Изготвяне на справки за клиенти, потребители, плащания, монтирани обекти</title>
     <!--step></step-->
   </procedure>
-  <procedure>
+  <procedure id="usecase_full_query">
     <title>Изготвяне на цялостна справка</title>
   </procedure>
-  <procedure>
+  <procedure id="usecase_forward_ticket">
     <title>Препращане на тикет</title>
     <!--step></step-->
   </procedure>
-  <procedure>
+  <procedure id="usecase_change_ticket_status">
     <title>Промяна на статуса на тикет</title>
     <!--step></step-->
   </procedure>
-  <procedure>
+  <procedure id="usecase_add_message_to_ticket">
     <title>Добавяне на съобщение към съществуващ тикет</title>
     <!--step></step-->
   </procedure>
-  <procedure>
+  <procedure id="usecase_add_file_to_ticket">
     <!--Stanislav-->
     <title>Добавяне на файл към съществуващ тикет</title>
       <itemizedlist>
@@ -716,7 +715,7 @@
       </step>
   </procedure>
   
-  <procedure>
+  <procedure id="usecase_list_tickets">
     <!--Stanislav-->
     <title>Извеждане на списък от съществуващи тикети</title>
     <itemizedlist>
@@ -762,7 +761,7 @@
     </stepalternatives>
       </step>
   </procedure>
-  <procedure>
+  <procedure id="usecase_ticket_owner">
     <!--Stanislav-->
     <title>Промяна на собственика на съществуващ тикет</title>
         <itemizedlist>
@@ -802,12 +801,12 @@
     <step><para>Потребителят избира новият собственик (от списък с възможните)</para></step>
     <step><para>Системата запазва промените</para></step>
   </procedure>
-  <procedure>
+  <procedure id="usecase_start_accounting">
     <title>Стартиране на интегрирания счетоводен модул</title>
     <!--step></step-->
   </procedure>
 
-  <procedure>
+  <procedure id="usecase_special_rights">
     <title>Придобиване на специални права</title>
 
     <itemizedlist>
@@ -860,13 +859,13 @@
 
 
   </procedure>
-  <procedure>
+  <procedure id="usecase_check_employee">
     <title>Проверка на дейността на даден служител</title>
   </procedure>
-  <procedure>
+  <procedure id="usecase_check_daily">
     <title>Проверка на дейността на всички служители за деня</title>
   </procedure>
-  <procedure>
+  <procedure id="usecase_check_device">
     <title>Проверка за наличности на устойства</title>
     <itemizedlist>
       <listitem>

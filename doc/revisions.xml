@@ -33,46 +33,49 @@
 		<revnumber>0.5.1</revnumber>
 		<date>10.04.2010</date>
 		<authorinitials>Емил</authorinitials>
-                <revremark>Потребителски случаи за влизане/излизане от системата; регистрация на нов потребител в системата</revremark>
+                <revremark>Потребителски случаи: <xref linkend="usecase_login"/>,
+                  <xref linkend="usecase_logout"/>, <xref linkend="usecase_registration"/></revremark>
         </revision>
         <revision>
 		<revnumber>0.5.2</revnumber>
 		<date>10.04.2010</date>
 		<authorinitials>Валентина</authorinitials>
-		<revremark>Потребителски случаи за промяна на информацията за потребител, за изтриване на потребител и за придобиване на специални права</revremark>
+                <revremark>Потребителски случаи: <xref linkend="usecase_edit_user"/>, <xref linkend ="usecase_delete_user"/>,
+                  <xref linkend ="usecase_special_rights"/> </revremark>
 	</revision>
 	<revision>
 		<revnumber>0.5.3</revnumber>
 		<date>10.04.2010</date>
 		<authorinitials>Ники</authorinitials>
-		<revremark>Потребителски случаи -  UC-6 и UC-7</revremark>
+                <revremark>Потребителски случаи: <xref linkend ="usecase_new_client"/>, <xref linkend ="usecase_edit_client"/></revremark>
 	</revision>
         <revision>
                 <revnumber>0.5.4</revnumber>
 		<date>10.04.2010</date>
 		<authorinitials>Мария</authorinitials>
-                <revremark>Потребителски за създаване, редактиране и изтриване на статус на Клиента</revremark>
+                <revremark>Потребителски случаи: <xref linkend ="usecase_add_comment"/>, <xref linkend ="usecase_edit_comment"/></revremark>
 	</revision>
 	<revision>
 		<revnumber>0.5.5</revnumber>
 		<date>10.04.2010</date>
-                <authorinitials>С.Т.</authorinitials>
-		<revremark>Потребителски случаи за тикети</revremark>
+                <authorinitials>Станислав</authorinitials>
+                <revremark>Потребителски случаи: <xref linkend ="usecase_add_file_to_ticket"/>, <xref linkend ="usecase_list_tickets"/>,
+                  <xref linkend ="usecase_ticket_owner"/></revremark>
     </revision>
   
+    <revision>
+		<revnumber>0.5.7</revnumber>
+		<date>10.04.2010</date>
+                <authorinitials>Ивайло</authorinitials>
+                <revremark>Потребителски случаи: <xref linkend ="usecase_add_device"/>, <xref linkend="usecase_compatible"/>,
+                  <xref linkend ="usecase_check_device"/></revremark>
+    </revision>
     <revision>
 		<revnumber>0.5.6</revnumber>
 		<date>10.04.2010</date>
                 <authorinitials>Валентина</authorinitials>
 		<revremark>Редакция на потребителските случаи</revremark>
-	</revision>
-	
-    <revision>
-		<revnumber>0.5.7</revnumber>
-		<date>10.04.2010</date>
-                <authorinitials>Ивайло</authorinitials>
-		<revremark>Потребителски случаи: Въвеждане на данни за дадено устройство и неговите компоненти; Изготвяне на справка за съвместимост на устройства и изисквания; Проверка за наличности на устойства</revremark>
-	</revision>
+    </revision>
 	
 
 </revhistory>
