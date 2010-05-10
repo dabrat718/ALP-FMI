@@ -69,12 +69,21 @@
                 <revremark>Потребителски случаи: <xref linkend ="usecase_add_device"/>, <xref linkend="usecase_compatible"/>,
                   <xref linkend ="usecase_check_device"/></revremark>
     </revision>
+
     <revision>
 		<revnumber>0.5.7</revnumber>
 		<date>10.04.2010</date>
                 <authorinitials>Валентина</authorinitials>
 		<revremark>Редакция на потребителските случаи</revremark>
     </revision>
-	
+
+    <revision>
+		<revnumber>0.5.8</revnumber>
+		<date>1.05.2010</date>
+                <authorinitials>Валентина</authorinitials>
+                <authorinitials>Емил</authorinitials>
+                <authorinitials>Ивайло</authorinitials>
+		<revremark>Потребителски случай за въвеждане на тикет. Редакция на потребителски случаи.</revremark>
+    </revision>
 
 </revhistory>

@@ -5,6 +5,7 @@
   <!ENTITY revisions SYSTEM "revisions.xml"> 
   <!ENTITY overview SYSTEM "overview.xml"> 
   <!ENTITY usecases SYSTEM "usecases.xml"> 
+  <!ENTITY domain SYSTEM "domain.xml"> 
   <!ENTITY glossary SYSTEM "glossary.xml"> 
 ]>
 
@@ -19,5 +20,6 @@
   </articleinfo>
   &overview;
   &usecases;
+  &domain;
   &glossary;
 </article>
