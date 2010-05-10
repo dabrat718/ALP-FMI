@@ -59,8 +59,7 @@
 		<revnumber>0.5.5</revnumber>
 		<date>10.04.2010</date>
                 <authorinitials>Станислав</authorinitials>
-                <revremark>Потребителски случаи: <xref linkend ="usecase_add_file_to_ticket"/>, <xref linkend ="usecase_list_tickets"/>,
-                  <xref linkend ="usecase_ticket_owner"/></revremark>
+                <revremark>Потребителски случаи: <xref linkend ="usecase_list_tickets"/>, <xref linkend ="usecase_ticket_owner"/></revremark>
     </revision>
   
     <revision>

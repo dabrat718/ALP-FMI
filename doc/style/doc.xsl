@@ -64,10 +64,10 @@
 </xsl:template>
 
 <xsl:template match="step">
-  <xsl:if test="not(parent::stepalternatives)">
+  <xsl:if test="not(parent::stepalternatives|parent::substeps)">
     <xsl:text>\setcounter{alternative}{0}</xsl:text>
   </xsl:if>
-  <xsl:text>\item</xsl:text><xsl:if test="parent::stepalternatives"><xsl:text>[]</xsl:text></xsl:if><xsl:text>{</xsl:text>
+  <xsl:text>\item</xsl:text><xsl:if test="parent::stepalternatives"><xsl:text>[*]</xsl:text></xsl:if><xsl:text>{</xsl:text>
   <xsl:call-template name="label.id"/>
   <xsl:apply-templates/>
   <xsl:text>}&#10;</xsl:text>
@@ -78,12 +78,11 @@
     \medskip
     \stepcounter{alternative}
     \textbf{Алтернатива UC-\arabic{usecase}/\arabic{enumi}-A\arabic{alternative}}
-
   </xsl:text>
   <xsl:apply-templates select="*[not(self::step)]"/>
   <xsl:if test="./step">
     <xsl:text>\begin{enumerate}&#10;</xsl:text>
-    <xsl:apply-templates select="./step"/>
+      <xsl:apply-templates select="./step"/>
     <xsl:text>\end{enumerate}&#10;</xsl:text>
   </xsl:if>
 </xsl:template>
