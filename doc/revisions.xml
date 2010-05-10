@@ -86,4 +86,12 @@
 		<revremark>Потребителски случай за въвеждане на тикет. Редакция на потребителски случаи.</revremark>
     </revision>
 
+    <revision>
+		<revnumber>0.5.9</revnumber>
+		<date>9.05.2010</date>
+                <authorinitials>Ивайло</authorinitials>
+                <authorinitials>Валентина</authorinitials>
+                <authorinitials>Емил</authorinitials>
+		<revremark>Домейн модел</revremark>
+    </revision>
 </revhistory>
