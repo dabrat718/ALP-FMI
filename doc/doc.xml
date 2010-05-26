@@ -7,6 +7,7 @@
   <!ENTITY overview SYSTEM "overview.xml"> 
   <!ENTITY usecases SYSTEM "usecases.xml"> 
   <!ENTITY domain SYSTEM "domain.xml"> 
+  <!ENTITY diagrams SYSTEM "diagrams.xml"> 
   <!ENTITY glossary SYSTEM "glossary.xml"> 
 ]>
 
@@ -23,5 +24,6 @@
   &usecases;
   &furps;
   &domain;
+  &diagrams;
   &glossary;
 </article>

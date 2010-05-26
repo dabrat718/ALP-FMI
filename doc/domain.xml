@@ -1,10 +1,12 @@
 <!--Vision-->
 <sect1>
   <title>Домейн модел</title>
-  <para>Диаграмата показва моделът на предметната област.</para>
-  <mediaobject> 
-    <imageobject>
-      <imagedata fileref="../diagrams/domain.png" format="PNG"/>
-    </imageobject>
-  </mediaobject>
+  <figure>
+    <title>Диаграма на домейн модела</title>
+    <mediaobject> 
+      <imageobject>
+	<imagedata fileref="../diagrams/domain.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
 </sect1>

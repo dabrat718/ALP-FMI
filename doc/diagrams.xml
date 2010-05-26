@@ -1,0 +1,20 @@
+<!--Vision-->
+<sect1>
+  <title>Диаграми</title>
+  <figure>
+    <title>Диаграма на последователностите (System Sequence Diagram)</title>
+    <mediaobject> 
+      <imageobject>
+	<imagedata fileref="../diagrams/ssd-uc3.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+  <figure>
+    <title>Диаграма на преходите (State Chart Diagram) за статус на тикетите</title>
+    <mediaobject> 
+      <imageobject>
+	<imagedata fileref="../diagrams/scd-ticket.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+</sect1>
