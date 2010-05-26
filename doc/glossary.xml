@@ -138,6 +138,26 @@
 	</para>
       </glossdef>
     </glossentry>
+
+    <glossentry id="gloss_event">
+      <glossterm>
+	Събитие
+      </glossterm>
+      <glossdef>
+	<para>Действие, което подсистемата за събития трябва да запише и проследи. Видовете събития са
+	<itemizedlist>
+	  <listitem>Вписване на потребител</listitem>
+	  <listitem>Изход на потребител</listitem>
+	  <listitem>Въвеждане на нов тикет</listitem>
+	  <listitem>Промяна на тикет</listitem>
+	  <listitem>Административна промяна на профил</listitem>
+	  <listitem>Въвеждане на устройство</listitem>
+	  <listitem>Въвеждане на обект</listitem>
+	  <listitem>Въвеждане на бележка към статуса на клиент.</listitem>
+	</itemizedlist>
+      </para>
+      </glossdef>
+    </glossentry>
   </glossdiv>
 
   <glossdiv><title>Отдели на Компанията</title>

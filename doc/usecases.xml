@@ -40,7 +40,7 @@
 	Изисквания
 	<itemizedlist>
 	  <listitem>Системата да пази журнална информация за опитите за вписване на потребител след повече от три поредни
-	            неуспешни опита за вписване</listitem>
+	    неуспешни опита за вписване</listitem>
 	</itemizedlist>
       </listitem>
 
@@ -66,11 +66,11 @@
 	    <step><para>Потребителят въвежда e-mail адрес</para></step>
 	    <step>
 	      <para>Системата изпраща инструкции за възстановяване на паролата на посочения e-mail адрес и съобщава това на потребителя</para>
-		<stepalternatives>
-		  <step>
-		    <para>Системата съобщава на потребителя, че няма регистриран потребител с посочения e-mail адрес</para>
-		  </step>
-		</stepalternatives>
+	      <stepalternatives>
+		<step>
+		  <para>Системата съобщава на потребителя, че няма регистриран потребител с посочения e-mail адрес</para>
+		</step>
+	      </stepalternatives>
 	    </step>
 	    <step><para>Потребителят следва инструкциите от изпратения му e-mail и възстановява паролата си</para></step>
 	  </substeps>
@@ -87,7 +87,7 @@
 
   </procedure>
 
-  <procedure id="usecase_new_ticket_mount">
+  <procedure id="usecase_new_ticket">
     <title>Въвеждане на тикет</title>
 
     <itemizedlist>
@@ -135,10 +135,10 @@
       <para>Потребителят прикачва файл</para>
       <stepalternatives>
 	<step><para>Системата не приема файла, защото е твърде голям.</para>
-	<substeps>
-	  <step><para>Системата съобщава максималния допустим размер на файл</para></step>
-      </substeps>
-      </step>
+	  <substeps>
+	    <step><para>Системата съобщава максималния допустим размер на файл</para></step>
+	  </substeps>
+	</step>
       </stepalternatives>
       <para>Потребителят повтаря стъпката, докато качи всички желани файлове (най-малко нула и най-много X пъти)</para>
     </step>
@@ -176,7 +176,236 @@
       <para>Системата уведомява потребителите от избрания отдел.</para>
     </step>
   </procedure>
-  <!--==========================-->
+
+  <procedure id="usecase_add_device">
+    <title>Добавяне на данни за устройство</title>
+    <itemizedlist>
+
+      <listitem>
+	Обхват
+	<itemizedlist>
+	  <listitem>Подсистема за управление на даннинте</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Участници
+	<itemizedlist>
+	  <listitem>Потребител</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Предусловия
+	<itemizedlist>
+	  <listitem>Потребителят е вписан в системата</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Резултати
+	<itemizedlist>
+	  <listitem>Информацията за устройството е налична в системата</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Изисквания
+	<itemizedlist>
+	  <listitem>Системата трябва да подпомага потребителят при въвеждането на функции и части, като довършва частично написани
+	    имена на функции, които вече съществуват в системата, и да подтиква потребителя да използва това довършване.</listitem>
+	</itemizedlist>
+      </listitem>
+    </itemizedlist>
+
+    <step><para>Потребителят въвежда сериен номер на устройство</para>
+
+      <stepalternatives>
+	<step><para>Потребителят заявява, че иска да промени съществуващо устройство</para>
+	  <substeps>
+	    <step><para>Системата отчита, че ще се променя устройство и продължава работа по аналогичен начин.</para></step>
+	    <step><para>Ако устройството не съществува, потребителят е уведомен, но системата продължава работа, като не отчита, че
+		се променя съществуващо устройство, а че се въвежда ново такова.</para></step>
+	  </substeps>
+	</step>
+      </stepalternatives>
+    </step>
+
+    <step><para>Потребителят въвежда текстово описание на устройството</para></step>
+    <step><para>Системата дава възможност на потребителя да въведе списък от функции на устройството</para>
+      <substeps>
+	<step><para>Потребителят въвежда нови функции</para></step>
+	<step><para>Потребителят избира от съществуващи в системата функции</para></step>
+	<step><para>Потребителят изтрива функции от вече въведените</para></step>
+	<step><para>Стъпката се повтаря, докато потребителят не е въвел всички желани функции</para></step>
+      </substeps>
+    </step>
+    <step><para>Потребителят избира описания на частите на устройството и въвежда серийните номера на конкретните части.</para>
+      <stepalternatives>
+	<step><para>Потребителят въведежда описание на части, които не са налични</para>
+	  <substeps>
+	    <step>
+	      <para>
+		Системата връща потребителя към добавянето на частите към устройството.
+	      </para>
+	    </step>
+	  </substeps>
+	</step>
+      </stepalternatives>
+    </step>
+
+    <step><para>Потребителят въвежда номер на SIM-картата на устройството и избира мобилния оператор.</para>
+      <stepalternatives>
+	<step>
+	  <para>Системата съобщава на потребителя, че въведения номер е невалиден и му дава възможност да го въведе отново.</para>
+	</step>
+      </stepalternatives>
+    </step>
+  </procedure>
+
+  <procedure id="usecase_compatible">
+    <title>Изготвяне на справка за съвместимост на устройства и изисквания</title>
+
+    <itemizedlist>
+      <listitem>
+	Обхват
+	<itemizedlist>
+	  <listitem>Подсистема за управление на данни</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Участници
+	<itemizedlist>
+	  <listitem>Потребител</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Предусловия
+	<itemizedlist>
+	  <listitem>Потребителят е вписан в системата</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Резултати
+	<itemizedlist>
+	  <listitem>Потребителят получава списък от устройства, които са съвместими с подадените от него изисквания</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Изисквания
+	<itemizedlist>
+	  <listitem>Системата трябва да подсказва на потребителя за близки до неговото търсене резултати,
+	    които биха върнали по-голям списък от резултати.</listitem>
+	  <listitem>Системата трябва да дава възможност на потребителя да избира отрицания на критерии, т.е.
+	    търсене на устройства, които <emphasis>не притежават</emphasis> дадена функция.</listitem>
+	</itemizedlist>
+      </listitem>
+    </itemizedlist>
+
+    <step><para>Потребителят избира списък от функции, които трябва да притежава устройството</para>
+      <substeps>
+	<step>
+	  <para>
+	    Потребителят въвежда допълнителен текст за търсене в текстовото описание на устройството и частите му.
+	  </para>
+	</step>
+      </substeps>
+    </step>
+    <step><para>Системата връща на потребителя списък от всички налични устройства, притежаващи зададените функции</para>
+      <substeps>
+	<step><para>Системата показва частични съвпадения, като ги сортира низходящо по брой критерий, които съвпадат с търсенето.</para></step>
+      </substeps>
+    </step>
+    <step><para>Системата предоставя възможност на потребителя да редактира списъка от функции и да повтори търсенето</para></step>
+  </procedure>
+
+<procedure id="usecase_edit_ticket">
+  <title>Промяна на тикет</title>
+    <itemizedlist>
+      <listitem>
+	Обхват
+	<itemizedlist>
+	  <listitem>Подсистема за тикети</listitem>
+	</itemizedlist>
+      </listitem>
+      <listitem>
+	Участници
+	<itemizedlist>
+	  <listitem>Потребител</listitem>
+	</itemizedlist>
+      </listitem>
+      <listitem>
+	Предусловия
+	<itemizedlist>
+	  <listitem>Потребителят е вписан в системата</listitem>
+	  <listitem>Потребителят е от отдела, към който е заведен тикетът</listitem>
+	</itemizedlist>
+      </listitem>
+      <listitem>
+	Резултати
+	<itemizedlist>
+	  <listitem>Тикетът е променен</listitem>
+	</itemizedlist>
+      </listitem>
+      <listitem>
+	Честота: рядко
+      </listitem>
+      <listitem>
+	Заинтересувани лица
+	<itemizedlist>
+	  <listitem>Потребител</listitem>
+	  <listitem>Клиент</listitem>
+	</itemizedlist>
+      </listitem>
+    </itemizedlist>
+    <step><para>Системата показва списък от тикетите</para></step>
+    <step><para>Потребителят избира опция за търсене на тикет</para></step>
+    <step><para>Системата дава възможност на потребителя да укаже едно или повече от:
+	времеви период за търсене на тикети; ключова дума и полета за търсене (заглавие, отдел, тяло, файл, навсякъде); статус; приоритет.
+    </para></step>
+    <step><para>Потребителят избира желаните критерии и изпраща заявка</para></step>
+    <step><para>Системата връща списък от тикетите, отговарящи на критериите, като ги сортира по статус и дата.</para></step>
+    <step><para>Потребителят избира желания тикет</para></step>
+    <step><para>Ако потребителят е собственик на тикета</para>
+      <stepalternatives><step><para>Потребителят променя статуса на тикета на Свободен</para>
+	<substeps>
+	  <step><para>Системата премахва собствеността на тикета</para></step>
+	</substeps>
+	</step>
+      <step><para>Потребителят променя статуса на тикета на Разрешен, Отказан или Невалиден</para>
+	<substeps>
+	  <step><para>Системата променя приоритета на тикета на Слаб</para></step>
+	</substeps>
+      </step>
+      <step><para>Потребителят променя приоритета на тикета</para></step>
+      </stepalternatives>
+    </step>
+    <step><para>Ако статуса на тикета е Свободен, потребителят променя статуса на тикета на Приет</para>
+      <substeps>
+	<step><para>Системата записва потребителя като собственик на тикета</para></step>
+      </substeps>
+    </step>
+    <step><para>Ако тикетът има собственик, различен от потребителя</para>
+      <stepalternatives>
+	<step><para>Ако статуса на тикета е Приет или Разрешен, системата дава право на потребителя да изпрати молба на текущия собственик
+	    за прехвърляне на тикета</para>
+	  <substeps>
+	    <step><para>Потребителят изпраща молба на текущия собственик</para></step>
+	    <step><para>Системата генерира e-mail съобщение с молбата, включвайки името на потребителя и информация за тикета.</para></step>
+	    <step><para>Текущият собственик удобрява молбата, като променя статуса на тикета на Свободен, или не отговаря на молбата в рамките на 48 часа.
+		Системата прави потребителя собственик на тикета.</para></step>
+	    <step><para>Текущият собственик отказва молбата, като презаписва статуса на тикета</para></step>
+	  </substeps>
+	</step>
+
+	<step><para>Ако статуса на тикета е Отказан или Невалиден, системата дава право на потребителя да промени статуса на Приет</para></step>
+      </stepalternatives>
+    </step>
+</procedure>
   <procedure id="usecase_logout">
     <title>Изход от системата</title>
     <itemizedlist>
@@ -287,14 +516,14 @@
 
 
 <procedure id="usecase_edit_user">
-  <title>Промяна на информацията за съществуващ потребител</title>
+  <title>Потребителска промяна на профил</title>
 
   <itemizedlist>
 
     <listitem>
       Обхват
       <itemizedlist>
-	<listitem>Подсистема за редактиране на информацията</listitem>
+	<listitem>Подсистема за вписване</listitem>
       </itemizedlist>
     </listitem>
 
@@ -326,7 +555,8 @@
 
   </itemizedlist>
 
-  <step><para>Потребителят променя информацията за себе си</para></step>
+  <step><para>Потребителят отваря профила си</para></step>
+  <step><para>Потребителят променя данните си</para></step>
   <step><para>Системата запазва нововъведените данни</para>
     <stepalternatives>
       <step><para>Системата не приема нововъведените данни и съобщава за това на потребителя</para></step>
@@ -334,6 +564,95 @@
   </step>
 </procedure>
 
+  <procedure id="usecase_admin_edit_user">
+    <title>Административна промяна на профил</title>
+
+    <itemizedlist>
+
+      <listitem>
+	Обхват
+	<itemizedlist>
+	  <listitem>Административна подсистема</listitem>
+	  <listitem>Подсистема за тикети</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Участници
+	<itemizedlist>
+	  <listitem>Администратор</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Предусловия
+	<itemizedlist>
+	  <listitem>Администраторът е вписан в системата</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Резултати
+	<itemizedlist>
+	  <listitem>Потребителят е променен</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Честота: рядко
+      </listitem>
+      <listitem>
+	Изисквания
+	<itemizedlist>
+	  <listitem>
+	    Системата трябва да пази старите данни за всички потребители, така че те да могат лесно да се възстановят от
+	    администратора на системата (а не от администратора на базата данни или сървъра).
+	    Периодът на това съхранение да е от порядъка на няколко дни.
+	  </listitem>
+	</itemizedlist>
+      </listitem>
+    </itemizedlist>
+
+    <step><para>Администраторът въвежда едно или повече от: email, собствено име, фамилно име и отдел на желания потребител.</para>
+      <substeps>
+	<step><para>Системата връща на потребителя списък от профили, отговарящи на търсенето.</para></step>
+	<step><para>Администраторът избира желания профил.</para></step>
+      </substeps>
+      <stepalternatives>
+	<step>
+	  <para>Администраторът има директен достъп до профила на потребителя.</para>
+	</step>
+      </stepalternatives>
+    </step>
+    <step>
+      <para>Стъпка 1 се повтаря, докато администраторът открие желания потребителски профил.</para>
+    </step>
+    <step>
+      <para>
+	Администраторът променя данните на потребителя, които е необходимо.
+      </para>
+      <stepalternatives>
+	<step><para>Ако е променен отделът на потребителя, системата запазва събитие, което описва това.</para>
+	  <substeps>
+	    <step><para>Потребителят получава известие по e-mail, че е преместен в друг отдел.</para></step>
+	    <step><para>Системата променя статуса на всички тикети, които са притежавани от потребителя, на Свободен</para></step>
+	  </substeps>
+	</step>
+      </stepalternatives>
+
+    </step>
+    <step><para>Системата иска потвърждение от администратора</para>
+      <stepalternatives>
+	<step><para>Системата не приема данните и съобщава за това на администратора</para></step>
+      </stepalternatives>
+    </step>
+    <step><para>Администраторът потвърждава промените и системата запазва нововъведените данни</para>
+      <stepalternatives>
+	<step><para>Администраторът отказва промените и системата не променя данните</para></step>
+      </stepalternatives>
+    </step>
+
+  </procedure>
 
 <procedure id="usecase_delete_user">
   <title>Изтриване на съществуващ потребител</title>
@@ -379,7 +698,15 @@
       <step><para>Администраторът отказва изтриването и регистрацията на потребителя остава запазена в системата</para></step>
     </stepalternatives>
   </step>
-
+  <step>
+    <para>Потребителят получава e-mail съобщение, че профилът му е изтрит от системата и вече няма достъп до нея</para>
+  </step>
+  <step>
+    <para>Системата променя статуса на всички тикети, които са собственост на потребителя, на Свободен</para>
+  </step>
+  <step>
+    <para>Системата записва събитие за изтриването на потребителя</para>
+  </step>
 
   <!--step></step-->
   </procedure>
@@ -404,7 +731,7 @@
       <listitem>
 	Предусловия
 	<itemizedlist>
-	  <listitem>Потребителят от Отдел работа с клиенти е вписан в системата</listitem>
+	  <listitem>Потребителят е вписан в системата</listitem>
 	</itemizedlist>
       </listitem>
 
@@ -433,7 +760,7 @@
 	<step>
 	  <para>Потребителят избира вече въведен клиент и променя информацията за него</para>
 	</step>
-      </stepalternatives></step>
+    </stepalternatives></step>
     <step><para>Потребителят запазва данните</para>
       <stepalternatives>
 	<step>
@@ -451,11 +778,197 @@
 	<step>
 	  <para>Потребителят отказва запазването и системата не запазва нововъведените данни</para>
 	</step>
-      </stepalternatives></step>
+    </stepalternatives></step>
 
   </procedure>
 
+  <procedure id="usecase_edit_client">
+    <title>Редактиране на информацията за клиент на Компанията</title>
+    <itemizedlist>
 
+      <listitem>
+	Обхват
+	<itemizedlist>
+	  <listitem>Подсистема за управление на информация</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Участници
+	<itemizedlist>
+	  <listitem>Потребител от Отдел работа с клиенти</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Предусловия
+	<itemizedlist>
+	  <listitem>Потребителят от отдел Работа с клиенти е вписан в системата</listitem>
+	  <listitem>Клиентът е въведен в системата</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Резултати
+	<itemizedlist>
+	  <listitem>Информацията за клиента е редактирана</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Изисквания
+	<itemizedlist>
+	  <listitem>Системата да може да редактира до 5 клиента едновременно</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Честота: често
+      </listitem>
+
+      <listitem>
+	Заинтересувани лица
+	<itemizedlist>
+	  <listitem>Потребител</listitem>
+	  <listitem>Клиент</listitem>
+	</itemizedlist>
+      </listitem>
+    </itemizedlist>
+
+    <step><para>Потребителят редактира информацията за клиента</para></step>
+    <step><para>Системата потвърждава редактирането и запазва нововъведените данни</para>
+      <stepalternatives>
+	<step>
+	  <para>Системата не приема нововъведените данни и съобщава за това на потребителя</para>
+	</step>
+      </stepalternatives>
+    </step>
+  </procedure>
+  <procedure id="usecase_new_contract">
+    <title>Въвеждане на нов договор</title>
+    <itemizedlist>
+
+      <listitem>
+	Обхват
+	<itemizedlist>
+	  <listitem>Подсистема за данни</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Участници
+	<itemizedlist>
+	  <listitem>Потребител от Отдел работа с клиенти</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Предусловия
+	<itemizedlist>
+	  <listitem>Потребителят е вписан в системата</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Резултати
+	<itemizedlist>
+	  <listitem>Въведен е нов договор</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Честота: от време на време
+      </listitem>
+
+      <listitem>
+	Заинтересувани лица
+	<itemizedlist>
+	  <listitem>Потребител</listitem>
+	  <listitem>Клиент</listitem>
+	</itemizedlist>
+      </listitem>
+    </itemizedlist>
+
+    <step><para>Потребителят намира клиента, за когото се отнася договора</para></step>
+    <step><para>Потребителят въвежда начална дата и срок на договора</para></step>
+    <step><para>Системата връща списък с наличните устройства (тези, които няма да са монтирани на никой обект към началната дата на договора)</para>
+      <substeps><step><para>Ако някое от устройствата е монтирано на обект в момента на въвеждането,
+	    системата съобщава това на потребителя.
+	</para></step>
+	<step><para>Системата дава възможност на потребителя да провери съвместимостта на устройството с нуждите на клиента
+	    (вж. <xref linkend="usecase_compatible"/>).</para></step>
+    </substeps>
+    </step>
+    <step><para>Системата връща списък от обектите на клиента</para>
+      <substeps>
+	<step>
+	  <para>Системата дава възможност на потребителя да въведе нови обекти за клиента</para>
+	</step>
+      </substeps>
+    </step>
+    <step><para>Потребителят избира комбинации между обекти и устройства</para></step>
+    <step><para>Потребителят избира стандартно описание на договора</para></step>
+    <step><para>Системата изготвя примерен изглед на генерирания договор и изисква потвърждение от потребителя</para></step>
+    <step><para>Потребителят потвърждава промените</para>
+      <stepalternatives>
+	<step><para>Потребителят иска да промени нещо по договора</para></step>
+	<substeps>
+	  <step><para>Системата връща потребителя към стъпка 4</para></step>
+	</substeps>
+      </stepalternatives>
+    </step>
+    <step><para>Системата запазва договора</para></step>
+    <step><para>Системата генерира в удобен за печат формат договора, като включва в него информация за обектите и устройствата, както 
+      и техните функции, срока на договора и т.н.</para></step>
+
+  </procedure>
+
+<procedure id="usecase_list_tickets">
+  <!--Stanislav-->
+  <title>Извеждане на списък от съществуващи тикети</title>
+  <itemizedlist>
+    <listitem>
+      Обхват
+      <itemizedlist>
+	<listitem>Подсистема за тикети</listitem>
+      </itemizedlist>
+    </listitem>
+    <listitem>
+      Участници
+      <itemizedlist>
+	<listitem>Потребител</listitem>
+      </itemizedlist>
+    </listitem>
+    <listitem>
+      Предусловия
+      <itemizedlist>
+	<listitem>Потребителят е вписан в системата</listitem>
+      </itemizedlist>
+    </listitem>
+    <listitem>
+      Резултати
+      <itemizedlist>
+	<listitem>Извежда се списъка с желаните тикети</listitem>
+      </itemizedlist>
+    </listitem>
+    <listitem>
+      Честота: рядко
+    </listitem>
+    <listitem>
+      Заинтересувани лица
+      <itemizedlist>
+	<listitem>Потребител</listitem>
+	<listitem>Клиент</listitem>
+      </itemizedlist>
+    </listitem>
+  </itemizedlist>
+  <step><para>Потребителят въвежда критерии за показване на тикетите: период от време, ключови думи и полета за търсене (заглавие, тяло и т.н.)</para></step>
+  <step><para>Системата извежда тикетите, които отговарят на съответните критерии</para>
+    <stepalternatives>
+      <step><para>Системата съобщава на потребителя, че няма тикети, отговарящи на критериите</para></step>
+    </stepalternatives>
+  </step>
+</procedure>
   <!--Maria-->
   <procedure id="usecase_add_comment">
     <title>Добавяне на бележка по статуса на клиент</title>
@@ -500,20 +1013,20 @@
 	<step>
 	  <para>Потребителят избира вече налична бележка, която редактира</para>
 	</step>
-      </stepalternatives></step>
+    </stepalternatives></step>
     <step><para>Потребителят запазва бележката по статуса</para>
       <stepalternatives>
 	<step>
 	  <para>Системата не приема нововъведените данни, защото полето за бележка е празно и съобщава на потребителя за това</para>
 	</step>
-      </stepalternatives></step>
+    </stepalternatives></step>
     <step><para>Системата поисква потвърждение за запазването</para></step>
     <step><para>Потребителят потвърждава записа и системата го запазва</para>
       <stepalternatives>
 	<step>
 	  <para>Потребителят отказва записа и системата не го запазва</para>
 	</step>
-      </stepalternatives></step>
+    </stepalternatives></step>
 
   </procedure>
 
@@ -562,316 +1075,36 @@
 	<step>
 	  <para>Системата не разрешава изтриването на бележката, понеже потребителят поискал изтриването не е неин автор</para>
 	</step>
-      </stepalternatives></step>
+    </stepalternatives></step>
     <step><para>Системата поисква потвърждение за изтриването</para></step>
     <step><para>Потребителят потвърждава изтриването и в системата вече не е налична тази бележка</para>
       <stepalternatives>
 	<step>
 	  <para>Потребителят отказва изтриването и бележката остава в системата</para>
 	</step>
-      </stepalternatives></step>
+    </stepalternatives></step>
 
   </procedure>
 
-  <procedure id="usecase_add_device">
-    <title>Добавяне на данни за устройство</title>
-    <itemizedlist>
 
-      <listitem>
-	Обхват
-	<itemizedlist>
-	  <listitem>Подсистема за управление на даннинте</listitem>
-	</itemizedlist>
-      </listitem>
 
-      <listitem>
-	Участници
-	<itemizedlist>
-	  <listitem>Потребител</listitem>
-	</itemizedlist>
-      </listitem>
-
-      <listitem>
-	Предусловия
-	<itemizedlist>
-	  <listitem>Потребителят е вписан в системата</listitem>
-	</itemizedlist>
-      </listitem>
-
-      <listitem>
-	Резултати
-	<itemizedlist>
-	  <listitem>Информацията за устройството е налична в системата</listitem>
-	</itemizedlist>
-      </listitem>
-
-      <listitem>
-	Изисквания
-	<itemizedlist>
-	  <listitem>Системата трябва да подпомага потребителят при въвеждането на функции и части, като довършва частично написани
-	  	    имена на функции, които вече съществуват в системата, и да подтиква потребителя да използва това довършване.</listitem>
-	</itemizedlist>
-      </listitem>
-    </itemizedlist>
-
-    <step><para>Потребителят въвежда сериен номер на устройство</para>
-
-    <stepalternatives>
-      <step><para>Потребителят заявява, че иска да промени съществуващо устройство</para>
-	<substeps>
-	  <step><para>Системата отчита, че ще се променя устройство и продължава работа по аналогичен начин.</para></step>
-	  <step><para>Ако устройството не съществува, потребителят е уведомен, но системата продължава работа, като не отчита, че
-	    	    се променя съществуващо устройство, а че се въвежда ново такова.</para></step>
-	</substeps>
-      </step>
-    </stepalternatives>
-  </step>
-
-    <step><para>Потребителят въвежда текстово описание на устройството</para></step>
-    <step><para>Системата дава възможност на потребителя да въведе списък от функции на устройството</para>
-      <substeps>
-	<step><para>Потребителят въвежда нови функции</para></step>
-	<step><para>Потребителят избира от съществуващи в системата функции</para></step>
-	<step><para>Потребителят изтрива функции от вече въведените</para></step>
-      </substeps>
-    </step>
-    <step><para>Потребителят избира описания на частите на устройството и въвежда серийните номера на конкретните части.</para>
-      <stepalternatives>
-	<step><para>Потребителят въведежда описание на части, които не са налични</para>
-	  <substeps>
-	    <step>
-	      <para>
-	      Системата връща потребителя към добавянето на частите към устройството.
-	      </para>
-	    </step>
-	  </substeps>
-	</step>
-      </stepalternatives>
-    </step>
-
-    <step><para>Потребителят въвежда номер на SIM-картата на устройството и избира мобилния оператор.</para>
-      <stepalternatives>
-	<step>
-	  <para>Системата съобщава на потребителя, че въведения номер е невалиден и му дава възможност да го въведе отново.</para>
-	</step>
-      </stepalternatives>
-    </step>
-  </procedure>
-  <procedure id="usecase_transfer_ticket">
-    <title>Прехвърляне на тикет за извършване на ремонт <!--към Сервизния отдел--></title>
-
-    <!--step></step-->
-</procedure>
-<procedure id="usecase_compatible">
-  <title>Изготвяне на справка за съвместимост на устройства и изисквания</title>
-
-  <itemizedlist>
-    <listitem>
-      Обхват
-      <itemizedlist>
-	<listitem>Подсистема за управление на устройства</listitem>
-      </itemizedlist>
-    </listitem>
-
-    <listitem>
-      Участници
-      <itemizedlist>
-	<listitem>Потребител</listitem>
-      </itemizedlist>
-    </listitem>
-
-    <listitem>
-      Предусловия
-      <itemizedlist>
-	<listitem>Потребителят е вписан в системата</listitem>
-      </itemizedlist>
-    </listitem>
-
-    <listitem>
-      Резултати
-      <itemizedlist>
-	<listitem>Потребителят получава справка със списък от устройства, които са съвместими с подадените от него изисквания</listitem>
-      </itemizedlist>
-    </listitem>
-  </itemizedlist>
-
-  <step><para>Потребителят въвежда изискванията си към устойствата</para>
-    <stepalternatives>
-      <step>
-	<para>Системата не приема въведените от потребителя условия</para>
-      </step>
-    </stepalternatives>
-  </step>
-  <step><para>Потребителят получава желаната справка</para></step>
-</procedure>
-
-<procedure id="usecase_query">
-  <title>Изготвяне на справки за клиенти, потребители, плащания, монтирани обекти</title>
-  <!--step></step-->
-  </procedure>
-  <procedure id="usecase_full_query">
-    <title>Изготвяне на цялостна справка</title>
-  </procedure>
-  <procedure id="usecase_forward_ticket">
-    <title>Препращане на тикет</title>
-    <!--step></step-->
-</procedure>
-<procedure id="usecase_change_ticket_status">
-  <title>Промяна на статуса на тикет</title>
-  <!--step></step-->
-  </procedure>
-  <procedure id="usecase_add_message_to_ticket">
-    <title>Добавяне на съобщение към съществуващ тикет</title>
+  <procedure id="usecase_query">
+    <!-- <title>Изготвяне на справки за клиенти, потребители, плащания, монтирани обекти</title> -->
+    <title>Изготвяне на справка за клиент</title>
     <!--step></step-->
 </procedure>
 
-<procedure id="usecase_list_tickets">
-  <!--Stanislav-->
-  <title>Извеждане на списък от съществуващи тикети</title>
-  <itemizedlist>
-    <listitem>
-      Обхват
-      <itemizedlist>
-	<listitem>Подсистема за тикети</listitem>
-      </itemizedlist>
-    </listitem>
-    <listitem>
-      Участници
-      <itemizedlist>
-	<listitem>Потребителите разполагащи с права за виждане/редактиране на тикети</listitem>
-      </itemizedlist>
-    </listitem>
-    <listitem>
-      Предусловия
-      <itemizedlist>
-	<listitem>Потребителят е вписан в системата</listitem>
-	<listitem>Потребителят има право да вижда тикетите</listitem>
-      </itemizedlist>
-    </listitem>
-    <listitem>
-      Резултати
-      <itemizedlist>
-	<listitem>Извежда се списъка с желаните тикети</listitem>
-      </itemizedlist>
-    </listitem>
-    <listitem>
-      Честота: рядко
-    </listitem>
-    <listitem>
-      Заинтересувани лица
-      <itemizedlist>
-	<listitem>Потребител, имащ достъп до тикетите</listitem>
-      </itemizedlist>
-    </listitem>
-  </itemizedlist>
-  <step><para>Потребителят въвежда критерии за показване на тикетите</para></step>
-  <step><para>Системата извежда тикетите, които отговарят на съответните критерии</para>
-    <stepalternatives>
-      <step><para>Системата съобщава на потребителя, че няма тикети, отговарящи на критериите</para></step>
-    </stepalternatives>
-  </step>
-</procedure>
-<procedure id="usecase_ticket_owner">
-  <!--Stanislav-->
-  <title>Промяна на собственика на съществуващ тикет</title>
-  <itemizedlist>
-    <listitem>
-      Обхват
-      <itemizedlist>
-	<listitem>Подсистема за тикети</listitem>
-      </itemizedlist>
-    </listitem>
-    <listitem>
-      Участници
-      <itemizedlist>
-	<listitem>Потребител</listitem>
-      </itemizedlist>
-    </listitem>
-    <listitem>
-      Предусловия
-      <itemizedlist>
-	<listitem>Потребителят е вписан в системата</listitem>
-	<listitem>Потребителят има право да променя тикета</listitem>
-      </itemizedlist>
-    </listitem>
-    <listitem>
-      Резултати
-      <itemizedlist>
-	<listitem>Тикетът има нов собственик</listitem>
-      </itemizedlist>
-    </listitem>
-    <listitem>
-      Изисквания
-      <itemizedlist>
-	<listitem>Системата трябва да позволява многократна промяна на собственика на тикет</listitem>
-      </itemizedlist>
-    </listitem>
-  </itemizedlist>
-  <step><para>Потребителят избира тикета, който желае да промени</para></step>
-  <step><para>Потребителят избира новият собственик (от списък с възможните)</para></step>
-  <step><para>Системата запазва промените</para></step>
-</procedure>
 
-  <procedure id="usecase_special_rights">
-    <title>Придобиване на специални права</title>
 
-    <itemizedlist>
-
-      <listitem>
-	Обхват
-	<itemizedlist>
-	  <listitem>Подсистема за административни потребители</listitem>
-	</itemizedlist>
-      </listitem>
-
-      <listitem>
-	Участници
-	<itemizedlist>
-	  <listitem>Потребител</listitem>
-	  <listitem>Администратор</listitem>
-	</itemizedlist>
-      </listitem>
-
-      <listitem>
-	Предусловия
-	<itemizedlist>
-	  <listitem>Потребителят е регистриран в системата</listitem>
-	</itemizedlist>
-      </listitem>
-
-      <listitem>
-	Резултати
-	<itemizedlist>
-	  <listitem>Правата на даден потребител са променени</listitem>
-	</itemizedlist>
-      </listitem>
-
-      <listitem>
-	Честота: рядко
-      </listitem>
-    </itemizedlist>
-
-    <step><para>Администраторът променя правата на потребител поради смяна на длъжността на този потребител</para></step>
-    <step><para>Системата поисква потвърждение</para>
-      <stepalternatives>
-	<step><para>Системата не приема данните и съобщава за това на администратора</para></step>
-      </stepalternatives>
-    </step>
-    <step><para>Администраторът потвърждава промените и системата запазва нововъведените данни</para>
-      <stepalternatives>
-	<step><para>Администраторът отказва промените и системата не променя данните</para></step>
-      </stepalternatives>
-    </step>
-
-  </procedure>
   <procedure id="usecase_check_employee">
     <title>Проверка на дейността на даден служител</title>
   </procedure>
+
   <procedure id="usecase_check_daily">
-    <title>Проверка на дейността на всички служители за деня</title>
+    <title>Проверка и статистика на цялостната дейност</title>
   </procedure>
   <procedure id="usecase_check_device">
-    <title>Проверка за наличности на устойства</title>
+    <title>Проверка за наличности на устройства</title>
     <itemizedlist>
       <listitem>
 	Обхват
@@ -913,4 +1146,5 @@
     <step><para>Потребителят избира едно или повече устройства</para></step>
     <step><para>Потребителят получава справка с броя на наличните устройства</para></step>
   </procedure>
+
 </sect1>

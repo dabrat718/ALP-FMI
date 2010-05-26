@@ -40,26 +40,33 @@
 		<revnumber>0.5.2</revnumber>
 		<date>10.04.2010</date>
 		<authorinitials>Валентина</authorinitials>
-                <revremark>Потребителски случаи: <xref linkend="usecase_edit_user"/>, <xref linkend ="usecase_delete_user"/>,
-                  <xref linkend ="usecase_special_rights"/> </revremark>
+		<revremark>Потребителски случаи: <xref linkend="usecase_edit_user"/>, <xref linkend ="usecase_delete_user"/>,
+		  <xref linkend="usecase_admin_edit_user"/>
+                  </revremark>
 	</revision>
 	<revision>
 		<revnumber>0.5.3</revnumber>
 		<date>10.04.2010</date>
 		<authorinitials>Ники</authorinitials>
-                <revremark>Потребителски случаи: <xref linkend ="usecase_new_client"/></revremark>
+		<revremark>Потребителски случаи: <xref linkend ="usecase_new_client"/>,
+		  <xref linkend ="usecase_edit_client"/>
+		</revremark>
 	</revision>
         <revision>
                 <revnumber>0.5.4</revnumber>
 		<date>10.04.2010</date>
 		<authorinitials>Мария</authorinitials>
-                <revremark>Потребителски случаи: <xref linkend ="usecase_add_comment"/> </revremark>
+		<revremark>Потребителски случаи: <xref linkend ="usecase_add_comment"/>,
+		  				 <xref linkend ="usecase_delete_comment"/></revremark>
 	</revision>
 	<revision>
 		<revnumber>0.5.5</revnumber>
 		<date>10.04.2010</date>
                 <authorinitials>Станислав</authorinitials>
-                <revremark>Потребителски случаи: <xref linkend ="usecase_list_tickets"/>, <xref linkend ="usecase_ticket_owner"/></revremark>
+		<revremark>Потребителски случаи: <xref linkend="usecase_edit_ticket"/>,
+		  Добавяне на файл към тикет (по-късно част от <xref linkend="usecase_new_ticket"/>),
+		  <xref linkend="usecase_list_tickets"/>
+		</revremark>
     </revision>
   
     <revision>
@@ -83,7 +90,7 @@
                 <authorinitials>Валентина</authorinitials>
                 <authorinitials>Емил</authorinitials>
                 <authorinitials>Ивайло</authorinitials>
-		<revremark>Потребителски случай за въвеждане на тикет. Редакция на потребителски случаи.</revremark>
+		<revremark>Нов потребителски случай: <xref linkend="usecase_new_ticket"/>. Редакция на потребителски случаи.</revremark>
     </revision>
 
     <revision>
@@ -99,7 +106,17 @@
 		<revnumber>0.5.9.1</revnumber>
 		<date>22.05.2010</date>
                 <authorinitials>Емил</authorinitials>
-		<revremark>Редакция на потребителски случаи: <xref linkend="usecase_add_device"/></revremark>
+		<revremark>
+		  Нов потребителски случай:
+		  <xref linkend="usecase_new_contract"/>.
+		  Редакция на потребителски случаи:
+		  <xref linkend="usecase_add_device"/>,
+		  <xref linkend="usecase_compatible"/>,
+		  <xref linkend="usecase_edit_ticket"/>,
+		  <xref linkend="usecase_edit_user"/>.
+		  Домейн модел: добавяне на клас Договор,
+		  капсулиране на име и парола в ПрофилЗаВписване.
+		</revremark>
     </revision>
     <revision>
 		<revnumber>0.6.0</revnumber>
