@@ -94,4 +94,11 @@
                 <authorinitials>Емил</authorinitials>
 		<revremark>Домейн модел</revremark>
     </revision>
+
+    <revision>
+		<revnumber>0.5.9.2</revnumber>
+		<date>22.05.2010</date>
+                <authorinitials>Емил</authorinitials>
+		<revremark>Редакция на потребителски случаи: <xref linkend="usecase_add_device"/></revremark>
+    </revision>
 </revhistory>
