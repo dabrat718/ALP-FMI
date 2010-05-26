@@ -4,7 +4,6 @@
     <note> Вж. <xref linkend="gloss_notation"/> за означенията, използвани по-долу.</note>
   </para>
 
-  <!--==========================-->
   <procedure id="usecase_login">
     <title>Вписване в системата</title>
     <itemizedlist>
