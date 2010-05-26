@@ -48,6 +48,7 @@
 </xsl:template>
 
 <xsl:template match="procedure">
+  <xsl:call-template name="label.id"/>
   <xsl:text>\begin{usecase}</xsl:text>
     <xsl:apply-templates select="*[not(self::step)]"/>
   <!--<xsl:value-of select="title"/>-->
@@ -63,10 +64,10 @@
 </xsl:template>
 
 <xsl:template match="step">
-  <xsl:if test="not(parent::stepalternatives)">
+  <xsl:if test="not(parent::stepalternatives|parent::substeps)">
     <xsl:text>\setcounter{alternative}{0}</xsl:text>
   </xsl:if>
-  <xsl:text>\item{</xsl:text>
+  <xsl:text>\item</xsl:text><xsl:if test="parent::stepalternatives"><xsl:text>[*]</xsl:text></xsl:if><xsl:text>{</xsl:text>
   <xsl:call-template name="label.id"/>
   <xsl:apply-templates/>
   <xsl:text>}&#10;</xsl:text>
@@ -77,12 +78,11 @@
     \medskip
     \stepcounter{alternative}
     \textbf{Алтернатива UC-\arabic{usecase}/\arabic{enumi}-A\arabic{alternative}}
-
   </xsl:text>
   <xsl:apply-templates select="*[not(self::step)]"/>
   <xsl:if test="./step">
     <xsl:text>\begin{enumerate}&#10;</xsl:text>
-    <xsl:apply-templates select="./step"/>
+      <xsl:apply-templates select="./step"/>
     <xsl:text>\end{enumerate}&#10;</xsl:text>
   </xsl:if>
 </xsl:template>
@@ -106,7 +106,6 @@
 
 <xsl:template match="glossdiv" mode="xref-to">
   <xsl:param name="referrer"/>
-
   <xsl:call-template name="hyperlink.markup">
     <xsl:with-param name="referrer" select="$referrer"/>
     <xsl:with-param name="linkend" select="(@id|@xml:id)[1]"/>
@@ -120,4 +119,18 @@
   </xsl:call-template>
 </xsl:template>
 
+<xsl:template match="procedure" mode="xref-to">
+  <xsl:param name="referrer"/>
+  <xsl:call-template name="hyperlink.markup">
+    <xsl:with-param name="referrer" select="$referrer"/>
+    <xsl:with-param name="linkend" select="(@id|@xml:id)[1]"/>
+    <xsl:with-param name="text">
+      <xsl:call-template name="inline.italicseq">
+        <xsl:with-param name="content">
+          <xsl:apply-templates select="title" mode="xref.text"/>
+        </xsl:with-param>
+      </xsl:call-template>
+    </xsl:with-param>
+  </xsl:call-template>
+</xsl:template>
 </xsl:stylesheet>

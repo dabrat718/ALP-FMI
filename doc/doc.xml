@@ -2,9 +2,11 @@
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
   "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
   <!ENTITY authors SYSTEM "authors.xml">
+  <!ENTITY furps SYSTEM "furps.xml"> 
   <!ENTITY revisions SYSTEM "revisions.xml"> 
   <!ENTITY overview SYSTEM "overview.xml"> 
   <!ENTITY usecases SYSTEM "usecases.xml"> 
+  <!ENTITY domain SYSTEM "domain.xml"> 
   <!ENTITY glossary SYSTEM "glossary.xml"> 
 ]>
 
@@ -19,5 +21,7 @@
   </articleinfo>
   &overview;
   &usecases;
+  &furps;
+  &domain;
   &glossary;
 </article>
