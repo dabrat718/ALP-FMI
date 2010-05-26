@@ -501,6 +501,7 @@
       </stepalternatives>
     </step>
   </procedure>
+
   <!--Maria-->
   <procedure id="usecase_add_comment">
     <title>Добавяне на коментари по статуса на клиент</title>
@@ -524,8 +525,6 @@
 	Предусловия
 	<itemizedlist>
 	  <listitem>Потребителят е вписан в системата</listitem>
-	  <listitem>Потребителят е узнал нова информация за клиента, която трябва да бъде узната и от останалите колеги в Компанията</listitem>
-	  <!--          <listitem>Потребителят иска да впише коментара си както като обикновен статус, така и като тикет</listitem>-->
 	</itemizedlist>
       </listitem>
 
@@ -544,7 +543,6 @@
     <step><para>Потребителят указва дали коментарът да бъде записан само като статус или и като тикет</para></step>
     <step><para>Потребителят въвежда коментара</para></step>
     <step><para>Потребителят запазва/изпраща статуса</para></step>
-    <step><para>Статусът вече е наличен в информацията за Клиента</para></step>
   </procedure>
 
   <!--Maria-->
@@ -571,7 +569,6 @@
 	Предусловия
 	<itemizedlist>
 	  <listitem>Потребителят е вписан в системата</listitem>
-	  <!--          <listitem>Потребителят е узнал информация, свързана със стауса на Клиента, която трябва да бъде въведена в този статус или да нанесе поправки, върху него</listitem>-->
 	  <listitem>Потребителят има права за редактиране</listitem>
 	</itemizedlist>
       </listitem>
@@ -579,7 +576,7 @@
       <listitem>
 	Резултати
 	<itemizedlist>
-	  <listitem>Потребителят редактира създаден статус</listitem>
+	  <listitem>Статусът е променен</listitem>
 	</itemizedlist>
       </listitem>
 
@@ -592,7 +589,6 @@
     <step><para>Потребителят преминава в режим редактиране</para></step>
     <step><para>Потребителят редактира коментара</para></step>
     <step><para>Потребителят запазва редакцията</para></step>
-    <step><para>Статусът вече е наличен в информацията за клиента</para></step>
   </procedure>
   <!--Maria-->
   <procedure id="usecase_delete_comment">
@@ -637,7 +633,6 @@
     <step><para>Потребителят преминава в режим редактиране</para></step>
     <step><para>Потребителят избира коментара</para></step>
     <step><para>Потребителят изтрива коментара</para></step>
-    <step><para>Коментарът вече не е наличен</para></step>
   </procedure>
 
   <procedure id="usecase_add_device">
