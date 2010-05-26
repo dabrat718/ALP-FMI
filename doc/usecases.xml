@@ -1,4 +1,4 @@
-<sect1>
+<sect1 >
   <title>Потребителски случаи</title>
   <para>
     <note> Вж. <xref linkend="gloss_notation"/> за означенията, използвани по-долу.</note>
@@ -9,8 +9,7 @@
     <title>Вписване в системата</title>
     <itemizedlist>
 
-      <listitem>
-        Обхват
+      <listitem id="csdfsd">
         <itemizedlist>
           <listitem>Подсистема за вписване</listitem>
         </itemizedlist>
