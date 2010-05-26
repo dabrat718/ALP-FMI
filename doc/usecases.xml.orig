@@ -3,6 +3,7 @@
   <para>
     <note> Вж. <xref linkend="gloss_notation"/> за означенията, използвани по-долу.</note>
   </para>
+
   <procedure id="usecase_login">
     <title>Вписване в системата</title>
     <itemizedlist>
@@ -384,13 +385,13 @@
   <!--step></step-->
   </procedure>
   <procedure id="usecase_new_client">
-    <title>Въвеждане на информация за клиент на Компанията</title>
+    <title>Въвеждане на информация за нов клиент на Компанията</title>
     <itemizedlist>
 
       <listitem>
 	Обхват
 	<itemizedlist>
-	  <listitem>Подсистема за данни</listitem>
+	  <listitem>Подсистема за управление на информация</listitem>
 	</itemizedlist>
       </listitem>
 
@@ -428,43 +429,87 @@
       </listitem>
     </itemizedlist>
 
-    <step><para>Потребителят въвежда информация за нов клиент</para>
+    <step><para>Потребителят въвежда информация за клиент</para></step>
+    <step><para>Системата потвърждава въвеждането</para>
       <stepalternatives>
 	<step>
-	  <para>Потребителят избира вече въведен клиент и променя информацията за него</para>
-	</step>
-      </stepalternatives></step>
-    <step><para>Потребителят запазва данните</para>
-      <stepalternatives>
-	<step>
-	  <para>Системата не приема нововъведените данни, понеже са непълни и съобщава на потребителя за това</para>
-	</step>
-	<step>
-	  <para>Системата не приема нововъведените данни, понеже някои от тях са невалидни и съобщава на потребителя за това</para>
+	  <para>Системата съобщава, че този клиент вече съществува </para>
 	</step>
       </stepalternatives>
     </step>
-
-    <step><para>Системата поисква потвърждение за запазването на нововъведените данни</para></step>
-    <step><para>Потребителят потвърждава и системата запазва данните</para>
-      <stepalternatives>
-	<step>
-	  <para>Потребителят отказва запазването и системата не запазва нововъведените данни</para>
-	</step>
-      </stepalternatives></step>
-
   </procedure>
-
-
-  <!--Maria-->
-  <procedure id="usecase_add_comment">
-    <title>Добавяне на бележка по статуса на клиент</title>
+  <procedure id="usecase_edit_client">
+    <title>Редактиране на информацията за клиент на Компанията</title>
     <itemizedlist>
 
       <listitem>
 	Обхват
 	<itemizedlist>
-	  <listitem>Подсистема за данни</listitem>
+	  <listitem>Подсистема за управление на информация</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Участници
+	<itemizedlist>
+	  <listitem>Потребител от Отдел работа с клиенти</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Предусловия
+	<itemizedlist>
+	  <listitem>Потребителят от отдел Работа с клиенти е вписан в системата</listitem>
+	  <listitem>Клиентът е въведен в системата</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Резултати
+	<itemizedlist>
+	  <listitem>Информацията за клиента е редактирана</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Изисквания
+	<itemizedlist>
+	  <listitem>Системата да може да редактира до 5 клиента едновременно</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Честота: често
+      </listitem>
+
+      <listitem>
+	Заинтересувани лица
+	<itemizedlist>
+	  <listitem>Потребител</listitem>
+	  <listitem>Клиент</listitem>
+	</itemizedlist>
+      </listitem>
+    </itemizedlist>
+
+    <step><para>Потребителят редактира информацията за клиента</para></step>
+    <step><para>Системата потвърждава редактирането и запазва нововъведените данни</para>
+      <stepalternatives>
+	<step>
+	  <para>Системата не приема нововъведените данни и съобщава за това на потребителя</para>
+	</step>
+      </stepalternatives>
+    </step>
+  </procedure>
+
+  <!--Maria-->
+  <procedure id="usecase_add_comment">
+    <title>Добавяне на коментари по статуса на клиент</title>
+    <itemizedlist>
+
+      <listitem>
+	Обхват
+	<itemizedlist>
+	  <listitem>Подсистема за тикети</listitem>
 	</itemizedlist>
       </listitem>
 
@@ -494,39 +539,20 @@
       </listitem>
     </itemizedlist>
 
-    <step><para>Потребителят избира клиента, за когото се отнася бележката</para></step>
-    <step><para>Потребителят въвежда нова бележката</para>
-      <stepalternatives>
-	<step>
-	  <para>Потребителят избира вече налична бележка, която редактира</para>
-	</step>
-      </stepalternatives></step>
-    <step><para>Потребителят запазва бележката по статуса</para>
-      <stepalternatives>
-	<step>
-	  <para>Системата не приема нововъведените данни, защото полето за бележка е празно и съобщава на потребителя за това</para>
-	</step>
-      </stepalternatives></step>
-    <step><para>Системата поисква потвърждение за запазването</para></step>
-    <step><para>Потребителят потвърждава записа и системата го запазва</para>
-      <stepalternatives>
-	<step>
-	  <para>Потребителят отказва записа и системата не го запазва</para>
-	</step>
-      </stepalternatives></step>
-
+    <step><para>Потребителят указва дали коментарът да бъде записан само като статус или и като тикет</para></step>
+    <step><para>Потребителят въвежда коментара</para></step>
+    <step><para>Потребителят запазва/изпраща статуса</para></step>
   </procedure>
 
   <!--Maria-->
-  <!--Maria-->
-  <procedure id="usecase_delete_comment">
-    <title>Изтриване на бележка за даден клиент</title>
+  <procedure id="usecase_edit_comment">
+    <title>Редактиране на коментари по статуса на клиент</title>
     <itemizedlist>
 
       <listitem>
 	Обхват
 	<itemizedlist>
-	  <listitem>Подсистема за данни</listitem>
+	  <listitem>Подсистема за тикети</listitem>
 	</itemizedlist>
       </listitem>
 
@@ -534,6 +560,7 @@
 	Участници
 	<itemizedlist>
 	  <listitem>Потребител</listitem>
+	  <listitem>Ръководство</listitem>
 	</itemizedlist>
       </listitem>
 
@@ -541,13 +568,14 @@
 	Предусловия
 	<itemizedlist>
 	  <listitem>Потребителят е вписан в системата</listitem>
+	  <listitem>Потребителят има права за редактиране</listitem>
 	</itemizedlist>
       </listitem>
 
       <listitem>
 	Резултати
 	<itemizedlist>
-	  <listitem>Потребителят изтрива бележката</listitem>
+	  <listitem>Статусът е променен</listitem>
 	</itemizedlist>
       </listitem>
 
@@ -556,31 +584,20 @@
       </listitem>
     </itemizedlist>
 
-    <step><para>Потребителят намира бележката, която иска да изтрие</para></step>
-    <step><para>Потребителят изтрива избраната бележка</para>
-      <stepalternatives>
-	<step>
-	  <para>Системата не разрешава изтриването на бележката, понеже потребителят поискал изтриването не е неин автор</para>
-	</step>
-      </stepalternatives></step>
-    <step><para>Системата поисква потвърждение за изтриването</para></step>
-    <step><para>Потребителят потвърждава изтриването и в системата вече не е налична тази бележка</para>
-      <stepalternatives>
-	<step>
-	  <para>Потребителят отказва изтриването и бележката остава в системата</para>
-	</step>
-      </stepalternatives></step>
-
+    <step><para>Потребителят намира статуса, който би желал да редактира</para></step>
+    <step><para>Потребителят преминава в режим редактиране</para></step>
+    <step><para>Потребителят редактира коментара</para></step>
+    <step><para>Потребителят запазва редакцията</para></step>
   </procedure>
-
-  <procedure id="usecase_add_device">
-    <title>Добавяне на данни за устройство</title>
+  <!--Maria-->
+  <procedure id="usecase_delete_comment">
+    <title>Изтриване на коментари по статуса на клиент</title>
     <itemizedlist>
 
       <listitem>
 	Обхват
 	<itemizedlist>
-	  <listitem>Подсистема за управление на даннинте</listitem>
+	  <listitem>Подсистема за тикети</listitem>
 	</itemizedlist>
       </listitem>
 
@@ -595,64 +612,75 @@
 	Предусловия
 	<itemizedlist>
 	  <listitem>Потребителят е вписан в системата</listitem>
+	  <listitem>Потребителят има права за изтриване</listitem>
 	</itemizedlist>
       </listitem>
 
       <listitem>
 	Резултати
 	<itemizedlist>
-	  <listitem>Информацията за устройството е налична в системата</listitem>
+	  <listitem>Потребителят изтрива коментар по статуса</listitem>
 	</itemizedlist>
       </listitem>
 
       <listitem>
-	Изисквания
+	Честота: сравнително рядко
+      </listitem>
+    </itemizedlist>
+
+    <step><para>Потребителят намира статуса, чийто коментар би желал да изтрие</para></step>
+    <step><para>Потребителят преминава в режим редактиране</para></step>
+    <step><para>Потребителят избира коментара</para></step>
+    <step><para>Потребителят изтрива коментара</para></step>
+  </procedure>
+
+  <procedure id="usecase_add_device">
+    <title>Въвеждане на данни за дадено устройство и неговите компоненти</title>
+    <itemizedlist>
+
+      <listitem>
+	Обхват
 	<itemizedlist>
-	  <listitem>Системата трябва да подпомага потребителят при въвеждането на функции и части, като довършва частично написани
-	  	    имена на функции, които вече съществуват в системата, и да подтиква потребителя да използва това довършване.</listitem>
+	  <listitem>Подсистема за управление на устройствa</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Участници
+	<itemizedlist>
+	  <listitem>Потребител</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Предусловия
+	<itemizedlist>
+	  <listitem>Потребителят е регистриран в системата</listitem>
+	  <listitem>Потребителят е вписан в системата</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Резултати
+	<itemizedlist>
+	  <listitem>Данните за дадено устройство са въведени</listitem>
+	</itemizedlist>
+      </listitem>
+
+      <listitem>
+	Условия
+	<itemizedlist>
+	  <listitem>Системата трябва да позволява многократна променя на данните на устройствата</listitem>
 	</itemizedlist>
       </listitem>
     </itemizedlist>
 
-    <step><para>Потребителят въвежда сериен номер на устройство</para>
-
-    <stepalternatives>
-      <step><para>Потребителят заявява, че иска да промени съществуващо устройство</para>
-	<substeps>
-	  <step><para>Системата отчита, че ще се променя устройство и продължава работа по аналогичен начин.</para></step>
-	  <step><para>Ако устройството не съществува, потребителят е уведомен, но системата продължава работа, като не отчита, че
-	    	    се променя съществуващо устройство, а че се въвежда ново такова.</para></step>
-	</substeps>
-      </step>
-    </stepalternatives>
-  </step>
-
-    <step><para>Потребителят въвежда текстово описание на устройството</para></step>
-    <step><para>Системата дава възможност на потребителя да въведе списък от функции на устройството</para>
-      <substeps>
-	<step><para>Потребителят въвежда нови функции</para></step>
-	<step><para>Потребителят избира от съществуващи в системата функции</para></step>
-	<step><para>Потребителят изтрива функции от вече въведените</para></step>
-      </substeps>
-    </step>
-    <step><para>Потребителят избира описания на частите на устройството и въвежда серийните номера на конкретните части.</para>
-      <stepalternatives>
-	<step><para>Потребителят въведежда описание на части, които не са налични</para>
-	  <substeps>
-	    <step>
-	      <para>
-	      Системата връща потребителя към добавянето на частите към устройството.
-	      </para>
-	    </step>
-	  </substeps>
-	</step>
-      </stepalternatives>
-    </step>
-
-    <step><para>Потребителят въвежда номер на SIM-картата на устройството и избира мобилния оператор.</para>
+    <step><para>Потребителят избира устройството, което желае ка коригира (създава ново, ако не съществува)</para></step>
+    <step><para>Потребителят променя или добавя нови данни</para></step>
+    <step><para>Потребителят запазва промените, които е извършил</para>
       <stepalternatives>
 	<step>
-	  <para>Системата съобщава на потребителя, че въведения номер е невалиден и му дава възможност да го въведе отново.</para>
+	  <para>Системата не приема промените и съобщава на потребителя</para>
 	</step>
       </stepalternatives>
     </step>
@@ -801,7 +829,7 @@
       </itemizedlist>
     </listitem>
     <listitem>
-      Изисквания
+      Условия
       <itemizedlist>
 	<listitem>Системата трябва да позволява многократна промяна на собственика на тикет</listitem>
       </itemizedlist>
@@ -862,6 +890,7 @@
 	<step><para>Администраторът отказва промените и системата не променя данните</para></step>
       </stepalternatives>
     </step>
+
 
   </procedure>
   <procedure id="usecase_check_employee">
