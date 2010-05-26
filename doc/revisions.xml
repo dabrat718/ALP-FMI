@@ -47,13 +47,13 @@
 		<revnumber>0.5.3</revnumber>
 		<date>10.04.2010</date>
 		<authorinitials>Ники</authorinitials>
-                <revremark>Потребителски случаи: <xref linkend ="usecase_new_client"/>, <xref linkend ="usecase_edit_client"/></revremark>
+                <revremark>Потребителски случаи: <xref linkend ="usecase_new_client"/></revremark>
 	</revision>
         <revision>
                 <revnumber>0.5.4</revnumber>
 		<date>10.04.2010</date>
 		<authorinitials>Мария</authorinitials>
-                <revremark>Потребителски случаи: <xref linkend ="usecase_add_comment"/>, <xref linkend ="usecase_edit_comment"/></revremark>
+                <revremark>Потребителски случаи: <xref linkend ="usecase_add_comment"/> </revremark>
 	</revision>
 	<revision>
 		<revnumber>0.5.5</revnumber>
@@ -94,4 +94,12 @@
                 <authorinitials>Емил</authorinitials>
 		<revremark>Домейн модел</revremark>
     </revision>
+
+    <revision>
+		<revnumber>0.6.0</revnumber>
+		<date>26.05.2010</date>
+                <authorinitials>Валентина</authorinitials>
+		<revremark>Промяна на потребителски случаи: <xref linkend ="usecase_add_comment"/>, <xref linkend ="usecase_delete_comment"/>, <xref linkend ="usecase_new_client"/> </revremark>
+    </revision>
+
 </revhistory>
