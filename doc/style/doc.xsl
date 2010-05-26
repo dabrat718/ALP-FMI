@@ -44,6 +44,8 @@
 <xsl:template match="procedure/title">
   <xsl:text>{\scshape{\bfseries </xsl:text>
   <xsl:apply-templates/>
+  <xsl:text>\addcontentsline{toc}{subsection}{</xsl:text><xsl:value-of select="."/><xsl:text>}</xsl:text>
+  <!-- A dirty hack. Will break if we actually have subsections -->
   <xsl:text>}}</xsl:text>
 </xsl:template>
 
@@ -124,6 +126,7 @@
   <xsl:call-template name="hyperlink.markup">
     <xsl:with-param name="referrer" select="$referrer"/>
     <xsl:with-param name="linkend" select="(@id|@xml:id)[1]"/>
+
     <xsl:with-param name="text">
       <xsl:call-template name="inline.italicseq">
         <xsl:with-param name="content">

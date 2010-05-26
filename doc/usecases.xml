@@ -3,7 +3,6 @@
   <para>
     <note> Вж. <xref linkend="gloss_notation"/> за означенията, използвани по-долу.</note>
   </para>
-
   <procedure id="usecase_login">
     <title>Вписване в системата</title>
     <itemizedlist>
@@ -830,7 +829,6 @@
 	<step><para>Администраторът отказва промените и системата не променя данните</para></step>
       </stepalternatives>
     </step>
-
 
   </procedure>
   <procedure id="usecase_check_employee">
