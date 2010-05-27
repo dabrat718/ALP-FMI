@@ -17,4 +17,12 @@
       </imageobject>
     </mediaobject>
   </figure>
+  <figure>
+    <title>Диаграма на последователностите за потребителски случай: <xref linkend ="usecase_compatible"/> </title>
+    <mediaobject> 
+      <imageobject>
+	<imagedata fileref="../diagrams/ssd-uc4.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
 </sect1>
