@@ -9,4 +9,4 @@ pdf:    svgconvert
 clean:
 	rm -rf doc.pdf *.log doc.html
 svgconvert:
-	cd ../diagrams/ && ./convert.sh && cd domain && make
+	cd ../diagrams/ && ./convert.sh #&& cd domain && make

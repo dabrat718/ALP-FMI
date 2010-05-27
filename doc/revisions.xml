@@ -130,5 +130,11 @@
                 <authorinitials>Ивайло</authorinitials>
 		<revremark>SSD диаграма за <xref linkend ="usecase_compatible"/> </revremark>
     </revision>
-	
+    <revision>
+		<revnumber>0.6.2</revnumber>
+		<date>27.05.2010</date>
+                <authorinitials>Валентина</authorinitials>
+		<revremark>SSD диаграма за <xref linkend ="usecase_new_ticket"/> </revremark>
+    </revision>
+
 </revhistory>
