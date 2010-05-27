@@ -124,5 +124,11 @@
                 <authorinitials>Валентина</authorinitials>
 		<revremark>Промяна на потребителски случаи: <xref linkend ="usecase_add_comment"/>, <xref linkend ="usecase_delete_comment"/>, <xref linkend ="usecase_new_client"/> </revremark>
     </revision>
-
+    <revision>
+		<revnumber>0.6.1</revnumber>
+		<date>27.05.2010</date>
+                <authorinitials>Ивайло</authorinitials>
+		<revremark>SSD диаграма за случай: <xref linkend ="usecase_new_ticket"/> </revremark>
+    </revision>
+	
 </revhistory>
