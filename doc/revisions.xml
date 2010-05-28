@@ -148,5 +148,10 @@
                 <authorinitials>Валентина</authorinitials>
 		<revremark>SSD диаграма за <xref linkend ="usecase_admin_edit_user"/> </revremark>
     </revision>
-
+    <revision>
+		<revnumber>0.6.5</revnumber>
+		<date>28.05.2010</date>
+                <authorinitials>Ники</authorinitials>
+		<revremark>Диаграма на действията за <xref linkend ="usecase_new_client"/> </revremark>
+    </revision>
 </revhistory>

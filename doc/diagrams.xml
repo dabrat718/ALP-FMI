@@ -49,5 +49,12 @@
       </imageobject>
     </mediaobject>
   </figure>
-
+  <figure>
+    <title>Диаграма на действията (Въвеждане на информация за клиент на компанията)</title>
+    <mediaobject> 
+      <imageobject>
+	<imagedata fileref="../diagrams/activity-uc11.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
 </sect1>
