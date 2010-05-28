@@ -1,15 +1,15 @@
 <!--Vision-->
 <sect1>
   <title>Диаграми</title>
-  <figure>
-    <title>Диаграма на последователностите (System Sequence Diagram)</title>
+  <figure id="ssd-uc3">
+    <title>Диаграма на последователностите (Добавяне на данни за устройство)</title>
     <mediaobject> 
       <imageobject>
 	<imagedata fileref="../diagrams/ssd-uc3.png" format="PNG"/>
       </imageobject>
     </mediaobject>
   </figure>
-  <figure>
+  <figure id="scd-ticket">
     <title>Диаграма на преходите (State Chart Diagram) за статус на тикетите</title>
     <mediaobject> 
       <imageobject>
@@ -17,15 +17,15 @@
       </imageobject>
     </mediaobject>
   </figure>
-  <figure>
-    <title>Диаграма на последователностите за потребителски случай: <xref linkend ="usecase_compatible"/> </title>
+  <figure id="ssd-uc4">
+    <title>Диаграма на последователностите (Изготвяне на справка за съвместимост на устройства и изисквания)</title>
     <mediaobject> 
       <imageobject>
 	<imagedata fileref="../diagrams/ssd-uc4.png" format="PNG"/>
       </imageobject>
     </mediaobject>
   </figure>
-  <figure>
+  <figure id="ssd-uc13">
     <title>Диаграма на последователностите (Въвеждане на нов договор)</title>
     <mediaobject> 
       <imageobject>
@@ -33,7 +33,7 @@
       </imageobject>
     </mediaobject>
   </figure>
-  <figure>
+  <figure id="ssd-uc2">
     <title>Диаграма на последователностите (Въвеждане на тикет)</title>
     <mediaobject> 
       <imageobject>
@@ -41,7 +41,7 @@
       </imageobject>
     </mediaobject>
   </figure>
-  <figure>
+  <figure id="activity-uc9">
     <title>Диаграма на действията (Административна промяна на профил)</title>
     <mediaobject> 
       <imageobject>
@@ -49,7 +49,7 @@
       </imageobject>
     </mediaobject>
   </figure>
-  <figure>
+  <figure id="activity-uc11">
     <title>Диаграма на действията (Въвеждане на информация за клиент на компанията)</title>
     <mediaobject> 
       <imageobject>

@@ -121,7 +121,7 @@
   </xsl:call-template>
 </xsl:template>
 
-<xsl:template match="procedure" mode="xref-to">
+<xsl:template match="procedure|figure" mode="xref-to">
   <xsl:param name="referrer"/>
   <xsl:call-template name="hyperlink.markup">
     <xsl:with-param name="referrer" select="$referrer"/>
@@ -136,4 +136,5 @@
     </xsl:with-param>
   </xsl:call-template>
 </xsl:template>
+
 </xsl:stylesheet>

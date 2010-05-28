@@ -122,36 +122,38 @@
 		<revnumber>0.6.0</revnumber>
 		<date>26.05.2010</date>
                 <authorinitials>Валентина</authorinitials>
-		<revremark>Промяна на потребителски случаи: <xref linkend ="usecase_add_comment"/>, <xref linkend ="usecase_delete_comment"/>, <xref linkend ="usecase_new_client"/> </revremark>
+		<revremark>Промяна на потребителски случаи:
+		  <xref linkend ="usecase_add_comment"/>,
+		  <xref linkend ="usecase_delete_comment"/>,
+		  <xref linkend ="usecase_new_client"/> </revremark>
     </revision>
 	<revision>
 		<revnumber>0.6.1</revnumber>
 		<date>27.05.2010</date>
                 <authorinitials>Ивайло</authorinitials>
-		<revremark>SSD диаграма за <xref linkend ="usecase_compatible"/> </revremark>
+		<revremark><xref linkend="ssd-uc4"/></revremark>
     </revision>
     <revision>
 		<revnumber>0.6.2</revnumber>
 		<date>27.05.2010</date>
                 <authorinitials>Валентина</authorinitials>
-		<revremark>SSD диаграма за <xref linkend ="usecase_new_ticket"/> </revremark>
+		<revremark><xref linkend ="ssd-uc2"/>,
+		  <xref linkend ="activity-uc9"/>
+		</revremark>
     </revision>
     <revision>
 		<revnumber>0.6.3</revnumber>
 		<date>28.05.2010</date>
                 <authorinitials>Ники</authorinitials>
-		<revremark>SSD диаграма за <xref linkend ="usecase_new_contract"/> </revremark>
+		<revremark><xref linkend ="ssd-uc13"/>,
+		<xref linkend ="activity-uc11"/> </revremark>
     </revision>
     <revision>
 		<revnumber>0.6.4</revnumber>
-		<date>27.05.2010</date>
-                <authorinitials>Валентина</authorinitials>
-		<revremark>SSD диаграма за <xref linkend ="usecase_admin_edit_user"/> </revremark>
-    </revision>
-    <revision>
-		<revnumber>0.6.5</revnumber>
 		<date>28.05.2010</date>
-                <authorinitials>Ники</authorinitials>
-		<revremark>Диаграма на действията за <xref linkend ="usecase_new_client"/> </revremark>
+                <authorinitials>Емил</authorinitials>
+		<revremark><xref linkend="ssd-uc3"/>,
+		<xref linkend="scd-ticket"/>
+		</revremark>
     </revision>
 </revhistory>
