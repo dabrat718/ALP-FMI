@@ -142,5 +142,11 @@
                 <authorinitials>Ники</authorinitials>
 		<revremark>SSD диаграма за <xref linkend ="usecase_new_contract"/> </revremark>
     </revision>
+    <revision>
+		<revnumber>0.6.4</revnumber>
+		<date>27.05.2010</date>
+                <authorinitials>Валентина</authorinitials>
+		<revremark>SSD диаграма за <xref linkend ="usecase_admin_edit_user"/> </revremark>
+    </revision>
 
 </revhistory>

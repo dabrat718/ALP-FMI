@@ -29,8 +29,25 @@
     <title>Диаграма на последователностите (Въвеждане на нов договор)</title>
     <mediaobject> 
       <imageobject>
-	<imagedata fileref="../diagrams/SSD_UC13.png" format="PNG"/>
+	<imagedata fileref="../diagrams/SSD-UC13.png" format="PNG"/>
       </imageobject>
     </mediaobject>
   </figure>
+  <figure>
+    <title>Диаграма на последователностите (Въвеждане на тикет)</title>
+    <mediaobject> 
+      <imageobject>
+	<imagedata fileref="../diagrams/SSD-UC2.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+  <figure>
+    <title>Диаграма на действията (Административна промяна на профил)</title>
+    <mediaobject> 
+      <imageobject>
+	<imagedata fileref="../diagrams/activity-uc9.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
 </sect1>
