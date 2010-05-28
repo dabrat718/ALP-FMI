@@ -25,4 +25,12 @@
       </imageobject>
     </mediaobject>
   </figure>
+  <figure>
+    <title>Диаграма на последователностите (Въвеждане на нов договор)</title>
+    <mediaobject> 
+      <imageobject>
+	<imagedata fileref="../diagrams/SSD_UC13.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
 </sect1>
