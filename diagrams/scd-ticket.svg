@@ -65,14 +65,14 @@
 <line fill="#000000" stroke="#000000" stroke-width="1" x1="199" x2="206" y1="109" y2="97"/>
 <text font-family="Dialog" font-size="12" x="54" y="141">
 отказ от собственост</text>
-<polyline fill="none" points="430,190 430,86 269,86" stroke="#000000" stroke-width="1"/>
-<line fill="#000000" stroke="#000000" stroke-width="1" x1="281" x2="269" y1="79" y2="86"/>
-<line fill="#000000" stroke="#000000" stroke-width="1" x1="281" x2="269" y1="93" y2="86"/>
-<text font-family="Dialog" font-size="12" x="318" y="79">
+<polyline fill="none" points="390,222 260,222" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="272" x2="260" y1="215" y2="222"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="272" x2="260" y1="229" y2="222"/>
+<text font-family="Dialog" font-size="12" x="273" y="217">
 нов собственик</text>
-<polyline fill="none" points="390,230 260,230" stroke="#000000" stroke-width="1"/>
-<line fill="#000000" stroke="#000000" stroke-width="1" x1="272" x2="260" y1="223" y2="230"/>
-<line fill="#000000" stroke="#000000" stroke-width="1" x1="272" x2="260" y1="237" y2="230"/>
-<text font-family="Dialog" font-size="12" x="287" y="225">
+<polyline fill="none" points="430,233 430,262 246,262 246,233" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="253" x2="246" y1="245" y2="233"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="239" x2="246" y1="245" y2="233"/>
+<text font-family="Dialog" font-size="12" x="300" y="257">
 възобновен</text>
 </svg>
