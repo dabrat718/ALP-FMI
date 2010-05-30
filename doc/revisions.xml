@@ -156,4 +156,10 @@
 		<xref linkend="scd-ticket"/>
 		</revremark>
     </revision>
+	<revision>
+		<revnumber>0.6.5</revnumber>
+		<date>30.05.2010</date>
+                <authorinitials>Ивайло</authorinitials>
+		<revremark><xref linkend="activity-uc2"/></revremark>
+    </revision>
 </revhistory>

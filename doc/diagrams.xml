@@ -57,4 +57,12 @@
       </imageobject>
     </mediaobject>
   </figure>
+  <figure id="activity-uc2">
+    <title>Диаграма на действията (Въвеждане на тикет)</title>
+    <mediaobject> 
+      <imageobject>
+	<imagedata fileref="../diagrams/activity-uc2.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
 </sect1>
