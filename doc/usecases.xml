@@ -11,6 +11,7 @@
 	Обхват
 	<itemizedlist>
 	  <listitem>Подсистема за вписване</listitem>
+	  <listitem>Подсистема за известия</listitem>
 	</itemizedlist>
       </listitem>
 
@@ -95,6 +96,7 @@
 	Обхват
 	<itemizedlist>
 	  <listitem>Подсистема за тикети</listitem>
+	  <listitem>Подсистема за управление на данни</listitem>
 	</itemizedlist>
       </listitem>
 
@@ -332,6 +334,8 @@
 	Обхват
 	<itemizedlist>
 	  <listitem>Подсистема за тикети</listitem>
+	  <listitem>Подсистема за управление на информацията</listitem>
+	  <listitem>Подсистема за известия</listitem>
 	</itemizedlist>
       </listitem>
       <listitem>
@@ -468,8 +472,8 @@
 	Обхват
 	<itemizedlist>
 	  <listitem>Подсистема за вписване</listitem>
+	  <listitem>Подсистема за управление на информацията</listitem>
 	  <listitem>Административна подсистема</listitem>
-	  <listitem>Подсистема за изпращане на email съобщения</listitem>
 	</itemizedlist>
       </listitem>
 
@@ -528,6 +532,7 @@
       Обхват
       <itemizedlist>
 	<listitem>Подсистема за вписване</listitem>
+	<listitem>Подсистема за управление на информацията</listitem>
       </itemizedlist>
     </listitem>
 
@@ -578,6 +583,8 @@
 	<itemizedlist>
 	  <listitem>Административна подсистема</listitem>
 	  <listitem>Подсистема за тикети</listitem>
+	  <listitem>Подсистема за управление на информацията</listitem>
+	  <listitem>Подсистема за известия</listitem>
 	</itemizedlist>
       </listitem>
 
@@ -666,6 +673,8 @@
       Обхват
       <itemizedlist>
 	<listitem>Административна подсистема</listitem>
+	<listitem>Подсистема за управление на информацията</listitem>
+	<listitem>Подсистема за известия</listitem>
       </itemizedlist>
     </listitem>
 
@@ -721,7 +730,7 @@
       <listitem>
 	Обхват
 	<itemizedlist>
-	  <listitem>Подсистема за данни</listitem>
+	  <listitem>Подсистема за управление на информацията</listitem>
 	</itemizedlist>
       </listitem>
 
@@ -793,7 +802,7 @@
       <listitem>
 	Обхват
 	<itemizedlist>
-	  <listitem>Подсистема за управление на информация</listitem>
+	  <listitem>Подсистема за управление на информацията</listitem>
 	</itemizedlist>
       </listitem>
 
@@ -855,7 +864,7 @@
       <listitem>
 	Обхват
 	<itemizedlist>
-	  <listitem>Подсистема за данни</listitem>
+	  <listitem>Подсистема за управление на информацията</listitem>
 	</itemizedlist>
       </listitem>
 
@@ -981,7 +990,7 @@
       <listitem>
 	Обхват
 	<itemizedlist>
-	  <listitem>Подсистема за данни</listitem>
+	  <listitem>Подсистема за управление на информацията</listitem>
 	</itemizedlist>
       </listitem>
 
@@ -1043,7 +1052,7 @@
       <listitem>
 	Обхват
 	<itemizedlist>
-	  <listitem>Подсистема за данни</listitem>
+	  <listitem>Подсистема за управление на информацията</listitem>
 	</itemizedlist>
       </listitem>
 
@@ -1114,6 +1123,7 @@
 	Обхват
 	<itemizedlist>
 	  <listitem>Подсистема за управление на устройства</listitem>
+	  <listitem>Подсистема за управление на информацията</listitem>
 	</itemizedlist>
       </listitem>
 
