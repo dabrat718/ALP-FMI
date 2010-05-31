@@ -156,10 +156,29 @@
 		<xref linkend="scd-ticket"/>
 		</revremark>
     </revision>
-	<revision>
+    <revision>
 		<revnumber>0.6.5</revnumber>
 		<date>30.05.2010</date>
                 <authorinitials>Ивайло</authorinitials>
 		<revremark><xref linkend="activity-uc2"/></revremark>
     </revision>
+
+    <revision>
+		<revnumber>0.6.6</revnumber>
+		<date>30.05.2010</date>
+                <authorinitials>Мария</authorinitials>
+		<revremark><xref linkend="ssd-uc15"/>,
+		<xref linkend="scd-uc15"/>
+		</revremark>
+    </revision>
+    <revision>
+		<revnumber>0.6.7</revnumber>
+		<date>30.05.2010</date>
+                <authorinitials>Станислав</authorinitials>
+		<revremark><xref linkend="ucd-uc2"/>,
+		<xref linkend="scd-uc2"/>
+		</revremark>
+    </revision>
+ 
+  
 </revhistory>

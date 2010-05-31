@@ -65,4 +65,41 @@
       </imageobject>
     </mediaobject>
   </figure>
+
+
+  <figure id="ucd-uc2">
+    <title>Диаграма на потребителски случай (Въвеждане на тикет)</title>
+    <mediaobject> 
+      <imageobject>
+	<imagedata fileref="../diagrams/ucd-uc2.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <figure id="scd-uc2">
+    <title>Диаграма на състоянията (Въвеждане на тикет)</title>
+    <mediaobject> 
+      <imageobject>
+	<imagedata fileref="../diagrams/scd-uc2.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <figure id="ssd-uc15">
+    <title>Диаграма на последователностите (Добавяне на бележка по статуса на клиент)</title>
+    <mediaobject> 
+      <imageobject>
+	<imagedata fileref="../diagrams/ssd-uc15.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+  <figure id="scd-uc15">
+    <title>Диаграма на потребителски случай (Добавяне на бележка по статуса на клиент)</title>
+    <mediaobject> 
+      <imageobject>
+	<imagedata fileref="../diagrams/scd-uc15.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
 </sect1>
