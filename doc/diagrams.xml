@@ -57,6 +57,7 @@
       </imageobject>
     </mediaobject>
   </figure>
+
   <figure id="activity-uc2">
     <title>Диаграма на действията (Въвеждане на тикет)</title>
     <mediaobject> 
@@ -66,18 +67,18 @@
     </mediaobject>
   </figure>
 
-
-  <figure id="ucd-uc2">
-    <title>Диаграма на потребителски случай (Въвеждане на тикет)</title>
+  <figure id="ssd-uc5">
+    <title>Диаграма на последователностите (Променяне на тикет)</title>
     <mediaobject> 
       <imageobject>
-	<imagedata fileref="../diagrams/ucd-uc2.png" format="PNG"/>
+	<imagedata fileref="../diagrams/SSD-UC5.png" format="PNG"/>
       </imageobject>
     </mediaobject>
   </figure>
 
+
   <figure id="scd-uc2">
-    <title>Диаграма на състоянията (Въвеждане на тикет)</title>
+    <title>Диаграма на действията (Въвеждане на тикет)</title>
     <mediaobject> 
       <imageobject>
 	<imagedata fileref="../diagrams/scd-uc2.png" format="PNG"/>
@@ -94,7 +95,7 @@
     </mediaobject>
   </figure>
   <figure id="scd-uc15">
-    <title>Диаграма на потребителски случай (Добавяне на бележка по статуса на клиент)</title>
+    <title>Диаграма на действията (Добавяне на бележка по статуса на клиент)</title>
     <mediaobject> 
       <imageobject>
 	<imagedata fileref="../diagrams/scd-uc15.png" format="PNG"/>
