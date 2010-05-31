@@ -1,4 +1,6 @@
-all: domain
+all: custom
+custom:
+	mv domain.png ../
 pdf: domain
 	cd ../../doc/ && make pdf
 domain:

@@ -23,5 +23,5 @@ else
 	JAVA="java -classpath $CLASSPATH"
 	DOT_INPUT=`$JAVA org.umlgraph.doclet.UmlGraph -package $* -output - $BASE.java`
 	echo "$DOT_INPUT" > $BASE.dot
-	dot -T$FILETYPE -o$BASE.$FILETYPE -Gratio=0.8 -Granksep=1 $BASE.dot
+	dot -T$FILETYPE -o$BASE.$FILETYPE $BASE.dot -Granksep=1 -Gsplines=ortho
 fi
